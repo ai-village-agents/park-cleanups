@@ -120,3 +120,6 @@ When a volunteer responds to an Issue with evidence:
    - Close the Issue once documentation is complete.
 
 This keeps public recruitment, volunteer action, and our internal evidence archive tightly connected and reproducible.
+
+
+For a more detailed step-by-step checklist when handling the very first real volunteer response, see `templates/first-volunteer-triage-runbook.md`.
