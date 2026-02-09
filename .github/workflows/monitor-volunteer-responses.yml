@@ -1,88 +1,54 @@
 name: Monitor Volunteer Responses
-
-on:
+true:
   schedule:
-    # Run every hour at minute 0
-    - cron: '0 * * * *'
-  workflow_dispatch:  # Allow manual trigger
-
+  - cron: 0 * * * *
+  workflow_dispatch: null
 jobs:
   monitor:
     runs-on: ubuntu-latest
     permissions:
       issues: write
       contents: read
-    
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-      
-      - name: Setup GitHub CLI
-        run: |
-          type -p gh >/dev/null || curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
-          echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null
-          sudo apt update
-          sudo apt install -y gh
-      
-      - name: Authenticate GitHub CLI
-        run: |
-          echo "${{ secrets.GITHUB_TOKEN }}" | gh auth login --with-token
-      
-      - name: Run issue monitor
-        id: monitor
-        run: |
-          python3 scripts/monitor_issues_v2.py
-          MONITOR_EXIT=$?
-          echo "monitor_exit_code=$MONITOR_EXIT" >> $GITHUB_OUTPUT
-          
-          # Check flag file
-          if [ -f monitoring/changes_detected.flag ]; then
-            CHANGES=$(jq -r '.changes_detected' monitoring/changes_detected.flag)
-            if [ "$CHANGES" = "true" ]; then
-              echo "changes_detected=true" >> $GITHUB_OUTPUT
-              echo "Changes detected in issues"
-              exit 0
-            fi
-          fi
-          echo "changes_detected=false" >> $GITHUB_OUTPUT
-          echo "No changes detected"
-      
-      - name: Post notification comment on issues with changes
-        if: steps.monitor.outputs.changes_detected == 'true'
-        run: |
-          # Load change details from flag file
-          CHANGES_JSON=$(cat monitoring/changes_detected.flag)
-          DETAILS=$(echo "$CHANGES_JSON" | jq -r '.details[]' 2>/dev/null || echo "Changes detected")
-          
-          # Create notification comment
-          TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
-          COMMENT_BODY="### 🔔 Volunteer Response Monitor Alert\n\n**Detected at:** $TIMESTAMP\n\n**Changes:**\n"
-          
-          for detail in $DETAILS; do
-            COMMENT_BODY+="- $detail\n"
-          done
-          
-          COMMENT_BODY+="\n**Team:** Please check the issue and respond to any volunteer comments!\n\n*This is an automated notification from the volunteer response monitoring system.*"
-          
-          # Check which issues had changes
-          for issue_num in 1 3; do
-            if grep -q "Issue #$issue_num" monitoring/CHANGES_DETECTED 2>/dev/null; then
-              echo "Posting notification comment on issue #$issue_num"
-              gh issue comment $issue_num --body "$COMMENT_BODY"
-            fi
-          done
-          
-          # Also create a team notification issue
-          gh issue create \
-            --title "Volunteer Response Alert - $(date -u +'%Y-%m-%d %H:%M UTC')" \
-            --body "$COMMENT_BODY\n\n**Note:** Comments have been posted on the relevant issues above. Please check and respond promptly to engage volunteers." \
-            --label "notification,volunteer-response" \
-            --assignee "ai-village-agents"
-        
-      - name: Upload monitoring logs
-        uses: actions/upload-artifact@v4
-        if: always()
-        with:
-          name: issue-monitor-logs
-          path: monitoring/
-          retention-days: 7
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    - name: Authenticate GitHub CLI
+      run: 'echo "${{ secrets.GITHUB_TOKEN }}" | gh auth login --with-token
+
+        '
+    - name: Run issue monitor
+      id: monitor
+      run: "python3 scripts/monitor_issues_v2.py\nMONITOR_EXIT=$?\necho \"monitor_exit_code=$MONITOR_EXIT\"\
+        \ >> $GITHUB_OUTPUT\n\n# Check flag file\nif [ -f monitoring/changes_detected.flag\
+        \ ]; then\n  CHANGES=$(jq -r '.changes_detected' monitoring/changes_detected.flag)\n\
+        \  if [ \"$CHANGES\" = \"true\" ]; then\n    echo \"changes_detected=true\"\
+        \ >> $GITHUB_OUTPUT\n    echo \"Changes detected in issues\"\n    exit 0\n\
+        \  fi\nfi\necho \"changes_detected=false\" >> $GITHUB_OUTPUT\necho \"No changes\
+        \ detected\"\n"
+    - name: Post notification comment on issues with changes
+      if: steps.monitor.outputs.changes_detected == 'true'
+      run: "# Load change details from flag file\nCHANGES_JSON=$(cat monitoring/changes_detected.flag)\n\
+        DETAILS=$(echo \"$CHANGES_JSON\" | jq -r '.details[]' 2>/dev/null || echo\
+        \ \"Changes detected\")\n\n# Create notification comment\nTIMESTAMP=$(date\
+        \ -u +\"%Y-%m-%d %H:%M:%S UTC\")\nCOMMENT_BODY=\"### \U0001F514 Volunteer\
+        \ Response Monitor Alert\\n\\n**Detected at:** $TIMESTAMP\\n\\n**Changes:**\\\
+        n\"\n\nfor detail in $DETAILS; do\n  COMMENT_BODY+=\"- $detail\\n\"\ndone\n\
+        \nCOMMENT_BODY+=\"\\n**Team:** Please check the issue and respond to any volunteer\
+        \ comments!\\n\\n*This is an automated notification from the volunteer response\
+        \ monitoring system.*\"\n\n# Check which issues had changes\nfor issue_num\
+        \ in 1 3; do\n  if grep -q \"Issue #$issue_num\" monitoring/CHANGES_DETECTED\
+        \ 2>/dev/null; then\n    echo \"Posting notification comment on issue #$issue_num\"\
+        \n    gh issue comment $issue_num --body \"$COMMENT_BODY\"\n  fi\ndone\n\n\
+        # Also create a team notification issue\ngh issue create \\\n  --title \"\
+        Volunteer Response Alert - $(date -u +'%Y-%m-%d %H:%M UTC')\" \\\n  --body\
+        \ \"$COMMENT_BODY\\n\\n**Note:** Comments have been posted on the relevant\
+        \ issues above. Please check and respond promptly to engage volunteers.\"\
+        \ \\\n  --label \"notification,volunteer-response\" \\\n  --assignee \"ai-village-agents\"\
+        \n"
+    - name: Upload monitoring logs
+      uses: actions/upload-artifact@v4
+      if: always()
+      with:
+        name: issue-monitor-logs
+        path: monitoring/
+        retention-days: 7
