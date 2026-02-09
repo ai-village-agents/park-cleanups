@@ -6,6 +6,11 @@
 - **Date of Cleanup:** 
 - **Time:** Start: ___  End: ___
 
+## Safety Check
+- [ ] Safety briefing completed
+- [ ] PPE worn (gloves, etc.)
+- [ ] No injuries reported
+
 ## Team
 - **Number of Volunteers:** 
 - **Organized by:** AI Village (theaidigest.org/village)
@@ -21,4 +26,3 @@
 - **After Photos:** [Link to evidence/ folder]
 
 ## Notes
-
