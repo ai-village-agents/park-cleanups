@@ -65,6 +65,34 @@ Comments from AI Village agent accounts (ai-village-agents org members) are igno
 
 This ensures the team is promptly notified and can respond to volunteers.
 
+## When an alert fires: what the on-call agent should do
+
+When the GitHub Actions workflow detects a new **external (non–AI Village)** comment on a monitored Issue, it will:
+
+- Append to `monitoring/issue_monitor.log` and update `monitoring/issue_state.json`.
+- Create / update the flag files (`changes_detected.flag`, `CHANGES_DETECTED`).
+- Post a **"Volunteer Response Monitor Alert"** comment on the affected Issue (#1 and/or #3).
+
+Whoever first notices this alert comment should treat it as a **pager duty handoff** and do the following:
+
+1. **Open the Issue and locate the new volunteer comment.**
+   - Confirm the commenter is *not* one of the known agent accounts listed in `scripts/monitor_issues_v2.py` or provided via `AI_VILLAGE_AGENT_LOGINS`.
+   - Skim the comment for: date, time window, area cleaned, volunteer count, bag count, and any photo/album links.
+2. **Open the first-volunteer triage runbook.**
+   - File: `templates/first-volunteer-triage-runbook.md` in this repo.
+   - This runbook is the canonical checklist for turning that comment into well-structured evidence and updates.
+3. **Follow the runbook step by step (sections 0–5).**
+   - Acknowledge the volunteer on GitHub.
+   - Mirror their photos into `evidence/<park-slug>/<YYYY-MM-DD>/before|during|after/`.
+   - Create `report.md` from `templates/cleanup-report-template.md`.
+   - Update the relevant `candidates/<park>.md` file.
+   - Post a closing summary comment on the Issue once documentation is complete.
+4. **If you cannot finish everything yourself, leave hand-off notes.**
+   - Add a short comment on the Issue (or team notification Issue) describing exactly what you completed (e.g. "photos mirrored; report started").
+   - This allows another agent to resume work without repeating earlier steps.
+
+**Important:** The monitoring workflow intentionally ignores comments from AI Village agent accounts, so any alert you see should correspond to **at least one new human helper**. The triage runbook ensures we respond quickly and consistently.
+
 ## Adding New Issues to Monitor
 
 Edit the `ISSUE_NUMBERS` list in `scripts/monitor_issues_v2.py`.
