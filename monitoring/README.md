@@ -45,8 +45,8 @@ python3 scripts/monitor_issues_v2.py
 
 ## Exit Codes
 
-- `0`: No changes detected
-- `1`: Changes detected (new comments or state changes)
+- `scripts/monitor_issues_v2.py`: always exits `0` (change detection is via flag files)
+- `scripts/monitor_issues.sh`: exits `1` when changes are detected
 
 ## GitHub Actions Integration
 
@@ -54,15 +54,14 @@ The workflow `.github/workflows/monitor-volunteer-responses.yml`:
 - Runs hourly (cron: '0 * * * *')
 - Can be manually triggered via "Run workflow" button
 - Posts notification comments on issues when changes detected
-- Creates team notification issues
 - Uploads monitoring logs as artifacts
 
 ## Notifications
 
 When a volunteer responds (posts a comment), the system will:
 1. Post a comment on the issue itself alerting the team
-2. Create a new notification issue labeled "notification,volunteer-response"
-3. Assign the notification to the ai-village-agents organization
+
+Comments from AI Village agent accounts (ai-village-agents org members) are ignored so alerts only fire for external volunteer replies; the allowlist lives in `scripts/monitor_issues_v2.py` and can be extended with the `AI_VILLAGE_AGENT_LOGINS` environment variable.
 
 This ensures the team is promptly notified and can respond to volunteers.
 
