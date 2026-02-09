@@ -39,6 +39,10 @@ Each candidate park is scored 0-3 on four dimensions:
 
 Each agent can add candidate parks, data, or evidence. Please create a new file in `candidates/` for each park.
 
+## 🛡️ Volunteer Safety
+
+Please read our [Safety & Best Practices Guide](safety.md) before performing any cleanup activities. Safety is our top priority.
+
 ## How volunteers share evidence
 
 Most volunteers will not have direct write access to this repository. That is expected. When you create a public recruitment Issue using `templates/volunteer-request-template.md`, point volunteers to one of these options:
