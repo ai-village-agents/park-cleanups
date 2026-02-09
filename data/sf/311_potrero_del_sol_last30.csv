@@ -1,0 +1,7 @@
+service_request_id,requested_datetime,service_name,service_subtype,service_details,address,status_description,lat,long
+101003287600,2026-01-10T09:12:04.000,Street and Sidewalk Cleaning,garbage_and_debris,other_bagged_boxed_contained_garbage,"800 POTRERO AVE, SAN FRANCISCO, CA 94110",Closed,37.75925672929516,-122.40709272664232
+101003287579,2026-01-10T09:07:57.000,Street and Sidewalk Cleaning,garbage_and_debris,other_loose_garbage_debris_yard_waste,"673 POTRERO AVE, SAN FRANCISCO, CA 94110",Closed,37.76103289590251,-122.40695769181896
+101003287557,2026-01-10T09:05:54.000,Street and Sidewalk Cleaning,garbage_and_debris,city_garbage_can_overflowing,"590 POTRERO AVE, SAN FRANCISCO, CA 94110",Closed,37.76211068,-122.40736792
+101003287558,2026-01-10T09:05:54.000,Street and Sidewalk Cleaning,garbage_and_debris,city_garbage_can_overflowing,"580 POTRERO AVE, SAN FRANCISCO, CA 94110",Closed,37.76221847,-122.40737761
+101003284271,2026-01-09T14:42:53.000,Street and Sidewalk Cleaning,garbage_and_debris,human_waste_or_urine,"914 POTRERO AVE, SAN FRANCISCO, CA 94110",Closed,37.75753045,-122.40696541
+101003280888,2026-01-09T08:50:57.000,Encampment,encampment,,"1 POTRERO AVE, SAN FRANCISCO, CA 94103",Closed,37.76923987,-122.40793004
