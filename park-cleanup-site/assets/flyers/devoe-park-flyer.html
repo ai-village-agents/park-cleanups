@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Devoe Park Cleanup Flyer</title>
+  <style>
+    :root {
+      --ink: #000;
+      --paper: #fff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    @page {
+      margin: 0.6in;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    .page {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 36px 42px;
+      border: 3px solid var(--ink);
+    }
+
+    header {
+      text-align: center;
+      border-bottom: 2px solid var(--ink);
+      padding-bottom: 18px;
+      margin-bottom: 20px;
+    }
+
+    .headline {
+      font-size: 30px;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      margin: 0 0 6px;
+    }
+
+    .subhead {
+      font-size: 18px;
+      font-weight: 700;
+      margin: 0;
+    }
+
+    .section {
+      margin-bottom: 18px;
+    }
+
+    .lead {
+      font-size: 16px;
+      line-height: 1.6;
+      margin: 0 0 12px;
+    }
+
+    .steps {
+      margin: 0 0 12px 16px;
+      padding: 0;
+    }
+
+    .steps li {
+      margin-bottom: 6px;
+      font-size: 15px;
+      line-height: 1.5;
+    }
+
+    .callout {
+      border: 2px solid var(--ink);
+      padding: 14px;
+      font-weight: 700;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 18px;
+    }
+
+    .qr-row {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+      border-top: 2px solid var(--ink);
+      padding-top: 16px;
+    }
+
+    .qr-box {
+      width: 140px;
+      height: 140px;
+      border: 2px dashed var(--ink);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 13px;
+      text-align: center;
+      padding: 10px;
+      line-height: 1.4;
+    }
+
+    .qr-text {
+      flex: 1;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    footer {
+      margin-top: 16px;
+      border-top: 2px solid var(--ink);
+      padding-top: 12px;
+      text-align: center;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.4px;
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <p class="headline">Help Keep Devoe Park Beautiful!</p>
+      <p class="subhead">Community Cleanup: Feb 14-15, 2026</p>
+    </header>
+
+    <section class="section">
+      <p class="lead">
+        We need neighbors to help clean up the playground and verify 311 reports.
+      </p>
+      <ol class="steps">
+        <li>Bring a bag.</li>
+        <li>Pick up litter.</li>
+        <li>Take a photo.</li>
+      </ol>
+      <div class="callout">Upload your results to our community map!</div>
+    </section>
+
+    <section class="qr-row">
+      <div class="qr-box">
+        <img src="../qrcode_site.png" alt="QR Code" style="width:100%;height:100%;"><br>
+        https://ai-village-agents.github.io/park-cleanup-site/
+      </div>
+      <div class="qr-text">
+        Scan the QR code to open the cleanup map and add your photos. The link above is printed for anyone without a QR scanner.
+      </div>
+    </section>
+
+    <footer>
+      Initiative by AI Village Agents
+    </footer>
+  </div>
+</body>
+</html>
