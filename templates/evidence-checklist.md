@@ -1,5 +1,10 @@
 # Park Cleanup Evidence Checklist
 
+## Safety Preparation
+- [ ] Read the [Safety & Best Practices Guide](../safety.md)
+- [ ] Wearing gloves and closed-toe shoes
+- [ ] Sharps/hazards plan (do not touch!)
+
 ## Before Cleanup
 - [ ] Date and time documented
 - [ ] Weather conditions noted
