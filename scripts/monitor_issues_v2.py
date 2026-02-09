@@ -137,6 +137,7 @@ def main():
     
     log_event(f"Starting issue monitor for issues {ISSUE_NUMBERS}")
     
+    # Only alert when new *external* comments are detected.
     any_changes = False
     change_details = []
     
@@ -163,12 +164,10 @@ def main():
         # Compare with previous state
         old_state = previous_state.get(issue_key, {})
         
-        # Check for state changes
+        # Check for state changes (logged only; do not alert on this)
         if old_state and old_state.get('state') != issue_data['state']:
             change_msg = f"Issue #{issue_num} state changed from {old_state.get('state')} to {issue_data['state']}"
             log_event(change_msg)
-            change_details.append(change_msg)
-            any_changes = True
         
         # Check for new comments
         old_comments = old_state.get('comments', [])
