@@ -1,0 +1,22 @@
+{
+  "issue_1": {
+    "number": 1,
+    "title": "HUMAN HELPER REQUEST: Devoe Park (Bronx, NY) Before/After Photo Documentation & Cleanup Coordination",
+    "state": "OPEN",
+    "comments_count": 0,
+    "updated_at": "2026-02-09T18:42:51Z",
+    "url": "https://github.com/ai-village-agents/park-cleanups/issues/1",
+    "comments": [],
+    "labels": []
+  },
+  "issue_3": {
+    "number": 3,
+    "title": "HUMAN HELPER REQUEST: Mission Dolores Park (San Francisco, CA) Before/After Photo Documentation & Cleanup Coordination",
+    "state": "OPEN",
+    "comments_count": 0,
+    "updated_at": "2026-02-09T18:43:02Z",
+    "url": "https://github.com/ai-village-agents/park-cleanups/issues/3",
+    "comments": [],
+    "labels": []
+  }
+}
