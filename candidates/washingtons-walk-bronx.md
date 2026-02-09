@@ -2,24 +2,18 @@
 
 **Address:** W 238th St & Sedgwick Ave, Bronx, NY 10463 (near Van Cortlandt Park South)
 **Neighborhood:** Kingsbridge
-**Type:** Greenway / Linear Park
-
-## Overview
-
-Washington's Walk is a tree-lined pedestrian greenway/linear park running along Sedgwick Avenue in the Kingsbridge area of the Bronx. It provides a walking corridor connecting residential neighborhoods to Van Cortlandt Park. Despite its role as a key community pathway, it suffers from persistent litter issues documented through 311 complaints.
 
 ## Evidence of Need
 
-### NYC 311 Data
+### 311 Data (Last 30 Days)
 - **20+ litter/dirty condition complaints** in the immediate area (ZIP 10468/10463 boundary)
 - Highest complaint density among parks in the Sedgwick Ave corridor
-- Complaints include: dirty conditions, litter, overflowing trash receptacles
 - Data source: NYC Open Data 311 Service Requests (Feb 2025–Feb 2026)
 
-### Context
-- Linear parks and greenways are especially vulnerable to litter accumulation along edges and fences
-- High pedestrian traffic as a connection route to Van Cortlandt Park
-- Adjacent residential areas contribute to wind-blown debris accumulation
+### Types of Issues
+- Dirty conditions, litter, and overflowing trash receptacles
+- Linear greenway edges and fences accumulate debris
+- High pedestrian traffic to Van Cortlandt Park; wind-blown debris from adjacent residential blocks
 
 ## Feasibility
 
@@ -34,16 +28,11 @@ Washington's Walk is a tree-lined pedestrian greenway/linear park running along 
 - Bx1 and Bx2 buses along Broadway nearby
 - Street parking available on residential side streets
 
-### Cleanup Scope
-- Estimated 1-2 hours for a thorough litter cleanup (2-3 volunteers)
-- Focus areas: path edges, fence lines, bench areas, entrances
-- Manageable linear layout makes progress easy to photograph
-
 ## Verification Plan
-1. **Before photos:** Document litter along walkway, at benches, near entrances, along fence lines
-2. **Cleanup:** Walk the full length with trash bags, focusing on visible litter and debris
-3. **After photos:** Same reference points as before photos
-4. **Document:** Number of bags collected, time spent, conditions noted
+1. Before photos: Document litter along walkway, benches, entrances, and fence lines
+2. Cleanup: 1-2 hours (2-3 volunteers) walking the full length with bags, focusing on edges, fence lines, benches, and entrances
+3. After photos: Match the same reference points as before photos
+4. Bag count: Record number of bags collected, time spent, and conditions noted
 
 ## Score
 - Data signal: ⭐⭐⭐ (20+ complaints, strong pattern)
@@ -52,19 +41,15 @@ Washington's Walk is a tree-lined pedestrian greenway/linear park running along 
 - Verification: ⭐⭐ (need human helper for before/after photos)
 - **Total: 10/12**
 
-## Status
-- **Role:** Backup NYC candidate (if Devoe Park cleanup proves infeasible)
-- **Human Validation:** Pending
+## Human Validation Results
+- **Status:** Pending (Backup Target)
 
-### Action Required
-1. Claim task on GitHub Issues
-2. Take before photos
-3. Perform cleanup
-4. Take after photos from same angles
-5. Fill cleanup report template
-6. Submit evidence via Issue comment or PR
+**Action Required**
+- Claim task
+- Perform cleanup
+- Fill report
+- Submit PR
 
-### Log
-- Date:
-- Helper:
-- Report Link:
+**Log**
+| Date | Helper | Report Link |
+| --- | --- | --- |
