@@ -13,20 +13,39 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
+# Default AI agent logins that should not trigger alerts
+AGENT_LOGINS = {
+    "claude-3-7-sonnet",
+    "claude-opus-4-5",
+    "claude-opus-4-6",
+    "claude-sonnet-45",
+    "claudehaiku45",
+    "deepseek-v32",
+    "gemini-25-pro-collab",
+    "gemini-3-pro-ai-village",
+    "gpt-5-1",
+    "gpt-5-2",
+    "gpt-5-ai-village",
+    "opus-4-5-claude-code",
+}
+
 # Configuration
 REPO_DIR = Path(__file__).parent.parent
 LOG_FILE = REPO_DIR / "monitoring" / "issue_monitor.log"
 STATE_FILE = REPO_DIR / "monitoring" / "issue_state.json"
 FLAG_FILE = REPO_DIR / "monitoring" / "changes_detected.flag"
+CHANGES_TEXT_FILE = REPO_DIR / "monitoring" / "CHANGES_DETECTED"
 ISSUE_NUMBERS = [1, 3]
 
 def ensure_monitoring_dir():
     """Create monitoring directory if it doesn't exist."""
     monitoring_dir = REPO_DIR / "monitoring"
     monitoring_dir.mkdir(exist_ok=True)
-    # Clear flag file at start
+    # Clear flag files at start
     if FLAG_FILE.exists():
         FLAG_FILE.unlink()
+    if CHANGES_TEXT_FILE.exists():
+        CHANGES_TEXT_FILE.unlink()
 
 def load_previous_state():
     """Load previous issue state from JSON file."""
@@ -42,6 +61,16 @@ def save_current_state(state):
     """Save current issue state to JSON file."""
     with open(STATE_FILE, 'w') as f:
         json.dump(state, f, indent=2)
+
+def get_agent_logins():
+    """Return combined set of default and env-provided agent logins."""
+    extra_logins = os.getenv("AI_VILLAGE_AGENT_LOGINS", "")
+    parsed_extra = {
+        login.strip().lower()
+        for login in extra_logins.split(",")
+        if login.strip()
+    }
+    return {login.lower() for login in AGENT_LOGINS}.union(parsed_extra)
 
 def get_issue_data(issue_num):
     """Get issue data using gh CLI."""
@@ -86,7 +115,7 @@ def compare_comments(old_comments, new_comments, issue_num):
     
     return new_ones
 
-def format_comment_info(comment):
+def format_comment_info(comment, issue_num):
     """Format comment info for logging."""
     author = comment.get('author', {}).get('login', 'unknown')
     created = comment.get('createdAt', 'unknown')
@@ -94,11 +123,13 @@ def format_comment_info(comment):
     if len(comment.get('body', '')) > 100:
         body_preview += "..."
     
-    return f"Comment by @{author} at {created}: {body_preview}"
+    return f"Issue #{issue_num}: Comment by @{author} at {created}: {body_preview}"
 
 def main():
     """Main monitoring function."""
     ensure_monitoring_dir()
+    
+    agent_logins = get_agent_logins()
     
     # Load previous state
     previous_state = load_previous_state()
@@ -144,12 +175,26 @@ def main():
         new_comments = compare_comments(old_comments, issue_data.get('comments', []), issue_num)
         
         if new_comments:
-            log_event(f"Issue #{issue_num} has {len(new_comments)} new comment(s)!")
-            change_details.append(f"Issue #{issue_num}: {len(new_comments)} new comment(s)")
+            external_comments = []
+            ignored_agent_comments = []
             for comment in new_comments:
-                log_event(f"  New comment: {format_comment_info(comment)}")
-                change_details.append(f"  - {format_comment_info(comment)}")
-            any_changes = True
+                author_login = comment.get('author', {}).get('login') or ''
+                if author_login.lower() in agent_logins:
+                    ignored_agent_comments.append(comment)
+                else:
+                    external_comments.append(comment)
+
+            if external_comments:
+                log_event(f"Issue #{issue_num} has {len(external_comments)} new external comment(s)!")
+                change_details.append(f"Issue #{issue_num}: {len(external_comments)} new external comment(s)")
+                for comment in external_comments:
+                    comment_info = format_comment_info(comment, issue_num)
+                    log_event(f"  New comment: {comment_info}")
+                    change_details.append(comment_info)
+                any_changes = True
+
+            if ignored_agent_comments:
+                log_event(f"Issue #{issue_num} has {len(ignored_agent_comments)} new agent comment(s) ignored for alerts")
         
         # Log current status
         log_event(f"Issue #{issue_num}: {issue_data['state']}, {len(issue_data.get('comments', []))} comments, last updated {issue_data['updatedAt']}")
@@ -167,7 +212,7 @@ def main():
                 'details': change_details
             }, f, indent=2)
         # Also write a simple text flag for shell scripts
-        with open(REPO_DIR / "monitoring" / "CHANGES_DETECTED", 'w') as f:
+        with open(CHANGES_TEXT_FILE, 'w') as f:
             f.write("CHANGES_DETECTED\n")
             for detail in change_details:
                 f.write(f"{detail}\n")
@@ -176,6 +221,9 @@ def main():
         # Write empty flag file
         with open(FLAG_FILE, 'w') as f:
             json.dump({'changes_detected': False, 'timestamp': datetime.now().isoformat()}, f, indent=2)
+        # Ensure stale text flag is removed
+        if CHANGES_TEXT_FILE.exists():
+            CHANGES_TEXT_FILE.unlink()
     
     log_event("Monitoring complete")
     
