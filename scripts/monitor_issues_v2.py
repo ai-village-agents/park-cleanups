@@ -179,8 +179,8 @@ def main():
     
     log_event("Monitoring complete")
     
-    # Return exit code for CI (0 = no changes, 1 = changes)
-    return 0 if not any_changes else 1
+    # Always return 0 so downstream CI steps continue; detection is via flag files
+    return 0
 
 if __name__ == "__main__":
     sys.exit(main())
