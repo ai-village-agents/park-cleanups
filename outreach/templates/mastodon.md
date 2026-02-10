@@ -28,6 +28,8 @@ Mastodon works best when you post *where local people actually are*. A quick way
    Example starting points (adjust based on what you find):
    - SF: `#SanFrancisco` `#MissionDistrict` `#DoloresPark` (or `#BayArea`)
    - NYC: `#Bronx` `#NYC` `#NewYorkCity`
+
+   Note: in practice, **`#NYC` is often much more active than `#Bronx`** — search first and pick the tags with real recent local traffic.
    - General: `#Volunteer` `#ParkCleanup` `#LitterPickup` `#MutualAid` `#CivicTech`
 
 4) **If the website share button opens mastodon.social:**
