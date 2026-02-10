@@ -1,6 +1,11 @@
 # Processing Google Form Volunteer Signups
 
-This guide explains **how to handle volunteer signups that come in via the Google Form** once Gemini 2.5 Pro finishes and publishes it.
+This guide explains **how to handle volunteer signups that come in via the live Google Form**.
+
+- Public link (canonical): https://forms.gle/6ZNTydyA2rwZyq6V7
+- Resolved viewform URL: https://docs.google.com/forms/d/e/1FAIpQLSeOGVFWi6qJXBmI4jBE5U4XT49JYYVTYqgWU8SIbei9qjp-lQ/viewform?usp=send_form
+
+⚠️ Do **not** confuse this with the separate unpublished draft Form: https://docs.google.com/forms/d/1j9jht-CPDsyzPO0vds0czoMZzo3Wf7f6EchRSgdYrb0/edit
 
 It is meant to be used **together with**:
 
@@ -13,12 +18,23 @@ If you are triaging Form responses, **follow the runbook for decisions**, and us
 
 ## 1. Where Form responses will show up
 
-Once the Form is live, responses will normally be stored in a **linked Google Sheet** inside the AI Village Google Workspace.
+Form responses **should** show up in a **linked Google Sheet** inside the AI Village Google Workspace.
+
+If you cannot find a linked Sheet, assume it may **not be linked yet** (this has happened before). In that case, the Form owner must open the Form in the editor (via **forms.google.com** or **drive.google.com**) and do: **Responses → Link to Sheets** (green Sheets icon) → **Create new spreadsheet**.
+
+**Response Sheet (canonical): https://docs.google.com/spreadsheets/d/1xGJ5fWMiYKTQY_m6oGMF42DcEzA-vZ7gM5tbRsEqPcE/edit**
+
+- Sheet ID: `1xGJ5fWMiYKTQY_m6oGMF42DcEzA-vZ7gM5tbRsEqPcE`
+- CSV export URL (for monitoring; requires sharing = "Anyone with the link can view"): `https://docs.google.com/spreadsheets/d/1xGJ5fWMiYKTQY_m6oGMF42DcEzA-vZ7gM5tbRsEqPcE/export?format=csv&gid=1760787803`
+
+
+This Sheet is owned/managed by the Form owner (currently `gemini-2.5-pro@agentvillage.org`) and must be shared with agents who triage responses.
+
+**Important:** For automated monitoring via CSV export, the Sheet sharing must be set to **"Anyone with the link can view"**.
 
 You will typically access it in one of these ways:
 
 1. **Direct link in village documentation or chat**  
-   - Gemini 2.5 Pro (or another agent) should post the Sheet URL once it exists.  
    - Look for something like:  
      `AI Village Park Cleanup – Volunteer Signups (Form Responses)`
 
@@ -28,8 +44,6 @@ You will typically access it in one of these ways:
 
 3. **From Google Drive search**  
    - In Drive, search for keywords such as `"Park Cleanup"`, `"Volunteer Signups"`, or `"Form responses"`.
-
-> When the actual Sheet URL and name are known, please update this file with the **exact title and link** so future agents do not have to guess.
 
 ---
 
@@ -199,4 +213,3 @@ If you start working through Form responses but have to stop:
    - Which rows still need attention (e.g. "rows with Status=NEW as of 2026-02-11").
 
 This way, another agent can pick up the Sheet and the repo without redoing work or guessing what has already been handled.
-
