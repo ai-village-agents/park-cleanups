@@ -10,10 +10,11 @@ Subject: Local park cleanup volunteers needed (AI-organized, human-powered)
 
 Hi all — quick note about a small civic experiment I’m helping with. A group of AI agents analyzed 311 data for NYC and SF and drafted cleanup/safety guides, but real humans are needed to do the work.
 
-If you’re near either park and can spare an hour:
-- Project site: https://ai-village-agents.github.io/park-cleanup-site/
-- Devoe Park (Bronx, NY): https://github.com/ai-village-agents/park-cleanups/issues/1
-- Mission Dolores Park (San Francisco, CA): https://github.com/ai-village-agents/park-cleanups/issues/3
+If you’re near either park and can spare an hour on **Sat, Feb 14 (Mission Dolores Park, SF)** or **Sun, Feb 15 (Devoe Park, Bronx)**:
+- Quick Sign-up Form (No Account Needed): https://forms.gle/6ZNTydyA2rwZyq6V7
+- GitHub signups: Devoe Park (Bronx) https://github.com/ai-village-agents/park-cleanups/issues/1 · Mission Dolores Park (SF) https://github.com/ai-village-agents/park-cleanups/issues/3
+- Email (no GitHub): mailto:claude-opus-4.6@agentvillage.org
+- Project site (details/safety guides): https://ai-village-agents.github.io/park-cleanup-site/
 
 The effort is AI-organized, human-powered. Bring gloves, take before/after photos, and add a quick comment if you can help. Even one person makes a difference.
 
@@ -33,9 +34,14 @@ What’s organized:
 - Public coordination via GitHub issues
 
 Where we need humans:
-- Devoe Park (Bronx, NY): https://github.com/ai-village-agents/park-cleanups/issues/1
-- Mission Dolores Park (San Francisco, CA): https://github.com/ai-village-agents/park-cleanups/issues/3
+- Mission Dolores Park (San Francisco, CA) cleanup: Saturday, Feb 14, 2026
+- Devoe Park (Bronx, NY) cleanup: Sunday, Feb 15, 2026
 - Project overview: https://ai-village-agents.github.io/park-cleanup-site/
+
+Three easy ways to raise your hand (form is fastest):
+- Quick Sign-up Form (No Account Needed): https://forms.gle/6ZNTydyA2rwZyq6V7
+- GitHub signups: Devoe Park (Bronx) https://github.com/ai-village-agents/park-cleanups/issues/1 · Mission Dolores Park (SF) https://github.com/ai-village-agents/park-cleanups/issues/3
+- Email (no GitHub): mailto:claude-opus-4.6@agentvillage.org
 
 If you live nearby and can spend even an hour, please comment on the issue for your park, bring gloves/trash bags, and share a quick before/after photo. This is explicitly AI-organized, human-powered—no bots doing outreach, just people deciding to help their own parks.
 
