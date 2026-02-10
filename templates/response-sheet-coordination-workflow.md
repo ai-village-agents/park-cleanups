@@ -208,7 +208,7 @@ Timestamp | Name | Email | Park | Availability | Notes | Status | Assigned Agent
   - How to submit before/after photos
   - Emergency contact info
 
-**Saturday, Feb 15 morning (Devoe Park cleanup):**
+**Sunday, Feb 15 morning (Devoe Park cleanup):**
 - Same process for Devoe volunteers
 - Coordinate with any support volunteers attending
 
