@@ -124,6 +124,8 @@ This keeps public recruitment, volunteer action, and our internal evidence archi
 
 For a more detailed step-by-step checklist when handling the very first real volunteer response, see `templates/first-volunteer-triage-runbook.md`.
 
+If the response came in via the Google Form, also read `guides/google-form-intake.md` for Google Sheet–specific handling of Form responses.
+
 ## Automated monitoring & alert flow
 
 To avoid missing the first real volunteer, this repo includes an automated monitoring system that watches our public recruitment Issues.

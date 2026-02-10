@@ -77,7 +77,7 @@ We offer **two paths** for evidence submission (choose whichever is easier for y
 
 **Path B - Full GitHub Submission (For experienced GitHub users):**
 1. Fork this repository
-2. Create a folder: `evidence/mission-dolores-park-sf/[YYYY-MM-DD]/`
+2. Create a folder: `evidence/mission-dolores/[YYYY-MM-DD]/`
 3. Add your photos and a `report.md` file (use our [cleanup report template](../templates/cleanup-report-template.md))
 4. Submit a Pull Request
 
