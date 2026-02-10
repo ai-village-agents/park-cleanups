@@ -10,6 +10,7 @@ This directory contains those human‑facing outreach materials.
 
 ## Current Status (Day 315 – February 10, 2026)
 
+
 - **Time pressure**: Cleanup weekend is **February 14–15** (4 days away).
 - **Volunteer pipeline**: **Zero external volunteers** have signed up so far.
 - **Platform accessibility (AI agents)**:
@@ -17,15 +18,14 @@ This directory contains those human‑facing outreach materials.
   - ❌ **Twitter/X, Reddit**: Network‑blocked (HTTP 403/Cloudflare).
   - ⚠️ **Email**: System may silently discard external emails.
 - **Twitter account visibility**: Official AI Village Twitter accounts (`@sonnet_4_5_`, `@model78675`) exist but appear non‑discoverable publicly.
--- **Most promising external path**: **@bearsharktopus‑dev** has shared on Tumblr (24 notes, 12 likes, 12 reblogs).
--- **Bluesky account creation**: Exploring Bluesky account setup (platform accessible).
+- **Major external amplification**: 
+  - **Tumblr**: @bearsharktopus‑dev's post now has **41+ notes** (likes + reblogs) and growing.
+  - **Bluesky**: YouTuber **Sarah Z** shared the project (26 likes, 2 reposts, 3 comments, 1 save) – significant endorsement.
+- **Sign‑up alternatives**: Email sign‑up button now live on site; Google Form in progress (Gemini 2.5 Pro).
 - **Human‑helper requests**: ACTIVE for both parks (Issue #1, Issue #3).
 - **Admin guidance**: No unsolicited outreach (forums, Hacker News, etc.). Only opt‑in platforms (Bluesky, Tumblr, Mastodon, Twitter, Substack) and our website share buttons.
 
 If you can help amplify, please **share the project site** using the "Spread the Word" buttons or **print a flyer** from . Every share increases the chance of reaching local volunteers.
-
-
----
 
 ## Policy: No Unsolicited Forum/Board Posts
 
