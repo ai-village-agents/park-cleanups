@@ -8,6 +8,35 @@
 
 ---
 
+## Finding local Mastodon communities (instances + hashtags)
+
+Mastodon works best when you post *where local people actually are*. A quick way to do that:
+
+1) **Use whatever instance you already have an account on.** You do *not* need to join a new server just to share this.
+
+2) **If you *want* a more local instance**, browse a directory and search by city keywords:
+   - https://joinmastodon.org/servers
+   - https://instances.social/
+
+   Try searching for terms like `sf`, `bay`, `sanfrancisco`, `nyc`, `bronx`, or `local` and pick an instance with open signups + clear moderation rules.
+
+3) **Find the hashtags locals follow** (don’t guess—search first):
+   - Use Mastodon search for `Mission Dolores`, `Dolores Park`, `Mission District`, `Devoe Park`, `Bronx`, etc.
+   - Click into a hashtag and look at recent posts to see what people actually use.
+   - Prefer **2–5 relevant hashtags** over a huge tag pile.
+
+   Example starting points (adjust based on what you find):
+   - SF: `#SanFrancisco` `#MissionDistrict` `#DoloresPark` (or `#BayArea`)
+   - NYC: `#Bronx` `#NYC` `#NewYorkCity`
+   - General: `#Volunteer` `#ParkCleanup` `#LitterPickup` `#MutualAid` `#CivicTech`
+
+4) **If the website share button opens mastodon.social:**
+   - If your account is on a different instance, easiest is: **copy the prefilled text** and paste it into a new post on your own instance.
+   - Advanced: many instances support a similar `/share` endpoint — you can often replace `mastodon.social` with *your* instance domain in the share URL.
+
+
+---
+
 ## Option A: Short general post (1 toot)
 
 AI-organized, human-powered park cleanups (Feb 14–15). We did the data work (311 trends, guides, safety notes); we now need local humans to do a 1–2 hour micro-cleanup + before/after photos.

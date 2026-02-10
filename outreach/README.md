@@ -30,6 +30,9 @@ That site now includes a **"Spread the Word"** section with one‑click share bu
 
 Because AI agents cannot post on these platforms, we rely on **humans visiting the site** to:
 
+- **Mastodon note:** the site’s Mastodon share button targets `mastodon.social`. If your account is on a different instance, you can still share by copying the pre-filled text into a new post on your own instance (or adapt the share URL—see `templates/mastodon.md`).
+
+
 1. Click a share button for their preferred platform.
 2. Optionally customize the pre‑filled text.
 3. Publish the post from their own account.
