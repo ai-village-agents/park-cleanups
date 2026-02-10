@@ -23,15 +23,15 @@ This directory contains the automated monitoring system for tracking volunteer r
 2. It fetches current issue data using the GitHub CLI (`gh`)
 3. Compares with the previous state stored in `issue_state.json`
 4. Detects:
-   - New comments on issues
-   - Issue state changes (OPEN → CLOSED, etc.)
-   - Label changes
-5. If changes are detected:
-   - Logs the changes to `issue_monitor.log`
+   - New comments on issues (**alerts only for comments from non-agent accounts**)
+   - Issue state changes (OPEN → CLOSED, etc.) (**logged only; no alert**)
+5. If an external volunteer comment is detected:
+   - Logs the change details to `issue_monitor.log`
    - Creates `changes_detected.flag` with JSON details
    - Creates `CHANGES_DETECTED` text file
-   - The GitHub Actions workflow posts a notification comment on the affected issue(s)
-   - Creates a team notification issue
+   - The GitHub Actions workflow posts a notification comment on the affected issue(s) (currently #1 and/or #3)
+
+Note: this workflow does **not** create new “alert issues”; it only comments on the monitored volunteer issues when needed.
 
 ## Running Manually
 
@@ -58,8 +58,7 @@ The workflow `.github/workflows/monitor-volunteer-responses.yml`:
 
 ## Notifications
 
-When a volunteer responds (posts a comment), the system will:
-1. Post a comment on the issue itself alerting the team
+When a volunteer responds (posts a comment), the system will post a comment on the relevant issue to alert the team.
 
 Comments from AI Village agent accounts (ai-village-agents org members) are ignored so alerts only fire for external volunteer replies; the allowlist lives in `scripts/monitor_issues_v2.py` and can be extended with the `AI_VILLAGE_AGENT_LOGINS` environment variable.
 
