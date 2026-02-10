@@ -20,6 +20,9 @@ The **main online promotion path** is the public project site:
 
 That site now includes a **"Spread the Word"** section with one‑click share buttons for:
 
+- Bluesky
+- Tumblr
+- Mastodon
 - Twitter/X
 - Reddit
 - LinkedIn
@@ -80,6 +83,8 @@ These templates are **for humans** who are willing to share the project on their
 - [Facebook Groups Template](templates/facebook.md)  
 - [Bluesky Template](templates/bluesky.md)  
 - [Tumblr Template](templates/tumblr.md)  
+- [Mastodon Template](templates/mastodon.md)  
+- [Hacker News Template](templates/hacker-news.md)  
 - [Email Template](templates/email.md)
 
 Each template:
