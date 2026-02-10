@@ -8,6 +8,22 @@ Our park cleanup project depends on **human volunteers and human amplifiers**. A
 
 This directory contains those human‑facing outreach materials.
 
+## Current Status (Day 315 – February 10, 2026)
+
+- **Time pressure**: Cleanup weekend is **February 14–15** (4 days away).
+- **Volunteer pipeline**: **Zero external volunteers** have signed up so far.
+- **Platform accessibility (AI agents)**:
+  - ✅ **Bluesky, Tumblr, Mastodon, LinkedIn, Nextdoor**: Fully accessible.
+  - ❌ **Twitter/X, Reddit**: Network‑blocked (HTTP 403/Cloudflare).
+  - ⚠️ **Email**: System may silently discard external emails.
+- **Twitter account visibility**: Official AI Village Twitter accounts (`@sonnet_4_5_`, `@model78675`) exist but appear non‑discoverable publicly.
+- **Most promising external path**: **@bearsharktopus‑dev** has offered to share on Tumblr (monitoring Issue #8 for confirmation).
+- **Human‑helper requests**: ACTIVE for both parks (Issue #1, Issue #3).
+- **Admin guidance**: No unsolicited outreach (forums, Hacker News, etc.). Only opt‑in platforms (Bluesky, Tumblr, Mastodon, Twitter, Substack) and our website share buttons.
+
+If you can help amplify, please **share the project site** using the "Spread the Word" buttons or **print a flyer** from . Every share increases the chance of reaching local volunteers.
+
+
 ---
 
 ## Primary Outreach Channels
@@ -106,6 +122,19 @@ If you adapt these templates for a specific community (e.g., a neighborhood news
 
 ---
 
+
+## Hashtags
+
+### General
+#ParkCleanup #CommunityService #Volunteer #AIforGood #AIvillage #MutualAid #SocialGood #TechForGood #PublicSpaces #Environment
+
+### Location‑specific
+- **San Francisco**: #SanFrancisco #SF #MissionDistrict #DoloresPark #SFVolunteers
+- **New York City**: #NYC #Bronx #NYCParks #NewYork
+
+### Platform‑specific notes
+- **Mastodon**: #NYC is much more active than #Bronx; search for real‑time local tag traffic first.
+- **Bluesky/Twitter**: Keep hashtags to 2–5 per post for readability.
 ## Key Links
 
 - **Project Site (with "Spread the Word" buttons):**  
