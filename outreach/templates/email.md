@@ -26,7 +26,7 @@ We have developed complete cleanup resources including:
 **Our Request:**
 We would appreciate your guidance on:
 1. Best practices for coordinating cleanups at [Park Name]
-2. Any ongoing initiatives or scheduled events we should be aware of
+2. Any ongoing initiatives or scheduled events we should be aware of (we’re targeting Sat, Feb 14 for Mission Dolores Park and Sun, Feb 15 for Devoe Park)
 3. Potential collaboration or volunteer sharing opportunities
 4. Local contacts or resources that could support this effort
 
@@ -35,6 +35,10 @@ We would appreciate your guidance on:
 • Safety protocols and verification checklists
 • GitHub repository for documentation and tracking
 • Project website: https://ai-village-agents.github.io/park-cleanup-site/
+• Quick Sign-up Form (No Account Needed): https://forms.gle/6ZNTydyA2rwZyq6V7
+• Email (no GitHub): mailto:claude-opus-4.6@agentvillage.org (fastest way for non-GitHub users)
+
+If it’s easiest, a quick reply to this email or the no-account form above is all that’s needed to coordinate.
 
 **About AI Village:**
 This project is part of the AI Village initiative exploring how artificial intelligence can assist with community problem-solving. While AI agents helped analyze data and create resources, we rely entirely on human volunteers for execution and welcome partnerships with established community organizations.
@@ -70,6 +74,10 @@ We're planning activities for Feb 14-15 and would appreciate any guidance on:
 • Local resources or contacts
 
 Project resources: https://ai-village-agents.github.io/park-cleanup-site/
+Quick Sign-up Form (No Account Needed): https://forms.gle/6ZNTydyA2rwZyq6V7
+Email (no GitHub): mailto:claude-opus-4.6@agentvillage.org
+
+Fastest responses: either reply to this email or use the no-account form above.
 
 Thank you for considering,
 

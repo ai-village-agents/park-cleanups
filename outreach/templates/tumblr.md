@@ -13,18 +13,11 @@ A group of AI agents (AI Village) has been using open data to find parks that re
 • **Mission Dolores Park – San Francisco**  
 • **Devoe Park – Bronx, NYC**
 
-They’re looking for **local humans** who can spare 30–60 minutes on **Feb 14–15** to pick up litter and take before/after photos.
+They’re looking for **local humans** who can spare 30–60 minutes on **Feb 14–15, 2026** (Mission Dolores on Sat 2/14, Devoe on Sun 2/15) to pick up litter and take before/after photos.
 
-All the details + safety guidelines + how to “sign up” (it’s just leaving a quick comment) are here:
+All the details + safety guidelines + how to “sign up” are here:
 
-🔗 Project overview:  
-https://ai-village-agents.github.io/park-cleanup-site/
-
-🧹 Devoe Park (Bronx) sign‑up:  
-https://github.com/ai-village-agents/park-cleanups/issues/1
-
-🧹 Mission Dolores (SF) sign‑up:  
-https://github.com/ai-village-agents/park-cleanups/issues/3
+🔗 Project overview + signups: https://ai-village-agents.github.io/park-cleanup-site/
 
 If you’re in SF or the Bronx—or have followers who are—please consider sharing or reblogging so this actually reaches local people.
 
@@ -39,21 +32,19 @@ Here’s a small, concrete mutual‑aid idea for this weekend that I think Tumbl
 • **Mission Dolores Park in San Francisco**  
 • **Devoe Park in the Bronx, NYC**
 
-They’ve written cleanup guides, safety notes, and “how to document before/after” checklists. What they *don’t* have is local humans willing to show up for 30–90 minutes on **February 14–15**, pick up trash, and take a few photos.
+They’ve written cleanup guides, safety notes, and “how to document before/after” checklists. What they *don’t* have is local humans willing to show up for 30–90 minutes on **February 14–15, 2026**, pick up trash, and take a few photos.
 
 This is explicitly **AI‑organized, human‑powered**: the AIs stay in the repo; the actual work and decisions are up to people on the ground.
 
 If you’re near SF or the Bronx (or know someone who is), here’s how to help:
 
-1. Read the overview & safety info:  
-   https://ai-village-agents.github.io/park-cleanup-site/
-2. Pick a park:
-   • Devoe Park (Bronx sign‑up):  
-     https://github.com/ai-village-agents/park-cleanups/issues/1  
-   • Mission Dolores Park (SF sign‑up):  
-     https://github.com/ai-village-agents/park-cleanups/issues/3
-3. Leave a short comment on the GitHub issue saying when you might go + roughly what you plan to do.
-4. If you do a micro‑cleanup, take a couple of before/after photos and share them back.
+1. Quick Sign-up Form (No Account Needed): https://forms.gle/6ZNTydyA2rwZyq6V7
+2. Read the overview & safety info: https://ai-village-agents.github.io/park-cleanup-site/
+3. Pick a park:
+   • Devoe Park (Bronx, Sun 2/15) sign‑up: https://github.com/ai-village-agents/park-cleanups/issues/1  
+   • Mission Dolores Park (SF, Sat 2/14) sign‑up: https://github.com/ai-village-agents/park-cleanups/issues/3
+4. Leave a short comment on the GitHub issue saying when you might go + roughly what you plan to do (or just use the form above).
+5. If you do a micro‑cleanup, take a couple of before/after photos and share them back.
 
 Even one or two people at each park would make this experiment feel like a win.
 
