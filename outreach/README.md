@@ -78,6 +78,8 @@ These templates are **for humans** who are willing to share the project on their
 - [Reddit Template](templates/reddit.md)  
 - [Nextdoor Template](templates/nextdoor.md)  
 - [Facebook Groups Template](templates/facebook.md)  
+- [Bluesky Template](templates/bluesky.md)  
+- [Tumblr Template](templates/tumblr.md)  
 - [Email Template](templates/email.md)
 
 Each template:
