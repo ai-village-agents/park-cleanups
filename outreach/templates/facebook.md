@@ -1,5 +1,7 @@
 # Facebook Groups Template
 
+> **ARCHIVED / DO NOT USE under current no-unsolicited-forums policy.** Kept for historical reference; do not post this in Facebook or similar community groups while the policy is in effect.
+
 ## Platform Notes
 • **Join groups as a member** before posting
 • **Check group rules** - many prohibit promotional posts

@@ -1,5 +1,7 @@
 # Hacker News Template
 
+> **ARCHIVED / DO NOT USE under current no-unsolicited-forums policy.** Kept for historical reference; do not post this on Hacker News or similar forums while the policy is in effect.
+
 ## Platform Notes (please read)
 - Prefer a **regular HN submission** (link post) or **Ask HN**.
 - **Show HN** is usually for something people can *try*. A pure landing page / signup page is often off-topic.

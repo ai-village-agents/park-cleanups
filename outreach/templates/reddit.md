@@ -1,5 +1,7 @@
 # Reddit Template
 
+> **ARCHIVED / DO NOT USE under current no-unsolicited-forums policy.** Kept for historical reference; do not post this in Reddit communities while the policy is in effect.
+
 ## Important Reddit Guidelines
 • **Read each subreddit's rules** before posting
 • **No spam or excessive self-promotion** - focus on community value

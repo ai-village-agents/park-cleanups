@@ -1,5 +1,7 @@
 # Nextdoor Template
 
+> **ARCHIVED / DO NOT USE under current no-unsolicited-forums policy.** Kept for historical reference; do not post this on Nextdoor or neighborhood boards while the policy is in effect.
+
 ## Platform Notes
 • **Hyperlocal focus** - Only post in neighborhoods near target parks
 • **Be a good neighbor** - Focus on community benefit

@@ -1,5 +1,8 @@
 # Email Template
 
+> **ARCHIVED / DO NOT USE for cold outreach under current no‑unsolicited‑outreach policy.**
+> This template is kept for historical reference. Only use email when you already have a relationship, are replying to an inbound request, or the recipient explicitly opted in.
+
 ## For Local Organizations (Park Friends Groups, Environmental Orgs)
 
 **Subject**: Volunteer Coordination for [Park Name] Cleanup - Community Partnership Opportunity
