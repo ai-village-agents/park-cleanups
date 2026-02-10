@@ -1,0 +1,145 @@
+name: Cleanup Report (privacy-safe)
+description: Submit a completed micro-clean report with before/after evidence (no PII, counts-only in public summaries).
+title: "Cleanup Report: [Park Name] — [YYYY-MM-DD]"
+labels:
+  - cleanup-report
+  - evidence
+  - volunteer-submission
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping clean a park! Please follow our safety and evidence guides:
+        - Safety: https://github.com/ai-village-agents/park-cleanups/blob/main/safety.md
+        - Evidence (what to include): https://github.com/ai-village-agents/park-cleanups/blob/main/evidence/README.md
+
+        Privacy: Do not include faces, license plates, or other PII. Counts-only summaries will be used in public alerts.
+
+  - type: dropdown
+    id: park
+    attributes:
+      label: Park
+      options:
+        - Mission Dolores Park (San Francisco)
+        - Devoe Park (Bronx)
+        - Other (specify below)
+      description: Choose the park you cleaned. If "Other", please specify in the next field.
+    validations:
+      required: true
+
+  - type: input
+    id: park_other
+    attributes:
+      label: If "Other", specify park name and city
+      placeholder: e.g., Jefferson Square Park, San Francisco, CA
+
+  - type: input
+    id: date
+    attributes:
+      label: Date of cleanup (YYYY-MM-DD)
+      placeholder: 2026-02-14
+    validations:
+      required: true
+
+  - type: textarea
+    id: location
+    attributes:
+      label: Focus area & landmarks (no home addresses)
+      description: Briefly describe the area cleaned (e.g., "north lawn near 20th & Church, ~20×20 m"). Include a Google Maps link if helpful.
+      placeholder: North lawn near 20th St & Church St; https://maps.app.goo.gl/...
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety acknowledgement
+      description: Confirm you followed safety guidance.
+      options:
+        - label: Wore gloves or used a grabber; handled only light, non-hazardous litter.
+          required: true
+        - label: Avoided sharps/needles, biowaste, chemicals, and heavy/bulky items.
+          required: true
+        - label: Disposed collected litter in park/public bins; followed posted park rules.
+          required: true
+
+  - type: textarea
+    id: before_photos
+    attributes:
+      label: BEFORE photo links (3–5)
+      description: Paste direct links (e.g., Imgur/Google Photos/Dropbox). Use the same angles for AFTER photos. No faces/plates.
+      placeholder: https://...\nhttps://...\nhttps://...
+    validations:
+      required: true
+
+  - type: textarea
+    id: after_photos
+    attributes:
+      label: AFTER photo links (3–5)
+      description: Same angles as BEFORE. No faces/plates. A single album link is OK if it clearly shows before/after pairs.
+      placeholder: https://...\nhttps://...\nhttps://...
+    validations:
+      required: true
+
+  - type: input
+    id: album
+    attributes:
+      label: Optional album link
+      placeholder: e.g., Google Photos/Imgur album URL
+
+  - type: dropdown
+    id: volume
+    attributes:
+      label: Approximate volume collected
+      options:
+        - ~1 small bag (~5–10 L)
+        - ~1 medium bag (~20–30 L)
+        - ~1 large bag (~40–60 L)
+        - Multiple bags (specify in notes)
+        - Other (specify in notes)
+      description: A rough estimate is fine.
+    validations:
+      required: true
+
+  - type: textarea
+    id: items
+    attributes:
+      label: Notable items
+      description: List a few representative items (e.g., cans, bottles, wrappers). Avoid PII.
+      placeholder: ~15 cans, ~10 bottles, food wrappers, cardboard tray
+
+  - type: checkboxes
+    id: disposal
+    attributes:
+      label: Disposal confirmation
+      options:
+        - label: I placed collected litter in appropriate park/public bins.
+          required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes (optional)
+      description: Anything else we should know? Weather, foot traffic, obstacles, suggestions.
+
+  - type: input
+    id: initials
+    attributes:
+      label: Your initials or handle (optional; no full names)
+      description: Optional credit without PII. You can also remain anonymous.
+      placeholder: e.g., BS, @handle
+
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Sharing permission
+      description: Allow us to include your submitted links/photos in our public documentation and summaries.
+      options:
+        - label: I grant permission to include my submitted links/photos in AI Village public materials (with attribution only by initials/handle if provided).
+          required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        After submitting, we may summarize totals in counts-only alerts. Full photo links remain here in this Issue for transparency.
