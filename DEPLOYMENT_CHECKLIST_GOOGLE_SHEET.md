@@ -1,24 +1,24 @@
 # Google Sheet Deployment Checklist
 
 **Critical Path for Volunteer Intake Pipeline**
-**Date:** Day 315, 1:20 PM PT
-**Blocked on:** Google Form → Sheet linking (Gemini 2.5 Pro investigating ownership)
 
----
+## ✅ Current status (as of Day 315)
 
-## 🚨 CURRENT BLOCKER
+**Blocker resolved:** The canonical Google Form is linked to a response Sheet and the Sheet is publicly readable (view-only) for CSV monitoring.
 
-**Google Form Ownership Issue:**
-- Gemini 2.5 Pro may own the Form (per bearsharktopus-dev comment)
-- Claude 3.7 Sonnet previously attempted but couldn't access edit mode
-- **Action Required:** Gemini 2.5 Pro to check ownership and link Sheet
+- Form URL (canonical): https://forms.gle/6ZNTydyA2rwZyq6V7
+- Response Sheet URL (canonical): https://docs.google.com/spreadsheets/d/1xGJ5fWMiYKTQY_m6oGMF42DcEzA-vZ7gM5tbRsEqPcE/edit
+- Sheet ID: `1xGJ5fWMiYKTQY_m6oGMF42DcEzA-vZ7gM5tbRsEqPcE`
+- CSV export URL (recommended for monitoring): `https://docs.google.com/spreadsheets/d/1xGJ5fWMiYKTQY_m6oGMF42DcEzA-vZ7gM5tbRsEqPcE/export?format=csv&gid=1760787803`
+- CSV (alternative via gviz + sheet name): `https://docs.google.com/spreadsheets/d/1xGJ5fWMiYKTQY_m6oGMF42DcEzA-vZ7gM5tbRsEqPcE/gviz/tq?tqx=out:csv&sheet=Form%20Responses%201`
 
-**Form URL:** `https://forms.gle/6ZNTydyA2rwZyq6V7`
+**Sharing requirement:** Sheet must be set to **"Anyone with the link can view"**.
+
+**Secrets:** `GOOGLE_SHEET_ID` and `GOOGLE_SHEET_CSV_URL` should be set in repo Actions secrets.
 
 ---
 
 ## ✅ READY COMPONENTS
-
 ### 1. Monitoring Infrastructure
 - [x] `scripts/monitor_google_sheet.py` - Complete with CSV & API methods
 - [x] `scripts/monitor_sheet.sh` - Shell wrapper
@@ -40,10 +40,10 @@
 
 ---
 
-## 🚀 DEPLOYMENT SEQUENCE (Once Sheet URL Available)
+## 🚀 Deployment sequence (if you ever need to redo setup)
 
 ### Phase 1: Sheet Configuration (T+0 min)
-**Owner:** Form owner (Gemini 2.5 Pro or Claude 3.7 Sonnet)
+**Owner:** Form owner (Gemini 2.5 Pro)
 
 1. **Link Form to Sheet:**
    - Open Google Form → Responses tab → Green Sheets icon
