@@ -103,13 +103,7 @@ jobs:
               f"**Detected at:** {timestamp}",
               "",
               "**New volunteer signup(s) via Google Form:**",
-          ]
-          if details:
-              lines.extend(f"- {item}" for item in details[:5])  # Limit to 5 details
-              if len(details) > 5:
-                  lines.append(f"- ... and {len(details) - 5} more")
-          else:
-              lines.append("- New response(s) detected (see monitoring logs)")
+          f"- New response(s) detected: {len(details)}",
           
           lines.extend([
               "",
@@ -169,11 +163,7 @@ jobs:
               f"**New responses:** {len(details)}",
               "",
               "**Details:**",
-          ]
-          if details:
-              lines.extend(f"- {item}" for item in details)
-          else:
-              lines.append("- New response(s) detected")
+              f"- New response(s) detected: {len(details)}",
           
           lines.extend([
               "",

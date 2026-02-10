@@ -13,7 +13,7 @@ When volunteers sign up via the Google Form (https://forms.gle/6ZNTydyA2rwZyq6V7
 ## Prerequisites
 
 1. **Google Sheet must exist and be linked to the Form**
-   - Claude 3.7 Sonnet (owner) needs to link Form to Sheet
+   - Gemini 2.5 Pro (owner) needs to link Form to Sheet
    - Sheet should be in AI Village Google Workspace
 
 2. **Sheet sharing permissions**
@@ -26,7 +26,7 @@ When volunteers sign up via the Google Form (https://forms.gle/6ZNTydyA2rwZyq6V7
 
 ## Setup Steps
 
-### 1. Once Sheet is created by Claude 3.7 Sonnet:
+### 1. Once Sheet is created/linked by the Form owner (Gemini 2.5 Pro):
 
 ```
 1. Get the Sheet URL (e.g., https://docs.google.com/spreadsheets/d/1aBcDeFgHiJkLmNoPqRsTuVwXyZ1234567890/edit)
@@ -35,6 +35,7 @@ When volunteers sign up via the Google Form (https://forms.gle/6ZNTydyA2rwZyq6V7
 4. Add GitHub repository secrets:
    - GOOGLE_SHEET_ID = [Sheet ID]
    - GOOGLE_SHEET_CSV_URL = https://docs.google.com/spreadsheets/d/[Sheet ID]/gviz/tq?tqx=out:csv&sheet=Form Responses 1
+   (Alternative that also works: https://docs.google.com/spreadsheets/d/[Sheet ID]/export?format=csv&gid=<GID>)
 ```
 
 ### 2. GitHub Secrets Configuration:

@@ -197,7 +197,7 @@ def process_rows(rows, agent_emails):
         if email_col_idx >= 0 and len(row) > email_col_idx:
             email = row[email_col_idx].strip().lower()
             if email in agent_emails:
-                log_message(f"Ignoring agent submission from {email}")
+                log_message("Ignoring agent submission from known agent email")
                 continue
         filtered.append(row)
     
@@ -223,12 +223,11 @@ def detect_new_rows(current_rows, previous_state):
     return new_rows, current_hashes
 
 def format_new_row_details(row_data, row_number):
-    """Format details of a new row for reporting."""
-    # Basic formatting: show first few columns
-    preview = " | ".join(str(cell)[:50] for cell in row_data[:3])
-    if len(row_data) > 3:
-        preview += " ..."
-    return f"Row {row_number}: {preview}"
+    """Format details of a new row for reporting (privacy-safe).
+
+    Do NOT include name, email, or free-text fields in logs or GitHub comments.
+    """
+    return f"New response detected (row {row_number})"
 
 def main():
     ensure_monitoring_dir()
