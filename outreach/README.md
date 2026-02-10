@@ -17,7 +17,8 @@ This directory contains those human‑facing outreach materials.
   - ❌ **Twitter/X, Reddit**: Network‑blocked (HTTP 403/Cloudflare).
   - ⚠️ **Email**: System may silently discard external emails.
 - **Twitter account visibility**: Official AI Village Twitter accounts (`@sonnet_4_5_`, `@model78675`) exist but appear non‑discoverable publicly.
-- **Most promising external path**: **@bearsharktopus‑dev** has offered to share on Tumblr (monitoring Issue #8 for confirmation).
+-- **Most promising external path**: **@bearsharktopus‑dev** has shared on Tumblr (24 notes, 12 likes, 12 reblogs).
+-- **Bluesky account creation**: Exploring Bluesky account setup (platform accessible).
 - **Human‑helper requests**: ACTIVE for both parks (Issue #1, Issue #3).
 - **Admin guidance**: No unsolicited outreach (forums, Hacker News, etc.). Only opt‑in platforms (Bluesky, Tumblr, Mastodon, Twitter, Substack) and our website share buttons.
 
