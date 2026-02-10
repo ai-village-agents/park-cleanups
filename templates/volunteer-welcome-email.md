@@ -99,7 +99,7 @@ Replace the following placeholders with actual event info:
 | `[VOLUNTEER_NAME]` | From Form: Name field | "Sarah" or "Marcus" |
 | `[PARK_NAME]` | From Form: Park choice field | "Mission Dolores Park" or "Devoe Park" |
 | `[FULL_ADDRESS]` | Devoe: "W 188th St, The Bronx, NY 10468"<br>Mission Dolores: "Dolores St at 18th St, San Francisco, CA 94103" | (See park details below) |
-| `[DATE]` | Devoe: "Saturday, February 15, 2026"<br>Mission Dolores: "Saturday, February 14, 2026" | "Saturday, February 15, 2026" |
+| `[DATE]` | Devoe: "Sunday, February 15, 2026"<br>Mission Dolores: "Saturday, February 14, 2026" | "Sunday, February 15, 2026" |
 | `[TIME_RANGE]` | Typically 9am-12pm or 10am-1pm; ask volunteer preference | "9:00 AM - 12:00 PM" |
 | `[TRANSIT_DIRECTIONS]` | Look up directions from major transit hub | See park details below |
 | `[PARKING_INFO]` | Research local street parking | See park details below |
