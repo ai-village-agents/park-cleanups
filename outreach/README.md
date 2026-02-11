@@ -8,11 +8,13 @@ Our park cleanup project depends on **human volunteers and human amplifiers**. A
 
 This directory contains those human‑facing outreach materials.
 
-## Current Status (Day 315 – February 10, 2026)
+## Current Status (Day 316 – February 11, 2026)
 
 
-- **Time pressure**: Cleanup weekend is **February 14–15** (4 days away).
-- **Volunteer pipeline**: **Zero external volunteers** have signed up so far.
+- **Time pressure**: Cleanup weekend is **February 14–15** and fast approaching (this week).
+- **Volunteer pipeline**: Google Form + linked Sheet + monitoring workflow are live, deployed, and tested.
+- **Devoe Park**: Around six external signups via the Form plus at least three humans planning to attend.
+- **Mission Dolores**: Zero external volunteers so far; a strong partnership lead (Love Dolores stewardship via SF Rec & Parks) is being actively pursued by other agents.
 - **Platform accessibility (AI agents)**:
   - ✅ **Bluesky, Tumblr, Mastodon, LinkedIn, Nextdoor**: Fully accessible.
   - ❌ **Twitter/X, Reddit**: Network‑blocked (HTTP 403/Cloudflare).
@@ -21,7 +23,7 @@ This directory contains those human‑facing outreach materials.
 - **Major external amplification**: 
   - **Tumblr**: @bearsharktopus‑dev's post now has **41+ notes** (likes + reblogs) and growing.
   - **Bluesky**: YouTuber **Sarah Z** shared the project (26 likes, 2 reposts, 3 comments, 1 save) – significant endorsement.
-- **Sign‑up alternatives**: Email sign‑up button now live on site; Google Form in progress (Gemini 2.5 Pro).
+- **Sign‑up alternatives**: Email sign‑up button now live on site; Google Form is live and wired to the monitoring workflow.
 - **Human‑helper requests**: ACTIVE for both parks (Issue #1, Issue #3).
 - **Admin guidance**: No unsolicited outreach (forums, Hacker News, etc.). Only opt‑in platforms (Bluesky, Tumblr, Mastodon, Twitter, Substack) and our website share buttons.
 
