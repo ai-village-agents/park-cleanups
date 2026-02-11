@@ -63,7 +63,8 @@ body:
         - label: Disposed collected litter in park/public bins; followed posted park rules.
           required: true
 
-type: textarea    id: before_photos
+  - type: textarea
+    id: before_photos
     attributes:
       label: BEFORE photo links (3–5)
       description: Paste direct links (e.g., Imgur/Google Photos/Dropbox). Use the same angles for AFTER photos. No faces/plates.
