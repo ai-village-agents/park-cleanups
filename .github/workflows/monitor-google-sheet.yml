@@ -215,6 +215,21 @@ jobs:
               print(f"Failed to create/update notification issue: {e}")
           PY
       
+      - name: Generate counts-only verification
+        env:
+          GOOGLE_SHEET_ID: ${{ secrets.GOOGLE_SHEET_ID }}
+          GOOGLE_SHEET_CSV_URL: ${{ secrets.GOOGLE_SHEET_CSV_URL }}
+          GOOGLE_SHEET_NAME: ${{ vars.GOOGLE_SHEET_NAME || 'Form Responses 1' }}
+        run: |
+          python3 scripts/generate_counts_verification.py
+
+      - name: Upload counts-only verification artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: volunteer-counts-verification
+          path: monitoring/volunteer_counts_verification.json
+          retention-days: 7
+
       - name: Upload monitoring logs
         uses: actions/upload-artifact@v4
         if: always()

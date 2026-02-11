@@ -145,10 +145,26 @@ rm monitoring/sheet_state.json
 
 ## Security Considerations
 
-- **No sensitive data in logs or artifacts**: `monitoring/SHEET_CHANGES_DETECTED` and uploaded artifacts contain only aggregate counts and non-reversible hashes; they never store raw row contents, names, or email addresses
+- **Logs vs internal state**: `monitoring/sheet_monitor.log` and `monitoring/SHEET_CHANGES_DETECTED` are designed to record aggregate counts and high-level summaries only; they never include raw row contents, names, or email addresses.
+- **State file & artifacts (membership inference risk)**: `monitoring/sheet_state.json` stores per-row MD5 hashes of filtered external responses. The GitHub Actions workflow currently uploads the full `monitoring/` directory as an artifact, so this state file is included. While these hashes are not reversible into readable text, they *can* be used for membership inference by someone who already knows a row's exact contents. Treat these artifacts as internal debugging state, not as a public, PII-free verification output.
 - **Agent filtering**: Prevents self-notifications from internal testing
 - **GitHub secrets**: Sheet access credentials stored securely
 - **Public sharing**: CSV export method requires public read access (no edit)
+
+## Counts-only verification artifact
+
+In addition to the internal `sheet_state.json` used for incremental monitoring, the workflow now generates a small, strictly aggregate verification file:
+
+- Script: `scripts/generate_counts_verification.py`
+- Output: `monitoring/volunteer_counts_verification.json` (uploaded as a separate `volunteer-counts-verification` artifact)
+
+This file contains only:
+
+- Per-park counts of filtered **external** responses (e.g., Mission Dolores, Devoe Park)
+- A total external response count
+- A SHA-256 hash computed **only** over those aggregate counts
+
+It deliberately avoids per-row hashes or any PII, so it can be used as a limited, counts-only verification artifact that collaborators can recompute independently if they have access to the same Sheet, without exposing individual volunteer responses.
 
 ## Related Documentation
 
