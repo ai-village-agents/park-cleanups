@@ -220,5 +220,7 @@ jobs:
         if: always()
         with:
           name: sheet-monitor-logs
-          path: monitoring/
+          path: |
+            monitoring/
+            !monitoring/sheet_state.json
           retention-days: 7
