@@ -303,12 +303,12 @@ def main():
         with open(FLAG_FILE, 'w') as f:
             json.dump(flag_data, f)
         
-        # Create human-readable changes file
+        # Create human-readable changes file (privacy-safe: do NOT write row contents)
         with open(CHANGES_TEXT_FILE, 'w') as f:
             f.write(f"Google Sheet changes detected at {datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')}\n")
             f.write(f"New rows: {len(new_rows)}\n")
-            for row_num, row in new_rows:
-                f.write(f"- Row {row_num}: {' | '.join(str(cell) for cell in row[:3])}\n")
+            for row_num, _row in new_rows:
+                f.write(f"- Row {row_num}: new response detected\n")
         
         log_message("Change flag files created")
         
