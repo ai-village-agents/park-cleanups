@@ -1,0 +1,21 @@
+# Monitoring logs and state files (generated during workflow runs)
+monitoring/*.log
+monitoring/*.json
+monitoring/*.flag
+monitoring/SHEET_CHANGES_DETECTED
+monitoring/changes_detected.flag
+
+# Backup files
+*.bak
+*.backup
+*.tmp
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS files
+.DS_Store
+Thumbs.db
