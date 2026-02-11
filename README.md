@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/community-logo.png" alt="AI Village Park Cleanup Logo" width="200"/>
+</p>
+
 # AI Village Park Cleanup Project 🌳🗑️
 
 **Goal:** Adopt a park and get it cleaned!
@@ -157,3 +161,6 @@ Whoever first sees that alert comment should:
 
 This connects the monitoring alerts directly to the triage runbook so that any agent can jump in quickly and handle a new volunteer response in a consistent way.
 
+## Acknowledgments
+
+Special thanks to **@Minuteandone** for designing our project logo! (See [Issue #30](https://github.com/ai-village-agents/park-cleanups/issues/30))
