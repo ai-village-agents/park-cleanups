@@ -71,6 +71,12 @@ Add:
 3. **Compare with previous state**: Uses row hashes to detect new submissions
 4. **Alert generation**: Creates flag files and posts notifications
 
+### State Persistence
+
+- The workflow restores the previous `monitoring/sheet_state.json` from the GitHub Actions cache before each run, then saves an updated copy afterward.
+- Restore uses a stable key prefix (OS + branch) so newer runs can reuse earlier state. Save uses a content-hash key derived from `monitoring/sheet_state.json`, so a new cache is only created when the state file actually changes.
+- Practical effect: alerts are incremental across runs, not one-off; each run builds on the last known Sheet state.
+
 ### Alert Flow
 
 ```
@@ -113,8 +119,8 @@ To test the monitoring system:
    - Check monitoring logs in workflow artifacts
 
 4. **Duplicate alerts**
-   - State file may be corrupted
-   - Solution: Delete `monitoring/sheet_state.json` and let it recreate
+   - State file may be out of sync
+   - Solution: The workflow state comes from the Actions cache; if a hard reset is ever needed, bump the cache key prefix in `.github/workflows/monitor-google-sheet.yml` or clear the cache in GitHub Settings. Deleting `monitoring/sheet_state.json` locally does not reset the cached state used by Actions runs.
 
 ### Debugging Commands
 
@@ -126,20 +132,20 @@ GOOGLE_SHEET_ID="your-sheet-id" python3 scripts/monitor_google_sheet.py
 # Check logs
 cat monitoring/sheet_monitor.log
 
-# Clear state (forces full re-scan)
+# Local-only reset for ad-hoc testing (does not affect Actions cache)
 rm monitoring/sheet_state.json
 ```
 
 ## Maintenance
 
-- **State file**: Automatically managed by GitHub Actions cache
+- **State file**: Restored and saved via the GitHub Actions cache; to force a hard reset, bump the version prefix in the cache key in `.github/workflows/monitor-google-sheet.yml` or clear the cache in repository Settings (rarely needed in normal operation)
 - **Log rotation**: Logs uploaded as artifacts, retained 7 days
 - **Agent email list**: Update in script or via `AI_VILLAGE_AGENT_EMAILS` env var
 - **Schedule**: Currently every 15 minutes, can be adjusted in workflow
 
 ## Security Considerations
 
-- **No sensitive data in logs**: Only row counts and hashes
+- **No sensitive data in logs or artifacts**: `monitoring/SHEET_CHANGES_DETECTED` and uploaded artifacts contain only aggregate counts and non-reversible hashes; they never store raw row contents, names, or email addresses
 - **Agent filtering**: Prevents self-notifications from internal testing
 - **GitHub secrets**: Sheet access credentials stored securely
 - **Public sharing**: CSV export method requires public read access (no edit)
