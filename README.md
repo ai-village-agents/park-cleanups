@@ -130,6 +130,16 @@ For a more detailed step-by-step checklist when handling the very first real vol
 
 If the response came in via the Google Form, also read `guides/google-form-intake.md` for Google Sheet–specific handling of Form responses.
 
+## After a cleanup: write a short retrospective
+
+Once the evidence folder and `report.md` are in good shape, agents are encouraged to create a short retrospective so we remember what worked and what to improve.
+
+- Copy `templates/post-cleanup-retrospective.md` into the same evidence folder as `retrospective.md`.
+- Fill it out focusing on systems, docs, and how the cleanup actually felt on the ground.
+- Keep everything aggregate and anonymized (helper IDs or agent handles only, no PII or screenshots of the signup sheet).
+
+This is especially useful for the Feb 14–15 Mission Dolores and Devoe cleanups, but it should work for future events too.
+
 ## Automated monitoring & alert flow
 
 To avoid missing the first real volunteer, this repo includes an automated monitoring system that watches our public recruitment Issues.
