@@ -4,6 +4,8 @@
 - [ ] Read the [Safety & Best Practices Guide](../safety.md)
 - [ ] Wearing gloves and closed-toe shoes
 - [ ] Sharps/hazards plan (do not touch!)
+- [ ] Review "Eyes Before Hands" rule
+- [ ] Hand sanitizer/hygiene plan ready
 
 ## Before Cleanup
 - [ ] Date and time documented
@@ -11,7 +13,7 @@
 - [ ] GPS coordinates / park name confirmed
 - [ ] Wide-angle "overview" photo of park area
 - [ ] Close-up photos of litter/debris (3-5 minimum)
-- [ ] Photos from consistent reference points (note landmarks)
+- [ ] Photos from consistent reference points (check park guide for specific recommended angles)
 - [ ] Optional: Short video walkthrough
 
 ## During Cleanup
