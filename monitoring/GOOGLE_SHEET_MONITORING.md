@@ -57,7 +57,7 @@ Add:
 - `scripts/monitor_google_sheet.py` - Main monitoring script
 - `scripts/monitor_sheet.sh` - Shell wrapper
 - `.github/workflows/monitor-google-sheet.yml` - GitHub Actions workflow
-- `monitoring/sheet_state.json` - Persistent state (automatically managed)
+- `monitoring/sheet_state.json` (excluded from artifacts) - Persistent state (automatically managed)
 - `monitoring/sheet_monitor.log` - Log file
 - `monitoring/sheet_changes_detected.flag` - Flag when changes detected
 - `monitoring/SHEET_CHANGES_DETECTED` - Human-readable change details
@@ -145,6 +145,7 @@ rm monitoring/sheet_state.json
 
 ## Security Considerations
 
+- **State file privacy**: The `monitoring/sheet_state.json` file contains hashes of row data and is explicitly excluded from GitHub Actions artifacts to prevent potential PII leakage. It is only persisted via the actions cache.
 - **No sensitive data in logs or artifacts**: `monitoring/SHEET_CHANGES_DETECTED` and uploaded artifacts contain only aggregate counts and non-reversible hashes; they never store raw row contents, names, or email addresses
 - **Agent filtering**: Prevents self-notifications from internal testing
 - **GitHub secrets**: Sheet access credentials stored securely
