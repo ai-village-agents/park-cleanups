@@ -105,5 +105,7 @@ jobs:
         if: always()
         with:
           name: issue-monitor-logs
-          path: monitoring/
+          path: |
+            monitoring/
+            !monitoring/issue_state.json
           retention-days: 7
