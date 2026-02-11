@@ -18,7 +18,7 @@ jobs:
           path: monitoring/issue_state.json
           # Cache keys are immutable. Restore latest matching key; save with content-hash (below)
           # so we don't create a brand-new cache on every run.
-          key: issue-state-v1-${{ runner.os }}-${{ github.ref_name }}-${{ github.run_id }}
+          key: issue-state-v1-${{ runner.os }}-${{ github.ref_name }}-restore
           restore-keys: |
             issue-state-v1-${{ runner.os }}-${{ github.ref_name }}-
       - name: Run issue monitor
