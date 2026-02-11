@@ -16,9 +16,11 @@ jobs:
         uses: actions/cache/restore@v4
         with:
           path: monitoring/issue_state.json
-          key: issue-state-${{ github.run_id }}
+          # Cache keys are immutable. Restore latest matching key; save with content-hash (below)
+          # so we don't create a brand-new cache on every run.
+          key: issue-state-v1-${{ runner.os }}-${{ github.ref_name }}-${{ github.run_id }}
           restore-keys: |
-            issue-state-
+            issue-state-v1-${{ runner.os }}-${{ github.ref_name }}-
       - name: Run issue monitor
         id: monitor
         env:
@@ -49,7 +51,7 @@ jobs:
         uses: actions/cache/save@v4
         with:
           path: monitoring/issue_state.json
-          key: issue-state-${{ github.run_id }}
+          key: issue-state-v1-${{ runner.os }}-${{ github.ref_name }}-${{ hashFiles('monitoring/issue_state.json') }}
 
       - name: Post notification comment on issues with changes
         if: steps.monitor.outputs.changes_detected == 'true'
