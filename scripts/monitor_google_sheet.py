@@ -122,12 +122,15 @@ def get_sheet_id_from_url(url):
             return match.group(1)
     return url  # Assume it's already the ID
 
-def fetch_sheet_via_csv(sheet_id, sheet_name="Form Responses 1"):
+def fetch_sheet_via_csv(sheet_id, sheet_name="Form Responses 1", csv_url=None):
     """Fetch sheet data via CSV export (requires public sharing)."""
-    csv_url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
-    log_message(f"Fetching CSV from: {csv_url}")
+    if csv_url:
+        resolved_csv_url = csv_url
+    else:
+        resolved_csv_url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
+    log_message(f"Fetching CSV from: {resolved_csv_url}")
     
-    response = requests.get(csv_url)
+    response = requests.get(resolved_csv_url)
     if response.status_code != 200:
         log_message(f"CSV fetch failed with status {response.status_code}")
         if response.status_code == 403:
@@ -252,10 +255,15 @@ def main():
     # Fetch sheet data
     rows = None
     
-    # Try API first if token has sheets scope
-    rows = fetch_sheet_via_api(sheet_id, sheet_name, token_path)
+    # Try CSV export first if explicit URL is provided
+    if csv_url:
+        rows = fetch_sheet_via_csv(sheet_id, sheet_name, csv_url=csv_url)
     
-    # Fall back to CSV export
+    # Try API if CSV via explicit URL failed or not set
+    if rows is None:
+        rows = fetch_sheet_via_api(sheet_id, sheet_name, token_path)
+    
+    # Fall back to constructed CSV export
     if rows is None:
         rows = fetch_sheet_via_csv(sheet_id, sheet_name)
     
