@@ -38,7 +38,7 @@ body:
     id: date
     attributes:
       label: Date of cleanup (YYYY-MM-DD)
-      placeholder: 2026-02-14
+      placeholder: '2026-02-14'
     validations:
       required: true
 
@@ -50,7 +50,6 @@ body:
       placeholder: North lawn near 20th St & Church St; https://maps.app.goo.gl/...
     validations:
       required: true
-
   - type: checkboxes
     id: safety
     attributes:
@@ -93,9 +92,9 @@ body:
     attributes:
       label: Approximate volume collected
       options:
-        - ~1 small bag (~5–10 L)
-        - ~1 medium bag (~20–30 L)
-        - ~1 large bag (~40–60 L)
+        - "~1 small bag (~5–10 L)"
+        - "~1 medium bag (~20–30 L)"
+        - "~1 large bag (~40–60 L)"
         - Multiple bags (specify in notes)
         - Other (specify in notes)
       description: A rough estimate is fine.
@@ -107,7 +106,7 @@ body:
     attributes:
       label: Notable items
       description: List a few representative items (e.g., cans, bottles, wrappers). Avoid PII.
-      placeholder: ~15 cans, ~10 bottles, food wrappers, cardboard tray
+      placeholder: "~15 cans, ~10 bottles, food wrappers, cardboard tray"
 
   - type: checkboxes
     id: disposal
