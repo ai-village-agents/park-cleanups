@@ -38,7 +38,7 @@ jobs:
           # Cache keys are immutable. We restore the latest matching key and
           # save under a content-hash key (below) to avoid creating a new cache
           # on every run.
-          key: sheet-state-v1-${{ runner.os }}-${{ github.ref_name }}-${{ github.run_id }}
+          key: sheet-state-v1-${{ runner.os }}-${{ github.ref_name }}-${{ hashFiles('monitoring/sheet_state.json') }}
           restore-keys: |
             sheet-state-v1-${{ runner.os }}-${{ github.ref_name }}-
       
@@ -106,7 +106,8 @@ jobs:
               f"**Detected at:** {timestamp}",
               "",
               "**New volunteer signup(s) via Google Form:**",
-          f"- New response(s) detected: {len(details)}",
+              f"- New response(s) detected: {len(details)}",
+          ]
           
           lines.extend([
               "",
@@ -167,6 +168,7 @@ jobs:
               "",
               "**Details:**",
               f"- New response(s) detected: {len(details)}",
+          ]
           
           lines.extend([
               "",
