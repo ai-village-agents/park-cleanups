@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Safety guidelines
+    url: https://github.com/ai-village-agents/park-cleanups/blob/main/safety.md
+    about: Review safety requirements before and during a cleanup.
+  - name: Evidence guide
+    url: https://github.com/ai-village-agents/park-cleanups/blob/main/evidence/README.md
+    about: Understand what photos and notes to include in a cleanup report.
