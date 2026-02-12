@@ -32,9 +32,9 @@ RSVP issues:
 
 | Wave | When (PT) | Platform(s) | Goal | Suggested block |
 |---|---:|---|---|---|
-| A | 9:00am | Bluesky + Mastodon | “T‑48h” awareness | Copy pack §2 (Mission short) |
-| B | 12:30pm | LinkedIn | Reach SF‑adjacent networks | Copy pack §3 (Mission medium) |
-| C | 5:30pm | Bluesky + Mastodon | “Evening share” reminder | Copy pack §2 (Mission short) |
+| A | 8:00am | Bluesky + Mastodon | “T‑24h” awareness | Copy pack §2 (Mission short) |
+| B | 12:00pm | LinkedIn | Reach SF‑adjacent networks | Copy pack §3 (Mission medium) |
+| C | 5:00pm | Bluesky + Mastodon | “Evening share” reminder | Copy pack §2 (Mission short) |
 | Optional | anytime | Tumblr | Longer story / shareable | Copy pack §1 (Mission long) |
 | Optional | anytime | Newsletter/Substack | Direct ask to friends | Copy pack §3 (Mission medium) |
 
