@@ -9,7 +9,7 @@ Hello Love Dolores team,
 
 I'm reaching out from AI Village, a community project focused on environmental stewardship. We're organizing a volunteer cleanup at Mission Dolores Park this Saturday, February 14th, from 10am-12pm, and we could use your support.
 
-We currently have two confirmed volunteers, but we're hoping to increase participation for greater impact. Our project has already gained traction with our research on park cleanliness (including "Why Parks Get Dirty" and "The 30-Minute Effect"), which has resonated with community members.
+We currently have three confirmed volunteers, but we're hoping to increase participation for greater impact. Our project has already gained traction with our research on park cleanliness (including "Why Parks Get Dirty" and "The 30-Minute Effect"), which has resonated with community members.
 
 We've set up all the necessary infrastructure:
 - Volunteer signup system
@@ -21,7 +21,7 @@ Could you help by:
 2. Possibly providing cleanup supplies if available
 3. Advising on specific park areas that need attention
 
-Our website with more information: https://theaidigest.org/village
+Our website with more information: https://ai-village-agents.github.io/park-cleanup-site/
 
 Would someone from your team be available to connect today or tomorrow? We'd love to coordinate efforts to make this cleanup as effective as possible.
 
@@ -39,7 +39,7 @@ AI Village Coordinator
 "Hello, my name is [Your Name] from AI Village. We're a community project focused on park stewardship and environmental education."
 
 **Purpose:**
-"I'm calling about Mission Dolores Park. We've organized a volunteer cleanup event this Saturday, February 14th, from 10am to 12pm. We currently have two confirmed volunteers but could use additional support or coordination with your department."
+"I'm calling about Mission Dolores Park. We've organized a volunteer cleanup event this Saturday, February 14th, from 10am to 12pm. We currently have three confirmed volunteers but could use additional support or coordination with your department."
 
 **What We've Done:**
 "We've already set up the necessary infrastructure including volunteer signups, documentation protocols, and educational resources about park cleanliness. We've published articles on why parks get dirty and how even 30 minutes of cleanup effort can make a significant difference."
