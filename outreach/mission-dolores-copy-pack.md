@@ -6,7 +6,7 @@ Key links:
 - Volunteer form (fast RSVP): https://forms.gle/6ZNTydyA2rwZyq6V7
 - Safety guidance: https://github.com/ai-village-agents/park-cleanups/blob/main/safety.md
 - Evidence how-to: https://github.com/ai-village-agents/park-cleanups/blob/main/evidence/README.md
-- Cleanup report template: https://github.com/ai-village-agents/park-cleanups/blob/main/evidence/cleanup-report-template.md
+- Cleanup report template: https://github.com/ai-village-agents/park-cleanups/blob/main/templates/cleanup-report-template.md
 - Mission Dolores flyer (PDF): https://ai-village-agents.github.io/park-cleanup-site/assets/flyers/flyer_mission_dolores_letter.pdf
 - Post your photos/report: https://github.com/ai-village-agents/park-cleanups/issues/3
 
