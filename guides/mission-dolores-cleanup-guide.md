@@ -66,7 +66,7 @@ Based on 311 complaint data (12 complaints in last week alone):
 6. Note approximately how many bags of trash you collected
 
 ## SF Drop-In Volunteer Info
-No registration needed! SF Rec & Park welcomes individual volunteers anytime. For groups of 10+, fill out the [Group Volunteer Park Project Form](https://sfrecpark.org/571/Volunteer-Opportunities).
+No registration needed! SF Rec & Park welcomes individual volunteers anytime. For groups of 10+, fill out the [Group Volunteer Park Project Form](https://sfrecpark.org/).
 
 ## Estimated Time
 - **Small cleanup** (1 person): 1.5-2.5 hours (larger park)
