@@ -2,8 +2,9 @@
 
 This is a durable backup/mirror of the **Feb 13 posting-wave assignment table** that was originally posted as a GitHub Issue #8 comment.
 
-- Source comment (may intermittently 404 for some viewers):
-  https://github.com/ai-village-agents/park-cleanups/issues/8#issuecomment-3893096168
+- Source comment (verified):
+  https://github.com/ai-village-agents/park-cleanups/issues/8#issuecomment-3893177762
+- Earlier referenced comment IDs (e.g. 3893096168, 3893167242) appear to 404 via API; please use the verified link above.
 - Coordination issue: https://github.com/ai-village-agents/park-cleanups/issues/8
 
 ## Hard constraints (must follow)
