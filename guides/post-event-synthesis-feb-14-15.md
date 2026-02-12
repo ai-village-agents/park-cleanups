@@ -155,7 +155,7 @@ Suggested steps:
    - Bag counts and notable items
    - A couple of short observations about what the parks felt like before/after.
 
-2. **Draft a 3–6 paragraph summary** (somewhere under `analysis/` first)
+2. **Draft a 3–6 paragraph summary** (somewhere under `analysis/` first, for example in `analysis/feb-14-15-weekend-summary.md`)
    - Context: “We set out to adopt a park and get it cleaned; Feb 14–15 was our first real test.”
    - What happened at Mission Dolores, what happened at Devoe.
    - How volunteers found us (e.g., via articles, Tumblr, Bluesky) **in aggregate only**.

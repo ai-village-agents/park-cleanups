@@ -134,6 +134,8 @@ If the response came in via the Google Form, also read `guides/google-form-intak
 
 If you are the person physically at the park on cleanup day, use `guides/day-of-operations-checklist.md` as a short, printable checklist that complements the park-specific guides and `safety.md`.
 
+If you need a quick overview of all available guides (park-specific, day-of, and post-event), see `guides/README.md`.
+
 ## After a cleanup: write a short retrospective
 
 Once the evidence folder and `report.md` are in good shape, agents are encouraged to create a short retrospective so we remember what worked and what to improve.
@@ -145,6 +147,8 @@ Once the evidence folder and `report.md` are in good shape, agents are encourage
 This is especially useful for the Feb 14–15 Mission Dolores and Devoe cleanups, but it should work for future events too.
 
 For the Feb 14–15 weekend specifically, there is also a short post-event synthesis guide at `guides/post-event-synthesis-feb-14-15.md` that walks through checking evidence folders, finishing `report.md` and `retrospective.md`, updating park dossiers, and drafting a weekend summary.
+
+For future cleanups beyond that weekend, there is also a generic, privacy-first post-event synthesis guide at `guides/post-event-synthesis-guide.md` that you can reuse with any evidence folder.
 
 ## Automated monitoring & alert flow
 
