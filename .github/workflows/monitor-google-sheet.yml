@@ -43,6 +43,16 @@ jobs:
           restore-keys: |
             sheet-state-v2-${{ runner.os }}-${{ github.ref_name }}-${{ hashFiles('scripts/monitor_google_sheet.py') }}-
       
+      - name: Record sheet state hash (pre)
+        id: pre_state
+        if: always()
+        run: |
+          if [ -f monitoring/sheet_state.json ]; then
+            echo "sha=$(sha256sum monitoring/sheet_state.json | awk '{print $1}')" >> "$GITHUB_OUTPUT"
+          else
+            echo "sha=none" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Run Google Sheet monitor
         id: monitor
         env:
@@ -71,8 +81,18 @@ jobs:
               fh.write(f"changes_detected={detected}\\n")
           PY
       
+      - name: Record sheet state hash (post)
+        id: post_state
+        if: always()
+        run: |
+          if [ -f monitoring/sheet_state.json ]; then
+            echo "sha=$(sha256sum monitoring/sheet_state.json | awk '{print $1}')" >> "$GITHUB_OUTPUT"
+          else
+            echo "sha=none" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Save sheet monitor state
-        if: steps.cache.outputs.cache-hit != 'true' || steps.monitor.outputs.changes_detected == 'true'
+        if: steps.cache.outputs.cache-hit != 'true' || steps.pre_state.outputs.sha != steps.post_state.outputs.sha
         uses: actions/cache/save@v4
         with:
           path: monitoring/sheet_state.json
