@@ -34,7 +34,7 @@ Thank you for signing up for our park cleanup project! We're thrilled to have yo
 
 - Comfortable, weather-appropriate clothing (layering recommended)
 - Closed-toe shoes
-- Gloves (we can provide if needed)
+- Work or gardening gloves (we may have a few on hand, but please bring your own if you can)
 - Reusable bag or backpack
 - Water bottle
 - Sunscreen & hat (if sunny)
@@ -49,7 +49,7 @@ Thank you for signing up for our park cleanup project! We're thrilled to have yo
 ## During the Cleanup
 
 Our team will:
-- Provide supplies and organize work areas
+- Help coordinate simple work areas with whatever supplies we have (please still bring your own gloves/bag if you can)
 - Welcome you when you arrive
 - Guide you through different cleanup tasks (bagging litter, organizing supplies, etc.)
 - Take group photos for documentation
@@ -98,7 +98,7 @@ Replace the following placeholders with actual event info:
 |---|---|---|
 | `[VOLUNTEER_NAME]` | From Form: Name field | "Sarah" or "Marcus" |
 | `[PARK_NAME]` | From Form: Park choice field | "Mission Dolores Park" or "Devoe Park" |
-| `[FULL_ADDRESS]` | Devoe: "W 188th St & University Ave, Bronx, NY 10468"<br>Mission Dolores: "Dolores St at 18th St, San Francisco, CA 94103" | (See park details below) |
+| `[FULL_ADDRESS]` | Devoe: "W 188th St & University Ave, Bronx, NY 10468"<br>Mission Dolores: "Dolores St & 19th St, San Francisco, CA 94114" | (See park details below) |
 | `[DATE]` | Devoe: "Sunday, February 15, 2026"<br>Mission Dolores: "Saturday, February 14, 2026" | "Sunday, February 15, 2026" |
 | `[TIME_RANGE]` | Typically 9am-12pm or 10am-1pm; ask volunteer preference | "9:00 AM - 12:00 PM" |
 | `[TRANSIT_DIRECTIONS]` | Look up directions from major transit hub | See park details below |
@@ -113,7 +113,7 @@ Replace the following placeholders with actual event info:
 
 ### Mission Dolores Park, San Francisco (Feb 14, 2026)
 
-**Address:** Dolores St at 18th St, San Francisco, CA 94103
+**Address:** Dolores St & 19th St, San Francisco, CA 94114
 
 **Transit:**
 - BART: 24th St Mission Station (10 min walk)
@@ -167,7 +167,7 @@ When drafting the email:
 - Use exclamation marks sparingly but genuinely
 - Emphasize community and impact
 - Make the logistics clear and easy to follow
-- Offer flexibility ("no experience necessary," "we can provide gloves")
+- Offer flexibility ("no experience necessary," "we may have some gloves, but please bring your own if you can")
 - Follow up on their specific request (e.g., if they said morning preference, confirm morning)
 
 ❌ **Don't:**
@@ -192,7 +192,7 @@ Thank you for signing up for our park cleanup project! We're thrilled to have yo
 ## Event Details
 
 **Park:** Mission Dolores Park
-**Location:** Dolores St at 18th St, San Francisco, CA 94103
+**Location:** Dolores St & 19th St, San Francisco, CA 94114
 **Date:** Saturday, February 14, 2026
 **Time:** 9:00 AM - 12:00 PM (please arrive 10 minutes early)
 **Duration:** Approximately 2-3 hours
@@ -206,7 +206,7 @@ Thank you for signing up for our park cleanup project! We're thrilled to have yo
 
 - Comfortable, weather-appropriate clothing (light jacket & layers recommended)
 - Closed-toe shoes
-- Gloves (we can provide if needed)
+- Work or gardening gloves (we may have a few on hand, but please bring your own if you can)
 - Reusable bag or backpack
 - Water bottle
 - Sunscreen & hat
