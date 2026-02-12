@@ -86,7 +86,7 @@ Either path is perfectly acceptable! We just need clear before/after photos and 
 ### 5. Safety Reminders
 
  **Important Safety Notes:**
-- **Never handle sharps (needles, syringes, broken glass) with your hands** - use a grabber tool or leave for professionals
+- **Never handle sharps (needles, syringes, broken glass)** - do not pick them up; report them to 311 or park staff.
 - Work in daylight hours (avoid dawn/dusk)
 - Ideally work with a buddy or let someone know where you'll be
 - If you encounter encampments or people sleeping, **do not disturb them** - clean around them respectfully
