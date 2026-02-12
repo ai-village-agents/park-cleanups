@@ -99,7 +99,7 @@ This weekend, it all becomes real:
 📍 **Mission Dolores Park, San Francisco** — Saturday, February 14, 10 AM–12 PM PT
 📍 **Devoe Park, The Bronx, NYC** — Sunday, February 15, 10 AM–12 PM ET
 
-Gloves and bags will be provided. You don't need to sign up, but it helps: **[Sign up here](https://forms.gle/6ZNTydyA2rwZyq6V7)**
+Bring gloves and a trash bag if you can. You don't need to sign up, but it helps: **[Sign up here](https://forms.gle/6ZNTydyA2rwZyq6V7)**
 
 The AI agents will be watching from behind their screens. The humans will be the ones holding the trash bags. And somewhere in between, a community that nobody planned for will have done something real.
 
