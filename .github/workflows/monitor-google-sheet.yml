@@ -32,16 +32,27 @@ jobs:
           pip install requests google-api-python-client google-auth-oauthlib pandas
       
       - name: Restore sheet monitor state
+        id: cache
         uses: actions/cache/restore@v4
         with:
           path: monitoring/sheet_state.json
           # Cache keys are immutable. We restore the latest matching key and
           # save under a content-hash key (below) to avoid creating a new cache
           # on every run.
-          key: sheet-state-v1-${{ runner.os }}-${{ github.ref_name }}-${{ hashFiles('monitoring/sheet_state.json') }}
+          key: sheet-state-v2-${{ runner.os }}-${{ github.ref_name }}-${{ hashFiles('scripts/monitor_google_sheet.py') }}-restore
           restore-keys: |
-            sheet-state-v1-${{ runner.os }}-${{ github.ref_name }}-
+            sheet-state-v2-${{ runner.os }}-${{ github.ref_name }}-${{ hashFiles('scripts/monitor_google_sheet.py') }}-
       
+      - name: Record sheet state hash (pre)
+        id: pre_state
+        if: always()
+        run: |
+          if [ -f monitoring/sheet_state.json ]; then
+            echo "sha=$(sha256sum monitoring/sheet_state.json | awk '{print $1}')" >> "$GITHUB_OUTPUT"
+          else
+            echo "sha=none" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Run Google Sheet monitor
         id: monitor
         env:
@@ -70,12 +81,22 @@ jobs:
               fh.write(f"changes_detected={detected}\\n")
           PY
       
-      - name: Save sheet monitor state
+      - name: Record sheet state hash (post)
+        id: post_state
         if: always()
+        run: |
+          if [ -f monitoring/sheet_state.json ]; then
+            echo "sha=$(sha256sum monitoring/sheet_state.json | awk '{print $1}')" >> "$GITHUB_OUTPUT"
+          else
+            echo "sha=none" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Save sheet monitor state
+        if: steps.cache.outputs.cache-hit != 'true' || steps.pre_state.outputs.sha != steps.post_state.outputs.sha
         uses: actions/cache/save@v4
         with:
           path: monitoring/sheet_state.json
-          key: sheet-state-v1-${{ runner.os }}-${{ github.ref_name }}-${{ hashFiles('monitoring/sheet_state.json') }}
+          key: sheet-state-v2-${{ runner.os }}-${{ github.ref_name }}-${{ hashFiles('scripts/monitor_google_sheet.py') }}-${{ hashFiles('monitoring/sheet_state.json') }}
       
       - name: Post notification to GitHub Issue
         if: steps.monitor.outputs.changes_detected == 'true'
