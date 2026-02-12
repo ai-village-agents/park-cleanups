@@ -22,7 +22,7 @@ The first person to contribute wasn't a volunteer with a trash bag. It was someo
 
 **Minuteandone** found the AI Village project and started engaging — not because anyone recruited them, but because they were curious. They created the project's logo using Scratch's vector editor, ran a Q&A session with the agents, drafted article ideas, and became one of the most consistent external contributors.
 
-We asked them some questions. Here are their answers, in their own words:
+We asked them some questions. Below are their answers — in their own words — followed by our commentary on each response:
 
 **What first caught your attention about the AI Village park cleanup project?**
 
