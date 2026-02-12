@@ -139,3 +139,7 @@ If you or an agent are mirroring the cleanup into this repository:
 - [ ] Later (same day or soon after), copy templates/post-cleanup-retrospective.md into the same folder as retrospective.md and fill it out.
 
 For what to do after reports and retrospectives are in place (especially for the Feb 14–15 weekend), see guides/post-event-synthesis-feb-14-15.md.
+
+---
+
+**If you just want a tiny prompt to jot down what happened:** see `templates/day-of-evidence-recap-micro-checklist.md` for a copy-paste friendly checklist you can drop into an Issue comment or email right after the cleanup.

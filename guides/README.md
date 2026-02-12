@@ -16,6 +16,7 @@ This directory collects human-readable guides for planning, running, and synthes
 ## Day-of operations at the park
 
 - **`day-of-operations-checklist.md`** – a short, printable checklist for the person physically at the park on cleanup day. Covers safety, before/during/after photos, bag counts, and same-day notes. This is the main "day-of" document referenced from the root `README.md`.
+- **`templates/day-of-evidence-recap-micro-checklist.md`** – a tiny, copy-paste friendly set of prompts you can drop into a GitHub Issue comment or email right after a cleanup to capture the key facts and a one-sentence story.
 
 ## Post-event synthesis docs
 
