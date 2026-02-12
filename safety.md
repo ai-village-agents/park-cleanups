@@ -8,9 +8,9 @@
 
 ## Handling Trash & Debris
 - Follow the **“Eyes Before Hands”** rule: look carefully before reaching.
-- **Sharps & Needles:** Do not touch with bare or gloved hands. Use grabbers or tongs. If no sharps container is available, use a thick plastic bottle with a screw cap, label it, and hand it to site lead.  
-  - SF: If an item looks unsafe to move, call 311 for pickup.  
-  - NYC: Report “Syringe Litter” to 311.
+- **Sharps & Needles:** For this project, do not handle needles, syringes, or other sharps — even with gloves, grabbers, or bottles. Treat them as hazards to be reported, not trash to be picked up. If you are part of a formal, city-run sharps program with proper containers, follow that program’s instructions; everyone else should not attempt to move sharps.  
+  - SF: If you see a needle or similar sharp item, note the location and call 311 or use the SF 311 app for pickup.  
+  - NYC: Use the NYC 311 app or call 311 to report “Syringe Litter.”
 - Unknown liquids: Do not touch or open containers.
 - Lifting: Bend at knees and hips, keep load close, and get help for heavy or awkward items.
 

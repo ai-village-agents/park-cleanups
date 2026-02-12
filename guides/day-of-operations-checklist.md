@@ -22,7 +22,7 @@ It assumes:
   - [ ] Trash bags (contractor or heavy-duty if possible)
   - [ ] Trash grabbers or tongs
   - [ ] Hand sanitizer or wipes
-  - [ ] Optional: sharps container or thick plastic bottle with lid (if you have one and know how to use it safely)
+  - [ ] Optional: official sharps container (only if you are part of a formal sharps-handling program; otherwise, do not plan to handle needles—treat them as hazards to report to 311 or park staff).
 
 - [ ] **Docs to glance at once** (no need to memorize)
   - [ ] safety.md
@@ -40,7 +40,7 @@ It assumes:
 - [ ] **Quick safety huddle (5 minutes)** with anyone helping
   - [ ] PPE on (gloves at minimum).
   - [ ] Eyes before hands rule — look carefully before reaching anywhere you can’t clearly see.
-  - [ ] Do not handle needles, broken glass, or other sharp/medical waste unless you are trained and equipped.
+  - [ ] Do not handle needles, broken glass, or other sharp/medical waste. For this project, the default is to treat sharps as hazards to report to 311 or park staff, not something to pick up — unless you are there as part of a formal sharps-handling program with proper containers.
   - [ ] Respect all park users, including unhoused neighbors and vendors.
   - [ ] Do not disturb tents or personal belongings. Use 311 or park staff for hazards.
   - [ ] Keep bags small enough to lift safely; don’t overload.
