@@ -46,6 +46,8 @@ Based on 311 complaint data and park layout:
 📸 **After cleanup, retake photos from the exact same spots.**
 
 ## Safety Notes
+- ⚠️ Respect our unhoused neighbors: Do not disturb tents, personal belongings, or individuals.
+- ⚠️ If you see personal property (bags, carts, tents), leave it alone. When in doubt, assume it belongs to someone.
 - ⚠️ Don't pick up needles or sharp objects — report them to 311
 - ⚠️ Wear gloves at all times
 - ⚠️ Don't move large/heavy items alone

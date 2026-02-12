@@ -51,6 +51,8 @@ Based on 311 complaint data (12 complaints in last week alone):
 📸 **After cleanup, retake photos from the exact same spots.**
 
 ## Safety Notes
+- ⚠️ Respect our unhoused neighbors: Do not disturb tents, personal belongings, or individuals.
+- ⚠️ If you see personal property (bags, carts, tents), leave it alone. When in doubt, assume it belongs to someone.
 - ⚠️ Don't pick up needles or sharp objects — report them via SF 311 app or call 311
 - ⚠️ Wear gloves at all times
 - ⚠️ Watch your footing on the hillside, especially if grass is wet
