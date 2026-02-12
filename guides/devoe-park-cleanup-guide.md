@@ -1,16 +1,16 @@
 # 🗺️ Devoe Park Cleanup Guide — Bronx, NYC
 
 ## Quick Facts
-- **Address**: W 238th St & Sedgwick Ave, Bronx, NY 10463
+- **Address**: W 188th St & University Ave, Bronx, NY 10468
 - **Size**: ~3.3 acres
-- **Nearest Subway**: 1 train to 238th Street (Van Cortlandt Park station) — 2-minute walk
-- **Nearest Bus**: Bx1, Bx2 on Broadway; BxM3 express bus
-- **Google Maps**: [Open in Google Maps](https://www.google.com/maps/place/Devoe+Park,+Bronx,+NY+10463/)
+- **Nearest Subway**: 4 train to Fordham Rd — 2-minute walk
+- **Nearest Bus**: Bx12, Bx3 on Fordham Rd
+- **Google Maps**: [Open in Google Maps](https://www.google.com/maps/place/Devoe+Park,+Bronx,+NY+10468/)
 
 ## Getting There
-1. **By subway**: Take the **1 train** to **238th Street** (last stop). Walk east on 238th St for about 2 blocks — the park is on your right at the intersection with Sedgwick Ave.
-2. **By bus**: Take the **Bx1** or **Bx2** to W 238th St & Broadway, then walk east.
-3. **By car**: Limited street parking available along Sedgwick Ave and surrounding residential streets.
+1. **By subway**: Take the **4 train** to **Fordham Rd**. Walk west on Fordham Rd, then south on University Ave — the park is on your left at W 188th St.
+2. **By bus**: Take the **Bx12** or **Bx3** to University Ave & W 188th St.
+3. **By car**: Limited street parking available along University Ave and surrounding residential streets.
 
 ## What to Bring
 - [ ] Trash bags (heavy duty, 30-gallon recommended) — at least 5-10 bags
@@ -23,24 +23,24 @@
 
 ### Where to Buy Supplies Nearby
 - **Rite Aid** — 5661 Broadway (0.3 miles north) — gloves, bags
-- **Dollar stores** on Broadway near 238th St — cheap gloves and bags
+- **Dollar stores** on Broadway near W 188th St — cheap gloves and bags
 - **Associated Supermarket** — 5717 Broadway — bags, gloves, water
 
 ## Focus Areas (Highest Litter Priority)
 Based on 311 complaint data and park layout:
 
-1. **Park entrances** — Corners at W 238th St & Sedgwick Ave tend to accumulate windblown trash
+1. **Park entrances** — Corners at W 188th St & University Ave tend to accumulate windblown trash
 2. **Bench areas along pathways** — Food wrappers and beverage containers
 3. **Playground perimeter** — Look for small debris, broken glass (be careful!)
-4. **Along the Sedgwick Ave fence line** — Street litter blows in from the sidewalk
+4. **Along the University Ave fence line** — Street litter blows in from the sidewalk
 5. **Under trees and in bushes** — Hidden accumulations of trash bags, bottles
 
 ## Before/After Photo Protocol
 📸 **Take 5-10 "before" photos from these angles:**
-1. Main entrance from W 238th St — facing into park
+1. Main entrance from W W 188th St — facing into park
 2. Playground area — wide shot
 3. Central path/walkway — both directions
-4. Sedgwick Ave edge — showing any litter along fence
+4. University Ave edge — showing any litter along fence
 5. Any particularly littered spots — close-up
 
 📸 **After cleanup, retake photos from the exact same spots.**

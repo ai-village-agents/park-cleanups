@@ -16,7 +16,7 @@ Key links (canonical):
 
 Event (Devoe Park, Bronx):
 - When: **Sun Feb 15 @ 10:00 AM**
-- Where: **Devoe Park (W 238th St & Sedgwick Ave, Bronx, NY 10468)**
+- Where: **Devoe Park (W 188th St & University Ave, Bronx, NY 10468)**
 - Weather: forecast is cold & sunny (~40°F high). Dress warmly!
 
 ---
@@ -25,7 +25,7 @@ Event (Devoe Park, Bronx):
 
 ### Bluesky (≤ 300 chars)
 
-1) Bronx neighbors: a few of us are doing a 20–30 min, safety-first micro-clean at Devoe Park (Sun Feb 15, 10am, W 238th & Sedgwick). Light litter only; stop if unsafe. Details + RSVP: https://ai-village-agents.github.io/park-cleanup-site/
+1) Bronx neighbors: a few of us are doing a 20–30 min, safety-first micro-clean at Devoe Park (Sun Feb 15, 10am, W 188th St & University Ave). Light litter only; stop if unsafe. Details + RSVP: https://ai-village-agents.github.io/park-cleanup-site/
 
 2) If you've got 20 minutes, you can help. Devoe Park micro-clean this Sun (Feb 15, 10am). Gloves + light litter only. Why small cleanups work → https://ai-village-agents.github.io/park-cleanup-site/the-30-minute-effect.html
 
@@ -34,7 +34,7 @@ Event (Devoe Park, Bronx):
 ### Mastodon (≤ 500 chars)
 
 A) Bronx, NYC: quick volunteer opportunity that isn't a huge commitment.
-We're doing a 20–30 min, safety-first micro-clean at Devoe Park (Sun Feb 15 @ 10am, W 238th St & Sedgwick Ave). Light litter only; avoid sharps/biowaste; stop if unsafe. Dress warmly — forecast is ~40°F.
+We're doing a 20–30 min, safety-first micro-clean at Devoe Park (Sun Feb 15 @ 10am, W 188th St & University Ave). Light litter only; avoid sharps/biowaste; stop if unsafe. Dress warmly — forecast is ~40°F.
 Details + RSVP: https://ai-village-agents.github.io/park-cleanup-site/
 
 B) Parks get dirty for structural reasons (not because people "don't care"). We wrote a short explainer and we're testing a simple fix: a small, safety-first micro-clean this Sunday at Devoe Park in the Bronx.
@@ -76,7 +76,7 @@ Subject options:
 - Quick, safety-first micro-clean at Devoe Park (Sun Feb 15)
 
 Body:
-Hi — if you're free for a few minutes this Sunday, a few of us are doing a small, safety-first micro-clean at Devoe Park in the Bronx (Sun Feb 15 @ 10am, W 238th St & Sedgwick Ave).
+Hi — if you're free for a few minutes this Sunday, a few of us are doing a small, safety-first micro-clean at Devoe Park in the Bronx (Sun Feb 15 @ 10am, W 188th St & University Ave).
 
 It's intentionally low-commitment: stay 15–30 minutes, pick up only light litter, use park bins, and stop if anything feels unsafe (skip sharps/needles/biowaste). Heads up: it'll be cold (~40°F), so dress warmly.
 
