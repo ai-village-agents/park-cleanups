@@ -37,7 +37,6 @@ from pathlib import Path
 from datetime import datetime
 import requests
 import re
-import tempfile
 
 # Configuration defaults
 REPO_DIR = Path(__file__).parent.parent
@@ -73,20 +72,27 @@ def ensure_monitoring_dir():
         CHANGES_TEXT_FILE.unlink()
 
 def load_previous_state():
-    """Load previous monitoring state from JSON file."""
-    if STATE_FILE.exists():
-        try:
-            with open(STATE_FILE, 'r') as f:
-                return json.load(f)
-        except json.JSONDecodeError:
-            pass
-    return {
+    """Load previous monitoring state from JSON file. Returns (state, exists)."""
+    default_state = {
         "last_check": None,
         "row_count": 0,
         "row_hashes": [],
         "last_row_hash": None,
-        "last_timestamp": None
     }
+    if STATE_FILE.exists():
+        try:
+            with open(STATE_FILE, 'r') as f:
+                data = json.load(f)
+                default_state.update({
+                    "last_check": data.get("last_check"),
+                    "row_count": data.get("row_count", 0),
+                    "row_hashes": data.get("row_hashes", []),
+                    "last_row_hash": data.get("last_row_hash"),
+                })
+                return default_state, True
+        except json.JSONDecodeError:
+            log_message("State file is not valid JSON; reinitializing baseline")
+    return default_state, False
 
 def save_state(state):
     """Save current monitoring state to JSON file."""
@@ -128,7 +134,7 @@ def fetch_sheet_via_csv(sheet_id, sheet_name="Form Responses 1", csv_url=None):
         resolved_csv_url = csv_url
     else:
         resolved_csv_url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
-    log_message(f"Fetching CSV from: {resolved_csv_url}")
+    log_message("Fetching CSV export (URL redacted)")
     
     response = requests.get(resolved_csv_url)
     if response.status_code != 200:
@@ -214,7 +220,6 @@ def create_row_hash(row):
 def detect_new_rows(current_rows, previous_state):
     """Compare current rows with previous state and detect new rows."""
     previous_hashes = previous_state.get("row_hashes", [])
-    previous_count = previous_state.get("row_count", 0)
     
     current_hashes = [create_row_hash(row) for row in current_rows]
     new_rows = []
@@ -250,7 +255,7 @@ def main():
         sys.exit(1)
     
     # Load previous state
-    previous_state = load_previous_state()
+    previous_state, state_found = load_previous_state()
     
     # Fetch sheet data
     rows = None
@@ -277,20 +282,32 @@ def main():
     
     # Detect new rows
     new_rows, current_hashes = detect_new_rows(filtered_rows, previous_state)
-    
-    # Update state
-    new_state = {
-        "last_check": datetime.utcnow().isoformat() + "Z",
-        "row_count": len(filtered_rows),
-        "row_hashes": current_hashes,
-        "last_row_hash": current_hashes[-1] if current_hashes else None,
-        "last_timestamp": datetime.utcnow().isoformat() + "Z"
-    }
-    save_state(new_state)
+    state_changed = (not state_found) or (current_hashes != previous_state.get("row_hashes", []))
+
+    if not state_found:
+        timestamp = datetime.utcnow().isoformat() + "Z"
+        baseline_state = {
+            "last_check": timestamp,
+            "row_count": len(filtered_rows),
+            "row_hashes": current_hashes,
+            "last_row_hash": current_hashes[-1] if current_hashes else None,
+        }
+        save_state(baseline_state)
+        log_message(f"Initialized baseline with {len(filtered_rows)} existing row(s); no alert")
+        sys.exit(0)
     
     # Handle changes
     if new_rows:
         log_message(f"Detected {len(new_rows)} new row(s)")
+        if state_changed:
+            timestamp = datetime.utcnow().isoformat() + "Z"
+            new_state = {
+                "last_check": timestamp,
+                "row_count": len(filtered_rows),
+                "row_hashes": current_hashes,
+                "last_row_hash": current_hashes[-1] if current_hashes else None,
+            }
+            save_state(new_state)
         
         # Create flag file
         flag_data = {
@@ -319,6 +336,15 @@ def main():
         sys.exit(0)  # Exit with success, changes detected
     else:
         log_message("No new rows detected")
+        if state_changed:
+            timestamp = datetime.utcnow().isoformat() + "Z"
+            updated_state = {
+                "last_check": timestamp,
+                "row_count": len(filtered_rows),
+                "row_hashes": current_hashes,
+                "last_row_hash": current_hashes[-1] if current_hashes else None,
+            }
+            save_state(updated_state)
         # Ensure flag files are cleared
         if FLAG_FILE.exists():
             FLAG_FILE.unlink()

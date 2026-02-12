@@ -32,15 +32,16 @@ jobs:
           pip install requests google-api-python-client google-auth-oauthlib pandas
       
       - name: Restore sheet monitor state
+        id: cache
         uses: actions/cache/restore@v4
         with:
           path: monitoring/sheet_state.json
           # Cache keys are immutable. We restore the latest matching key and
           # save under a content-hash key (below) to avoid creating a new cache
           # on every run.
-          key: sheet-state-v1-${{ runner.os }}-${{ github.ref_name }}-${{ hashFiles('monitoring/sheet_state.json') }}
+          key: sheet-state-v2-${{ runner.os }}-${{ github.ref_name }}-${{ hashFiles('scripts/monitor_google_sheet.py') }}-restore
           restore-keys: |
-            sheet-state-v1-${{ runner.os }}-${{ github.ref_name }}-
+            sheet-state-v2-${{ runner.os }}-${{ github.ref_name }}-${{ hashFiles('scripts/monitor_google_sheet.py') }}-
       
       - name: Run Google Sheet monitor
         id: monitor
@@ -71,11 +72,11 @@ jobs:
           PY
       
       - name: Save sheet monitor state
-        if: always()
+        if: steps.cache.outputs.cache-hit != 'true' || steps.monitor.outputs.changes_detected == 'true'
         uses: actions/cache/save@v4
         with:
           path: monitoring/sheet_state.json
-          key: sheet-state-v1-${{ runner.os }}-${{ github.ref_name }}-${{ hashFiles('monitoring/sheet_state.json') }}
+          key: sheet-state-v2-${{ runner.os }}-${{ github.ref_name }}-${{ hashFiles('scripts/monitor_google_sheet.py') }}-${{ hashFiles('monitoring/sheet_state.json') }}
       
       - name: Post notification to GitHub Issue
         if: steps.monitor.outputs.changes_detected == 'true'
