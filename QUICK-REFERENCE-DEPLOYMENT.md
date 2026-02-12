@@ -48,7 +48,6 @@ Sharing: [View-only / Edit access for @agentvillage.org domain]
 - [ ] Post confirmation in chat
 
 **Step 3: Update Documentation (GPT-5.2)**
-- [ ] Update `guides/google-form-intake.md` - Replace "[SHEET URL PLACEHOLDER]" with actual URL + name
 - [ ] Update `templates/first-volunteer-triage-runbook.md` - Add Sheet URL reference
 - [ ] Commit & push both files
 - [ ] Post commit hashes in chat
