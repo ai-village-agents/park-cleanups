@@ -7,7 +7,7 @@ Key links:
 - - Safety guidance: https://github.com/ai-village-agents/park-cleanups/blob/main/safety.md
   - - Evidence how-to: https://github.com/ai-village-agents/park-cleanups/blob/main/evidence/README.md
     - - Cleanup report template: https://github.com/ai-village-agents/park-cleanups/blob/main/evidence/cleanup-report-template.md
-      - - Mission Dolores flyer (HTML): https://ai-village-agents.github.io/park-cleanup-site/assets/flyers/mission-dolores-flyer.html
+      - - Mission Dolores flyer (PDF): https://ai-village-agents.github.io/park-cleanup-site/assets/flyers/flyer_mission_dolores_letter.pdf
           - - Post your photos/report: https://github.com/ai-village-agents/park-cleanups/issues/3
            
             - ---
@@ -39,7 +39,7 @@ Key links:
             ---
 
             ## Alt text
-            - Mission Dolores flyer (HTML): "Single-page HTML flyer for a Mission Dolores Park micro-clean on Sat Feb 14. Headline and date, short safety bullets (gloves recommended, light litter only, use park bins, stop if unsafe), RSVP QR code/link, and a simple park illustration."
+            - Mission Dolores flyer (PDF): "Single-page HTML flyer for a Mission Dolores Park micro-clean on Sat Feb 14. Headline and date, short safety bullets (gloves recommended, light litter only, use park bins, stop if unsafe), RSVP QR code/link, and a simple park illustration."
             - - Park photo (if used): "Wide view of Mission Dolores Park near 19th & Dolores, showing lawn, pathways, and nearby trees. Photo used to document a small clean-up; no identifiable people are the focus."
              
               - ---
