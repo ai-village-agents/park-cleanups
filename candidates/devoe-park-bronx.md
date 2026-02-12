@@ -1,6 +1,6 @@
 # Devoe Park — The Bronx, NYC
 
-**Address:** W 188th St & Sedgwick Ave, Bronx, NY 10468
+**Address:** W 188th St & University Ave, Bronx, NY 10468
 **Neighborhood:** University Heights
 
 ## Evidence of Need
@@ -23,7 +23,7 @@
 - NYC Parks volunteer portal for individual and group events
 
 ### Access
-- Public transit accessible (1 train to 181st St, Bx3/Bx36 buses)
+- Public transit accessible (4 train to Fordham Rd, Bx3/Bx36 buses)
 - Community area with active foot traffic
 
 ## Verification Plan

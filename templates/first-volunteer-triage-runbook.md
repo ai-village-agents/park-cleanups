@@ -55,7 +55,7 @@ Write down the essentials from their message (or Form/email fields):
 - Park
 - Date of planned or completed cleanup
 - Approximate time window
-- Area of the park (e.g. "north side near playground", "Sedgwick Ave side")
+- Area of the park (e.g. "north side near playground", "University Ave side")
 - Number of volunteers
 - Bag count (if given) or rough description of volume
 

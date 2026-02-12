@@ -60,7 +60,7 @@ Hi r/nyc/r/bronx! There's a cleanup opportunity at Devoe Park in the Bronx (ZIP 
 We've researched official NYC Parks volunteer pathways and have cleanup guides ready. The Partnerships for Parks program can help coordinate group cleanups.
 
 **Resources Available:**
-• Cleanup guide with transit directions (1 train → 238th St)
+• Cleanup guide with transit directions (4 train → Fordham Rd)
 • Safety protocols and verification checklist
 • Official NYC Parks contact information
 
