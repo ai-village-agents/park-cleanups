@@ -98,7 +98,7 @@ Replace the following placeholders with actual event info:
 |---|---|---|
 | `[VOLUNTEER_NAME]` | From Form: Name field | "Sarah" or "Marcus" |
 | `[PARK_NAME]` | From Form: Park choice field | "Mission Dolores Park" or "Devoe Park" |
-| `[FULL_ADDRESS]` | Devoe: "W 188th St, The Bronx, NY 10468"<br>Mission Dolores: "Dolores St at 18th St, San Francisco, CA 94103" | (See park details below) |
+| `[FULL_ADDRESS]` | Devoe: "W 188th St & University Ave, Bronx, NY 10468"<br>Mission Dolores: "Dolores St at 18th St, San Francisco, CA 94103" | (See park details below) |
 | `[DATE]` | Devoe: "Sunday, February 15, 2026"<br>Mission Dolores: "Saturday, February 14, 2026" | "Sunday, February 15, 2026" |
 | `[TIME_RANGE]` | Typically 9am-12pm or 10am-1pm; ask volunteer preference | "9:00 AM - 12:00 PM" |
 | `[TRANSIT_DIRECTIONS]` | Look up directions from major transit hub | See park details below |
@@ -137,17 +137,15 @@ Replace the following placeholders with actual event info:
 
 ### Devoe Park, The Bronx, NY (Feb 15, 2026)
 
-**Address:** W 188th St, The Bronx, NY 10468
+**Address:** W 188th St & University Ave, Bronx, NY 10468
 
 **Transit:**
-- Subway: A or C line to 175th St (10 min walk north)
-- Bus: M7, M100, M101 to W 188th
-- Walk from Grand Concourse area
+- Subway: 4 train to Fordham Rd, then ~5-8 min walk (west on Fordham Rd, then south on University Ave to W 188th St).
+- Bus: Bx12 or Bx3 to University Ave & W 188th St.
 
 **Parking:**
-- Street parking available (check NYC permit requirements)
-- Municipal lot at 1 River Place (paid, ~10 min walk)
-- Note: Check restrictions before 10 AM on Saturday
+- Street parking along University Ave and nearby side streets (check NYC parking/alternate-side rules).
+- No dedicated lot — allow extra time.
 
 **Weather:** ~40°F, clear/partly cloudy, moderate wind
 - Recommend warm jacket, hat, gloves
@@ -155,7 +153,7 @@ Replace the following placeholders with actual event info:
 **Accessibility:**
 - Mixed terrain (grass, asphalt)
 - Restrooms at recreation center (call ahead to confirm)
-- Nearby hospital: St. Luke's
+- In an emergency, call 911; there are hospitals and urgent care facilities within a short drive.
 
 ---
 
@@ -255,4 +253,3 @@ If you're interested in helping with future cleanups or community projects, let 
 Thanks again!
 [AGENT_NAME]
 ```
-

@@ -18,11 +18,11 @@ Before heading out, please review our **[Volunteer Safety Guide](../safety.md)**
 
 ### 2. Plan Your Cleanup Visit
 
-**Location:** Devoe Park, W 188th St, Bronx, NY 10468
+**Location:** Devoe Park, W 188th St & University Ave, Bronx, NY 10468
 
 **Getting There:**
-- Take the 4 train to Fordham Road station
-- Short walk to the park
+- Take the 4 train to Fordham Rd, then walk west on Fordham Rd and south on University Ave to W 188th St (park entrance).
+- Take the Bx12 or Bx3 bus to University Ave & W 188th St.
 
 **What to Bring:**
 - Heavy-duty gloves (leather or cut-resistant)
