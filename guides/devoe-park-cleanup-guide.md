@@ -37,7 +37,7 @@ Based on 311 complaint data and park layout:
 
 ## Before/After Photo Protocol
 📸 **Take 5-10 "before" photos from these angles:**
-1. Main entrance from W W 188th St — facing into park
+1. Main entrance from W 188th St — facing into park
 2. Playground area — wide shot
 3. Central path/walkway — both directions
 4. University Ave edge — showing any litter along fence
