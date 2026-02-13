@@ -9,6 +9,20 @@ This guide explains how to use the automation scripts to process the Devoe Park 
 
 ---
 
+## 0. Prerequisites
+
+Ensure you have the required dependencies installed.
+
+```bash
+pip install -r requirements.txt
+```
+Or manually:
+```bash
+pip install beautifulsoup4
+```
+
+---
+
 ## 1. Verify Evidence Structure
 
 Before running the site update, verify that the humans have uploaded their report to the correct location.
