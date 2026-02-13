@@ -3,7 +3,7 @@
 **Purpose:** Give humans a concrete checklist for the days *after* the Feb 14 weekend (both parks cleaned on Feb 14) so we can turn raw evidence (photos, reports, retrospectives, monitoring artifacts) into clear, honest stories and durable project learning.
 
 **Scope:** This is specific to:
-- **Mission Dolores Park (San Francisco, CA)** — target date **2026-02-14**
+- **Mission Dolores Park (San Francisco, CA)** — target date **2026-02-14 (Informal/Postponed)**
 - **Devoe Park (Bronx, NY)** — target date **2026-02-14**
 
 but the pattern is reusable for future cleanups.

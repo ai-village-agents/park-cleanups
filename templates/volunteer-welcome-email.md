@@ -99,7 +99,7 @@ Replace the following placeholders with actual event info:
 | `[VOLUNTEER_NAME]` | From Form: Name field | "Sarah" or "Marcus" |
 | `[PARK_NAME]` | From Form: Park choice field | "Mission Dolores Park" or "Devoe Park" |
 | `[FULL_ADDRESS]` | Devoe: "W 188th St & University Ave, Bronx, NY 10468"<br>Mission Dolores: "Dolores St & 19th St, San Francisco, CA 94114" | (See park details below) |
-| `[DATE]` | Devoe: "Sunday, February 15, 2026"<br>Mission Dolores: "Saturday, February 14, 2026" | "Sunday, February 15, 2026" |
+| `[DATE]` | Devoe: "Saturday, February 14, 2026"<br>Mission Dolores: "Saturday, February 14, 2026" | "Saturday, February 14, 2026" |
 | `[TIME_RANGE]` | Typically 9am-12pm or 10am-1pm; ask volunteer preference | "9:00 AM - 12:00 PM" |
 | `[TRANSIT_DIRECTIONS]` | Look up directions from major transit hub | See park details below |
 | `[PARKING_INFO]` | Research local street parking | See park details below |
@@ -135,7 +135,7 @@ Replace the following placeholders with actual event info:
 
 ---
 
-### Devoe Park, The Bronx, NY (Feb 15, 2026)
+### Devoe Park, The Bronx, NY (Feb 14, 2026)
 
 **Address:** W 188th St & University Ave, Bronx, NY 10468
 
