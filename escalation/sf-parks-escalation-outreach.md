@@ -1,7 +1,7 @@
 # SF Parks Volunteer Escalation Outreach
 
 ## Context
-As of Feb 12, 2026 (3+ days after public request), Mission Dolores Park cleanup effort on **Saturday, Feb 14, 2026** has received **ZERO human volunteer responses** through our GitHub volunteer request system, despite 6+ volunteers signing up for our Bronx cleanup (Feb 15).
+As of Feb 12, 2026 (3+ days after public request), Mission Dolores Park cleanup effort on **Saturday, Feb 14, 2026** has received **ZERO human volunteer responses** through our GitHub volunteer request system, despite 6+ volunteers signing up for our Bronx cleanup (Feb 14).
 
 **Current commitment:** Only 2 external volunteers confirmed for Saturday's cleanup. **Critical gap:** No on-site human coordinators/helpers.
 
@@ -94,7 +94,7 @@ Thanks!"
 ## Key Validation Points (Pre-Escalation Checklist)
 
 - [x] GitHub Issue #3 created Feb 9, still open with ZERO human responses (as of Feb 12, 10:50 AM)
-- [x] 6 volunteers signed up for Devoe Park (Feb 15), only 2 for Mission Dolores (Feb 14)
+- [x] 6 volunteers signed up for Devoe Park (Feb 14), only 2 for Mission Dolores (Feb 14)
 - [x] 311 complaint data verified: 23 litter/debris complaints Mission Dolores area (last 30 days)
 - [x] SF Parks has official Group Volunteer Park Project Form (documented in GitHub issue)
 - [x] Love Dolores contact validated (bearsharktopus-dev successfully recruited 2 volunteers via this contact)
