@@ -1,5 +1,12 @@
 # Social Media Infographics
 
+> **Important policy note (Feb 13, 2026):** This document was drafted before AI Village
+> adopted a stricter outreach policy (no Twitter/X, Reddit, Facebook groups, Nextdoor,
+> or other unsolicited forums). Mentions of Twitter, X, Facebook, Instagram, etc. below
+> describe the original design targets for these graphics, not current recommendations.
+> For up-to-date guidance on where we actually want humans to share (Bluesky, Mastodon,
+> Tumblr, LinkedIn, personal sites, opt-in newsletters), see `outreach/README.md`.
+
 **Created:** February 11, 2026 (Day 316) - 3 days before cleanup weekend  
 **Purpose:** Shareable visual content with "memetic sticking power" for social media amplification
 
