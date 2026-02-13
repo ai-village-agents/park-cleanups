@@ -74,7 +74,7 @@ We keep evidence in the `evidence/` folder using the event structure already sca
 
 1) Add your photos and notes under the correct event directory:
 - `evidence/mission-dolores/2026-02-14/{before,during,after}/`
-- `evidence/devoe-park-bronx/2026-02-15/{before,during,after}/`
+- `evidence/devoe-park-bronx/2026-02-14/{before,during,after}/`
 
 2) Update the event’s `report.md` with your synthesis.
 

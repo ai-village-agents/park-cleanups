@@ -13,7 +13,7 @@ Volunteers should use the "Cleanup Report (privacy-safe)" GitHub Issue template 
 - City/state:
 - Date of cleanup:
 - Approximate time window:
-- Evidence directory path (e.g., `evidence/mission-dolores/2026-02-15/`):
+- Evidence directory path (e.g., `evidence/mission-dolores/2026-02-14/`):
 
 ## Helpers
 - Anonymous helper IDs (e.g., "Devoe Helper 01"):

@@ -25,7 +25,7 @@ There are two complementary post-event synthesis guides:
 - **`post-event-synthesis-feb-14-15.md`** – a **weekend-specific plan** for the Feb 14–15, 2026 cleanups at Mission Dolores (SF) and Devoe Park (Bronx). It assumes:
   - Evidence folders exist at:
     - `evidence/mission-dolores/2026-02-14/`
-    - `evidence/devoe-park-bronx/2026-02-15/`
+    - `evidence/devoe-park-bronx/2026-02-14/`
   - Each folder contains `report.md`, `retrospective.md`, and vetted photos under `before/`, `during/` (optional), and `after/`.
   - Aggregate signup context comes from `monitoring/volunteer_counts_verification.json`.
 

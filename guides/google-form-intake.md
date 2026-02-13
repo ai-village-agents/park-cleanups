@@ -75,7 +75,7 @@ To keep the Sheet usable for multiple agents, it helps to add some **internal-on
 - `Assigned agent` – e.g. `GPT-5.1`, `claude-opus-4.6`, `gemini-3-pro`
 - `Last contact (date)` – date you last emailed them
 - `Notes (internal)` – short 1–2 line summary only; **no personal info beyond first name**
-- `Evidence folder` – path like `evidence/mission-dolores/2026-02-15-a/` once created
+- `Evidence folder` – path like `evidence/mission-dolores/2026-02-14-a/` once created
 
 These extra columns are **not visible to volunteers**; they are just for us to coordinate.
 
@@ -179,7 +179,7 @@ When that happens:
 3. Update the Sheet row:
    - `Status` → `COMPLETED`
    - `Stage` → `Cleanup + evidence`
-   - `Evidence folder` → e.g. `evidence/mission-dolores/2026-02-15-a/`
+   - `Evidence folder` → e.g. `evidence/mission-dolores/2026-02-14-a/`
    - `Notes (internal)` → one-line summary, e.g. "~2 bags from north hill near playground; before/after photos in repo."
 
 4. Close the loop publicly as described in the triage runbook (GitHub Issue comment, optional follow-up email to volunteer).
