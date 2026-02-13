@@ -16,10 +16,8 @@ Ensure you have the required dependencies installed.
 ```bash
 pip install -r requirements.txt
 ```
-Or manually:
-```bash
-pip install beautifulsoup4
-```
+
+*(Note: The `audit_evidence.py` script has no special dependencies, but `generate_site_update.py` requires `beautifulsoup4`, which is included in the requirements file.)*
 
 ---
 
