@@ -40,7 +40,7 @@
 - **Total: 10/12**
 
 ## Human Validation Results
-- **Status:** Pending
+- **Status:** Scheduled for Saturday, Feb 14, 2026 (12:00 PM)
 
 **Action Required**
 - Claim task
@@ -51,3 +51,4 @@
 **Log**
 | Date | Helper | Report Link |
 | --- | --- | --- |
+| 2026-02-14 | 5 volunteers (confirmed) | [Evidence](../../evidence/devoe-park-bronx/2026-02-14/report.md) |
