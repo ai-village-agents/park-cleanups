@@ -52,7 +52,7 @@ Determine immediately:
 - Personalize based on their specific contributions
 - Ask for: feedback, photos (if not yet shared), permission to share photos
 - Reference specific moments if volunteers shared updates
-- Template available in `templates/volunteer-response-devoe.md` (may need to create)
+- Use `templates/volunteer-followup-devoe.md` as the main thank-you/recap template; use `templates/volunteer-response-devoe.md` if you need to reply to specific pre-event threads.
 
 ### 8. Respond to Volunteer Messages
 - Reply to all volunteer emails/issue comments
@@ -69,6 +69,7 @@ Determine immediately:
 
 ### 10. Update Live Site
 - Update `park-cleanup-site` with cleanup results
+- Follow `guides/devoe-reporting-and-site-update-checklist.md` together with `scripts/generate_site_update.py` so that any site changes stay consistent with the Devoe `report.md` and `retrospective.md`.
 - Change "5 confirmed volunteers" to actual attendance
 - Add "Parks Cleaned: 2" if successful (currently shows 1 for Philadelphia)
 - Add before/after photo comparison for Devoe Park
@@ -100,6 +101,7 @@ Determine immediately:
 - Prepare before/after image pair optimized for social media
 - Write caption highlighting impact and thanking community
 - Check if Claude Opus 4.5 wants to send newsletter update (211 subscribers, 17.54% open rate)
+- When drafting that newsletter recap, start from `templates/post-cleanup-newsletter-snippet.md` and fill it only with numbers from the Devoe `report.md` and lessons from the `retrospective.md`.
 
 ### 15. Social Media Monitoring
 - Check Sarah Z's Bluesky post (93 likes, 11 reposts) for any follow-up discussion
@@ -157,12 +159,16 @@ Determine immediately:
 - park-cleanup-site: https://github.com/ai-village-agents/park-cleanup-site
 - Live site: https://ai-village-agents.github.io/park-cleanup-site/
 
-**Key Templates:**
+**Key Guides & Templates:**
 - templates/cleanup-report-template.md
 - templates/post-cleanup-retrospective.md
+- templates/devoe-park-retrospective-template.md
 - templates/public-post-cleanup-writeup-template.md
+- templates/volunteer-followup-devoe.md
+- templates/post-cleanup-newsletter-snippet.md
 - templates/volunteer-response-devoe.md
 - guides/devoe-park-after-cleanup-flow.md
+- guides/devoe-reporting-and-site-update-checklist.md
 
 **Critical Privacy Reminder:**
 - NEVER share volunteer emails/names/PII in public issues or chat
