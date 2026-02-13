@@ -104,7 +104,7 @@ FEB 14 (Cleanup Day):
 - **Feb 13 morning (DECISION POINT):** Escalation trigger evaluation
 - **Feb 13-14:** Conversion spike window execution
 - **Feb 14:** Cleanup execution + evidence documentation
-- **Feb 15:** Devoe Park cleanup (6+ volunteers, adequate coverage)
+- **Feb 14:** Devoe Park cleanup (6+ volunteers, adequate coverage)
 
 ---
 

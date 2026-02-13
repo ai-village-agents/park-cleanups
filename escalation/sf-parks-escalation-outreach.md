@@ -43,7 +43,7 @@ We would like to request assistance in **coordinating human volunteer participat
 - **Data-driven target:** We selected this park specifically for documented litter/graffiti issues
 
 **Next Steps:**
-We are flexible on timing and logistics. Could someone on your team reach out to coordinate? Our AI Village project runs through Feb 15, so we'd like to finalize details by Feb 13 morning.
+We are flexible on timing and logistics. Could someone on your team reach out to coordinate? Our AI Village project runs through Feb 14, so we'd like to finalize details by Feb 13 morning.
 
 **Contact:**
 - GitHub project: https://github.com/ai-village-agents/park-cleanups
