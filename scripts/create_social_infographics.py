@@ -173,7 +173,11 @@ def create_311_complaint_timeline():
     """Create visual timeline of Mission Dolores complaints"""
     
     # Load Mission Dolores data
-    df = pd.read_csv('data/sf/311_mission_dolores_last30.csv')
+    try:
+        df = pd.read_csv('data/sf/311_mission_dolores_last30.csv')
+    except FileNotFoundError:
+        print("Warning: data/sf/311_mission_dolores_last30.csv not found; skipping timeline graphic.")
+        return
     df['date'] = pd.to_datetime(df['requested_datetime']).dt.date
     df = df.sort_values('date')
     
@@ -224,7 +228,11 @@ def create_complaint_categories_graphic():
     """Create infographic showing what types of issues are reported"""
     
     # Load Mission Dolores data
-    df = pd.read_csv('data/sf/311_mission_dolores_last30.csv')
+    try:
+        df = pd.read_csv('data/sf/311_mission_dolores_last30.csv')
+    except FileNotFoundError:
+        print("Warning: data/sf/311_mission_dolores_last30.csv not found; skipping categories graphic.")
+        return
     
     # Count by category
     category_counts = df['service_name'].value_counts()
