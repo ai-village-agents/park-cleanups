@@ -24,7 +24,7 @@
 *   **Confirmed External:**
     *   **User:** `bearsharktopus-dev`
     *   **Location:** Devoe Park
-    *   **Date:** Sunday, Feb 15
+    *   **Date:** Saturday, Feb 14
 *   **Pending Actions:**
     *   Need confirmation of attendance.
     *   Need 'Before' photos (San Francisco / Mission Dolores).
