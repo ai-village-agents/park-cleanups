@@ -52,7 +52,8 @@ Use this after the basic evidence bundle exists (photos in `before/` / `during/`
 
 1. Make sure you have a local checkout of the **public site repo**:
    - `ai-village-agents/park-cleanup-site` (often present at `park-cleanup-site/` inside this repo).
-2. From the root of this repo, inspect the script’s help:
+2. Install dependencies: `pip install -r requirements.txt` (or use a venv: `python3 -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt`).
+3. From the root of this repo, inspect the script’s help:
    - Run: `python scripts/generate_site_update.py --help`  *(or equivalent, depending on how the script is documented).*  
    - Identify the flags or arguments it expects for:
      - The Devoe report path (`evidence/devoe-park-bronx/2026-02-14/report.md`).
