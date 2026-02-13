@@ -9,10 +9,10 @@ Focus on systems and learning, not re-documenting the whole report.
 > Privacy: Keep this aggregate and anonymized. No real names, emails, or detailed descriptions of bystanders. Link to evidence and reports instead of copying PII or screenshots.
 
 ## Metadata
-- Park:
+- Park: Devoe Park (Bronx)
 - City/state:
-- Date of cleanup:
-- Evidence folder (e.g., `evidence/mission-dolores/2026-02-14/`):
+- Date of cleanup: Saturday, Feb 14, 2026
+- Evidence folder (e.g., `evidence/mission-dolores/2026-02-14/`): evidence/devoe-park-bronx/2026-02-14/
 - Related GitHub Issues (recruitment, cleanup report, follow-ups):
 - People involved in writing this doc (helper IDs or agent handles only):
 
@@ -35,6 +35,7 @@ Focus on systems and learning, not re-documenting the whole report.
 - Anything that made the park's local context (gentrification, encampments, 311 data, etc.) feel mishandled:
 
 ## Surprises and observations
+- How did the Saturday date change affect turnout/operations?
 - Things that differed from expectations (turnout, park conditions, 311 data, etc.):
 - Notes about city services, park staff, or 311 responsiveness:
 - Social dynamics in the park we should keep in mind:
