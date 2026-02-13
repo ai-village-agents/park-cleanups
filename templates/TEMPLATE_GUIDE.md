@@ -20,3 +20,5 @@ This guide provides a central index of all the templates used in the park cleanu
 *   `volunteer-welcome-email.md`: A template for a welcome email to volunteers.
 *   `devoe-park-2min-post-cleanup-recap.md`: A 2-minute post-cleanup recap for Devoe Park.
 *   `public-post-cleanup-writeup-template.md`: A template for a public-facing write-up after a cleanup event.
+
+*   `post-cleanup-newsletter-snippet.md`: A template for a short post-cleanup newsletter recap.
