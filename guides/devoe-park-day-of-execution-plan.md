@@ -1,1 +1,56 @@
-# Devoe Park Cleanup: Day-Of Execution Plan\n\nThis document provides a consolidated, step-by-step operational plan for the Devoe Park cleanup event on Saturday, February 14th. It synthesizes all existing guides and protocols into a single, actionable checklist for the on-site lead and volunteers.\n\n## Key Resources\n\nThis plan references the following critical documents. The on-site lead should have these readily available (digitally or printed):\n\n*   **For Volunteers:** [Devoe Park Day-Of Info Sheet](./devoe-park-day-of-info-sheet.md)\n*   **For On-Site Lead:** [Day-Of Briefing Script](./devoe-park-day-of-briefing-script.md)\n*   **Live Coordination:** [Volunteer Coordination Thread (GitHub Issue #1)](https://github.com/ai-village-agents/park-cleanups/issues/1)\n*   **Evidence Protocol:** [Evidence Collection Guide](./day-of-operations-checklist.md) (See 'Evidence Collection' section)\n\n---\n\n## Operational Flow & Checklist\n\n### 1. Pre-Event (Responsibility: On-Site Lead)\n\n- [ ] **11:45 AM ET (T-15 mins):** Arrive at the designated meetup point (W 188th St & University Ave).\n- [ ] **11:50 AM ET (T-10 mins):** Post a message in the [coordination thread](https://github.com/ai-village-agents/park-cleanups/issues/1) confirming your arrival and exact location (e.g., "I'm here, wearing a blue hat near the park entrance").\n\n### 2. Event Start (12:00 PM ET)\n\n- [ ] **Gather Volunteers:** Welcome attendees as they arrive.\n- [ ] **Deliver Briefing:** Once the group has assembled, read the [Day-Of Briefing Script](./devoe-park-day-of-briefing-script.md) aloud to the group. This is critical for safety and alignment.\n- [ ] **Capture "Before" Photos:** Before any cleaning begins, take several photos of the target areas. Follow the guidelines in the evidence protocol.\n\n### 3. During Cleanup (12:15 PM - 1:15 PM ET)\n\n- [ ] **Monitor & Support:** Ensure volunteers are following safety procedures, especially regarding sharps.\n- [ ] **Capture "During" Photos:** Take photos of the volunteers in action.\n\n### 4. Event End (~1:15 PM ET)\n\n- [ ] **Final Bag Count:** Gather all collected trash bags into one location and count them.\n- [ ] **Capture "After" Photos:** Take photos of the cleaned areas (from the same angles as the "before" shots) and the collected bags.\n- [ ] **Thank Volunteers:** Thank everyone for their time and effort.\n\n### 5. Post-Event (Responsibility: On-Site Lead or Designated Agent)\n\n- [ ] **ASAP:** Ensure proper disposal of the collected trash.\n- [ ] **By End-of-Day:** Submit the evidence by opening a new "Cleanup Report" issue and uploading the photos to the `evidence/devoe-park-bronx/2026-02-14/` directory in this repository.
+# Devoe Park Cleanup: Day-Of Execution Plan
+
+High-contrast, phone-friendly checklist for Saturday, February 14th (Devoe Park, Bronx).
+
+## Key Resources
+
+- **For Volunteers:** [Devoe Park Day-Of Info Sheet](./devoe-park-day-of-info-sheet.md)
+- **For On-Site Lead:** [Day-Of Briefing Script](./devoe-park-day-of-briefing-script.md)
+- **Live Coordination:** [Volunteer Coordination Thread (GitHub Issue #1)](https://github.com/ai-village-agents/park-cleanups/issues/1)
+- **Evidence Protocol:** [Evidence Collection Guide](./day-of-operations-checklist.md)
+
+## Safety & Protocols (Read First)
+
+- [ ] **NO SHARPS — If you see a needle, STOP. Do not touch. Report to 311.**
+- [ ] **Gloves on, closed-toe shoes, use grabbers when available.**
+
+## Evidence Quick Reference
+
+- [ ] **Evidence path:** `evidence/devoe-park-bronx/2026-02-14/` (store before/, during/, after/ here).
+- [ ] **Report:** copy `templates/cleanup-report-template.md` into that folder as `report.md` and fill it in.
+- [ ] **Linking:** include paths and counts in `report.md` when you submit.
+
+---
+
+## Operational Flow & Checklist
+
+### 1. Pre-Event (On-Site Lead)
+
+- [ ] **11:45 AM ET:** Arrive at W 188th St & University Ave (meetup point).
+- [ ] **11:50 AM ET:** Post your arrival and exact location in the [coordination thread](https://github.com/ai-village-agents/park-cleanups/issues/1) (e.g., "Here, blue hat near park entrance").
+
+### 2. Event Start (12:00 PM ET)
+
+- [ ] **Safety reminder:** Re-read **NO SHARPS** aloud; everyone knows to call 311 and never touch needles.
+- [ ] **Gather volunteers:** Welcome and group up.
+- [ ] **Deliver briefing:** Read the [Day-Of Briefing Script](./devoe-park-day-of-briefing-script.md) verbatim.
+- [ ] **Capture BEFORE photos:** Same angles you will re-use later. **PRIVACY FIRST:** Avoid faces of bystanders or unhoused neighbors; focus on trash and the cleaning.
+
+### 3. During Cleanup (12:15 PM - 1:15 PM ET)
+
+- [ ] **Monitor and support:** Check on volunteers; enforce **NO SHARPS** rule.
+- [ ] **Capture DURING photos:** Action shots of cleanup, not faces. **PRIVACY FIRST:** Avoid capturing faces; focus on trash and cleaning.
+
+### 4. Event End (~1:15 PM ET)
+
+- [ ] **Final bag count:** Stage all bags together; count and note the total.
+- [ ] **Capture AFTER photos:** Same angles as before; include bag pile. **PRIVACY FIRST:** Avoid faces; focus on cleaned areas.
+- [ ] **Thank volunteers:** Quick appreciation and next steps for evidence.
+
+### 5. Post-Event (On-Site Lead or Designated Agent)
+
+- [ ] **ASAP:** Ensure collected trash is disposed of properly.
+- [ ] **Submit evidence (pick one):**
+  - [ ] **GitHub:** Open a new "Cleanup Report" issue; upload photos to `evidence/devoe-park-bronx/2026-02-14/`.
+  - [ ] **Email:** Send photos to `claude-opus-4.6@agentvillage.org` with subject `Devoe Park Cleanup - Your Name`.
+- [ ] **Complete `report.md`:** In `evidence/devoe-park-bronx/2026-02-14/`, fill `report.md` (from the template) with counts, links to photos, and any notes.
