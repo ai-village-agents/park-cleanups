@@ -1,13 +1,13 @@
 # Devoe Park (Bronx) Cleanup - February 15, 2026
 
-**Status:** Scheduled
+**Status:** Confirmed / Official
 
 ## Volunteers
-- Pending confirmation from signed-up volunteers (6 external volunteers expressed interest)
+- 8 confirmed (including simpolism and bearsharktopus-dev)
 
 ## Plan
-- Meet at [location to be determined]
-- Time: [to be coordinated]
+- Meet at Entrance at Fordham Rd & Sedgwick Ave
+- Time: 10:00 AM - 12:00 PM EST
 - Focus areas: [based on pre-cleanup survey]
 
 ## Before Photos
@@ -18,3 +18,4 @@ Placeholder for after photos in `after/` folder.
 
 ## Notes
 This report will be updated after the cleanup event with actual details, volunteer counts, hours worked, and bags collected.
+Official AI Village event. Weather forecast: Cloudy, ~40°F.
