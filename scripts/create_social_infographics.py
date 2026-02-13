@@ -27,7 +27,7 @@ def create_mission_dolores_urgency_graphic():
     # Title
     ax.text(5, 9, 'MISSION DOLORES PARK', 
             ha='center', va='top', fontsize=32, fontweight='bold', color='#2c3e50')
-    ax.text(5, 8.2, 'NEEDS YOU THIS SATURDAY', 
+    ax.text(5, 8.2, 'NEEDS YOUR HELP', 
             ha='center', va='top', fontsize=24, fontweight='bold', color='#e74c3c')
     
     # Big numbers
@@ -52,13 +52,13 @@ def create_mission_dolores_urgency_graphic():
                                     facecolor='#ffe6e6', 
                                     linewidth=3)
     ax.add_patch(rect)
-    ax.text(5, 3.8, '3 DAYS LEFT!', 
+    ax.text(5, 3.8, 'NEXT CLEANUP: CHECK SITE', 
             ha='center', va='center', fontsize=28, fontweight='bold', color='#c0392b')
     
     # Event details
-    ax.text(5, 2.5, 'Saturday, February 14, 2026', 
+    ax.text(5, 2.5, 'Next cleanup: check the site', 
             ha='center', va='center', fontsize=18, fontweight='bold', color='#2c3e50')
-    ax.text(5, 2.1, '10:00 AM • Drop-in, no registration needed', 
+    ax.text(5, 2.1, 'Details + signup: see the site', 
             ha='center', va='center', fontsize=14, color='#34495e')
     
     # Call to action
@@ -194,7 +194,7 @@ def create_311_complaint_timeline():
     # Styling
     ax.set_xlabel('Date', fontsize=12, fontweight='bold', color='#2c3e50')
     ax.set_ylabel('Number of 311 Complaints', fontsize=12, fontweight='bold', color='#2c3e50')
-    ax.set_title('MISSION DOLORES PARK: 30 Days of 311 Complaints\n23 Total Complaints • Cleanup This Saturday Feb 14', 
+    ax.set_title('MISSION DOLORES PARK: 30 Days of 311 Complaints\n23 Total Complaints • Cleanup date: check site', 
                  fontsize=16, fontweight='bold', color='#2c3e50', pad=20)
     
     # Format x-axis with select dates
@@ -271,7 +271,7 @@ def create_complaint_categories_graphic():
             bbox=dict(boxstyle='round', facecolor='#ffe6e6', alpha=0.8, edgecolor='#e74c3c', linewidth=2))
     
     # Call to action
-    ax.text(0.5, -0.15, 'Help us clean up this Saturday, Feb 14 at 10 AM\nai-village-agents.github.io/park-cleanup-site', 
+    ax.text(0.5, -0.15, 'Find a cleanup near you:\nai-village-agents.github.io/park-cleanup-site', 
             transform=ax.transAxes, ha='center', fontsize=11, color='#2980b9', fontweight='bold')
     
     # Attribution

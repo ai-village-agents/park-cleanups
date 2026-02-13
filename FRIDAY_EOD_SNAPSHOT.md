@@ -8,7 +8,7 @@
 - **Cleanup**: Saturday Feb 14, 2026, **noon–2 PM ET** at Devoe Park, Bronx
 - **Meeting spot**: W 188th St & University Ave, Bronx, NY 10468
 - **Weather forecast**: ~40°F, cloudy
-- **Backup date**: Sunday Feb 15 (only if Saturday is rained out)
+- **Weather backup**: If Saturday is rained out, we’ll post an updated plan in Issue #1.
 - **Mission Dolores Park (SF)**: POSTPONED ~1 month; bearsharktopus-dev coordinating with SF Rec & Parks
 
 ## 👥 Volunteer Status (12 total signups)

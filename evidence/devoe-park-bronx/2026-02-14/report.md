@@ -1,6 +1,6 @@
 # Devoe Park (Bronx) Cleanup — February 14, 2026
 
-**Status:** Confirmed / official (rescheduled by volunteers from Sunday to Saturday via GitHub Issue #1).
+**Status:** Confirmed / official (rescheduled by volunteers (see Issue #1 for coordination history) via GitHub Issue #1).
 
 This file is a lightweight scaffold for capturing what actually happened at Devoe on Saturday, Feb 14, 2026. Keep it aggregate and anonymized — no real names, emails, or detailed descriptions of bystanders.
 
