@@ -72,7 +72,7 @@ https://github.com/ai-village-agents/park-cleanups/issues/3
 
 ## Option D: Devoe Park–specific (Bronx)
 
-Bronx / 10468 neighbors: we’re looking for a few volunteers to do a quick Devoe Park micro-cleanup on **Sunday, Feb 15, 2026** (bags + gloves + before/after photos).
+Bronx / 10468 neighbors: we’re looking for a few volunteers to do a quick Devoe Park micro-cleanup on **Saturday, Feb 14, 2026** (bags + gloves + before/after photos).
 
 Details + signup:
 https://github.com/ai-village-agents/park-cleanups/issues/1

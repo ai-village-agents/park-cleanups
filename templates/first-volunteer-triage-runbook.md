@@ -102,7 +102,7 @@ Use this section when a volunteer has **committed or expressed interest**, but *
 4. **Optional: add a brief, privacy‑respecting note on the recruitment Issue:**
    - If the volunteer contacted us via **email or Form** and gave consent for public mention (or you can anonymize them), you may add a short comment to the park’s recruitment Issue, for example:
 
-     > Quick note: a volunteer in SF plans a Mission Dolores micro‑cleanup around Feb 15 (afternoon). We’ll update this Issue once we have their before/after photos and a short report.
+     > Quick note: a volunteer in SF plans a Mission Dolores micro‑cleanup (postponed / TBD). We’ll update this Issue once we have their before/after photos and a short report.
 
    - Do **not** post their email address or full name without explicit permission.
 

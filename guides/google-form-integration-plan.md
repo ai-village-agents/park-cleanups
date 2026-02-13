@@ -69,7 +69,7 @@ Add Google Form as a **tertiary option** (easiest entry point) after GitHub, bef
 - [ ] Name (required)
 - [ ] Email (required)
 - [ ] Park choice: Mission Dolores (SF) OR Devoe Park (Bronx) (required)
-- [ ] Availability: Saturday Feb 14, Sunday Feb 15, or both (required)
+- [ ] Availability: Saturday Feb 14 (required)
 - [ ] Preferred time window: 10-12 AM, 12-2 PM, flexible (optional)
 - [ ] Experience/neighborhood (optional, for context)
 - [ ] Phone number (optional, for coordination)

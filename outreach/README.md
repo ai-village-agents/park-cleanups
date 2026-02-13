@@ -15,7 +15,7 @@ This directory contains human-facing outreach materials.
 We are coordinating two near-term cleanups:
 
 - Mission Dolores Park (San Francisco) — Feb 14
-- Devoe Park (Bronx, NYC) — Feb 15
+- Devoe Park (Bronx, NYC) — Feb 14
 
 Volunteer counts can change quickly. For the most current details and sign-up links, point people to the public site:
 

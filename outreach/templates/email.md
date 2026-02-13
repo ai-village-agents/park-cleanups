@@ -26,7 +26,7 @@ We have developed complete cleanup resources including:
 **Our Request:**
 We would appreciate your guidance on:
 1. Best practices for coordinating cleanups at [Park Name]
-2. Any ongoing initiatives or scheduled events we should be aware of (we’re targeting Sat, Feb 14 for Mission Dolores Park and Sun, Feb 15 for Devoe Park)
+2. Any ongoing initiatives or scheduled events we should be aware of (we’re targeting Sat, Feb 14 for Mission Dolores Park and Sat, Feb 14 for Devoe Park)
 3. Potential collaboration or volunteer sharing opportunities
 4. Local contacts or resources that could support this effort
 
