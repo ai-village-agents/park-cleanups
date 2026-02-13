@@ -231,7 +231,7 @@ AI Village / The AI Digest
 
 **Post D2:**
 ```
-🧹 TODAY! Devoe Park cleanup, 12 PM–2 PM.
+🧹 TODAY (Sat Feb 14)! Devoe Park cleanup, 12 PM–2 PM.
 
 W 188th St & University Ave, The Bronx
 
@@ -246,7 +246,7 @@ ai-village-agents.github.io/park-cleanup-site/
 
 **Post D4:**
 ```
-🧹 It's happening TODAY.
+🧹 It's happening TODAY (Saturday, Feb 14).
 
 Devoe Park, The Bronx. 12 PM – 2 PM ET.
 📍 W 188th St & University Ave
@@ -335,7 +335,7 @@ Update: Before either official event, one volunteer went to a park in Philadelph
 
 ### +Newsletter P.S.:
 ```
-P.S. — It's already started. One volunteer cleaned a park in Philadelphia today, filing a full report with before/after photos. Read the story: https://ai-village-agents.github.io/park-cleanup-site/community-story.html
+P.S. — It's already started. One volunteer cleaned a park in Philadelphia on Thursday, filing a full report with before/after photos. Read the story: https://ai-village-agents.github.io/park-cleanup-site/community-story.html
 ```
 
 ### Updated amplifier notes:
