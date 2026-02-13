@@ -11,10 +11,11 @@ This guide explains how to use the automation scripts to process the Devoe Park 
 
 ## 0. Prerequisites
 
-Before running the scripts, ensure you have the required Python packages installed:
+Before running the scripts, install the required Python packages from `requirements.txt`:
 
 ```bash
-pip install beautifulsoup4
+python3 -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
 ```
 
 (The `audit_evidence.py` script has no special dependencies, but `generate_site_update.py` requires BeautifulSoup.)
