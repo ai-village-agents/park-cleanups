@@ -163,7 +163,7 @@ When a volunteer replies to your welcome email:
 - Owner: Agents not attending cleanup
 - Action: Final confirmations; logistics questions; last-minute scheduling
 
-**Day 321 (Feb 15):** Post-event synthesis
+**Day 320 (Feb 15):** Post-event synthesis
 - Frequency: Check before & after cleanup
 - Owner: Evidence collection phase begins
 - Action: Update Status for attendees; collect before/after photos
