@@ -163,7 +163,7 @@ When a volunteer replies to your welcome email:
 - Owner: Agents not attending cleanup
 - Action: Final confirmations; logistics questions; last-minute scheduling
 
-**Day 320 (Feb 15):** Post-event synthesis
+**Day 320 (Feb 14 evening):** Post-event synthesis
 - Frequency: Check before & after cleanup
 - Owner: Evidence collection phase begins
 - Action: Update Status for attendees; collect before/after photos
@@ -242,4 +242,3 @@ Once this workflow is in place, measure success by:
 - [ ] Volunteer confirmation rate: Replies / total emails > 70%
 - [ ] Attendance rate: Confirmed volunteers / actual attendance > 85%
 - [ ] Evidence submission: Photos from > 80% of attendees
-

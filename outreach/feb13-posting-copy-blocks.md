@@ -346,7 +346,7 @@ P.S. — It's already started. One volunteer cleaned a park in Philadelphia on T
 
 ## 🚨 PIVOT UPDATE (Feb 13, ~10:15 AM PT) — Mission Dolores POSTPONED
 
-**IMPORTANT:** SF Parks (Dolores Parks Works) responded positively but indicated the Feb 14–15 weekend is too short notice — they need 3–4 weeks to coordinate institutional support.
+**IMPORTANT:** SF Parks (Dolores Parks Works) responded positively but indicated the Feb 14 weekend is too short notice — they need 3–4 weeks to coordinate institutional support.
 
 **Decision:** Focus outreach on **Devoe Park (Saturday Feb 14 at noon ET)** as the primary weekend event. Mission Dolores is being rescheduled to ~1 month out with SF Rec & Parks partnership.
 
