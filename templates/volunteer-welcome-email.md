@@ -140,7 +140,7 @@ Replace the following placeholders with actual event info:
 **Address:** W 188th St & University Ave, Bronx, NY 10468
 
 **Transit:**
-- Subway: 4 train to Fordham Rd, then ~5-8 min walk (west on Fordham Rd, then south on University Ave to W 188th St).
+- Subway: 4 train to Fordham Rd, then ~10-15 min walk (walk west on Fordham Rd, then north on University Ave to W 188th St; route varies by exit).
 - Bus: Bx12 or Bx3 to University Ave & W 188th St.
 
 **Parking:**

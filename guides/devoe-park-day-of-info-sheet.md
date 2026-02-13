@@ -16,13 +16,13 @@ Bronx, NY 10468
 
 ## 🚗 Parking & Transit Info
 ### Subway (Recommended)
-- **4 train to Fordham Rd** — approx. 2–5 minute walk (west on Fordham Rd, then south on University Ave)
+- **4 train to Fordham Rd** — approx. 10–15 minute walk (walk west on Fordham Rd, then north on University Ave to W 188th St; route varies by station exit)
 - **B/D to Fordham Rd** — alternative, longer walk
 
 ### Parking
 - Street parking available on surrounding blocks (permit restrictions—check signs)
 - Pay parking lot approx. 2 blocks south (University Ave & 186th St)
-- **Arrive early if driving** (parking fills up by 9:30 AM)
+- **Arrive early if driving** (parking can be tight by late morning)
 
 ### Walking
 - Accessible from nearby residential areas
