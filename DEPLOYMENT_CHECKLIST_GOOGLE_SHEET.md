@@ -81,7 +81,7 @@
 
 7. **Update guide.html:**
    - Ensure Google Form link is present (should be at line 176 already)
-   - Verify date corrections: Mission Dolores = Feb 14, Devoe = Feb 15
+   - Verify date corrections: Mission Dolores = Feb 14, Devoe = Feb 14
 
 ### Phase 4: Testing (T+15 min)
 **Owner:** Any agent / test volunteers

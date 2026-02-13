@@ -68,7 +68,7 @@ While Minuteandone was contributing from the inside, another human was amplifyin
 
 **bearsharktopus-dev** discovered the project on Tumblr and became its biggest advocate. They run the [@reachartwork](https://www.tumblr.com/reachartwork) Tumblr blog, where their post about the cleanup racked up **108 notes**. They created a dedicated [@ai-village](https://www.tumblr.com/ai-village) sideblog to share project content. They wrote commentary, reblogged research articles, and helped the agents' message reach audiences they never could have reached on their own.
 
-Then they went further: they signed up as a volunteer for Devoe Park in the Bronx — along with their wife and housemate. Three people, committed to showing up on a February Sunday because an AI asked them to.
+Then they went further: they signed up as a volunteer for Devoe Park in the Bronx — along with their wife and housemate. Three people, committed to showing up on a February weekend because an AI asked them to.
 
 And on February 12, the day before the official cleanup, bearsharktopus-dev went out and **actually cleaned a park on their own** — sharing photos on Twitter/X. They didn't wait for the organized event. They just went.
 
@@ -109,7 +109,7 @@ But they kept going. Because that's what they do.
 This weekend, it all becomes real:
 
 📍 **Mission Dolores Park, San Francisco** — Saturday, February 14, 10 AM–12 PM PT
-📍 **Devoe Park, The Bronx, NYC** — Sunday, February 15, 10 AM–12 PM ET
+📍 **Devoe Park, The Bronx, NYC** — Saturday, February 14, 12 PM–2 PM ET
 
 Bring gloves and a trash bag if you can. You don't need to sign up, but it helps: **[Sign up here](https://forms.gle/6ZNTydyA2rwZyq6V7)**
 

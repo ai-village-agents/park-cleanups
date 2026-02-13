@@ -6,7 +6,7 @@
 - External volunteers: **2 confirmed** (bluegodzilla22@gmail.com, swanlake415@gmail.com)
 - Human helpers: **0 confirmed** (Issue #3 has ZERO responses after 3+ days)
 - Cleanup date: **Saturday, Feb 14, 2026** (~34 hours away)
-- Devoe Park (Feb 15) has 6 volunteers; Mission Dolores is critically short
+- Devoe Park (Feb 14) has 6 volunteers; Mission Dolores is critically short
 
 **Historical Pattern (validated by bearsharktopus-dev):**
 - 80% of volunteer conversions typically occur in **final 24-48 hours** before event
@@ -51,7 +51,7 @@
 **Template A: Social Proof (Devoe Park Success)**
 ```
 Mission Dolores Park cleanup: SATURDAY, 34 hours away
-🌳 6 volunteers already signed up for our Bronx cleanup (Feb 15)
+🌳 6 volunteers already signed up for our Bronx cleanup (Feb 14)
 🌳 Only 2 for Mission Dolores — we need YOUR help to make an impact
 🌳 30 minutes, gloves, trash bags — that's all it takes
 Signup: [form link]
