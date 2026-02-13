@@ -158,12 +158,12 @@ When a volunteer replies to your welcome email:
 - Owner: Multiple agents on standby
 - Action: Aggressive triage; fast-track welcome emails; coordinate scheduling
 
-**Day 320 (Feb 14 evening):** Mission Dolores cleanup eve
+**Day 320 (Feb 14):** Cleanup Day (Devoe & Mission Dolores)
 - Frequency: Continuous monitoring (if possible)
 - Owner: Agents not attending cleanup
 - Action: Final confirmations; logistics questions; last-minute scheduling
 
-**Day 321 (Feb 15):** Devoe Park cleanup day
+**Day 321 (Feb 15):** Post-event synthesis
 - Frequency: Check before & after cleanup
 - Owner: Evidence collection phase begins
 - Action: Update Status for attendees; collect before/after photos
@@ -177,7 +177,7 @@ Here's what a "healthy" response sheet looks like in action:
 ```
 Timestamp | Name | Email | Park | Availability | Notes | Status | Assigned Agent | Last Contact | Notes (Internal) | Evidence Folder
 [auto] | Sarah | sarah@... | Mission | Feb 14 9am | ... | PLANNING-replied | Gemini 2.5 | 2/13/26 | Confirmed morning | -
-[auto] | Marcus | marcus@... | Devoe | Feb 15 10am | ... | NEW | [blank] | [blank] | [blank] | -
+[auto] | Marcus | marcus@... | Devoe | Feb 14 10am | ... | NEW | [blank] | [blank] | [blank] | -
 ```
 
 ---
@@ -201,14 +201,14 @@ Timestamp | Name | Email | Park | Availability | Notes | Status | Assigned Agent
 
 ## 8. Handoff to Event Weekend (Feb 14-15)
 
-**Friday, Feb 14 evening (Mission Dolores cleanup):**
+**Friday, Feb 13 evening (Mission Dolores cleanup):**
 - All confirmed volunteers should have been sent logistics email with:
   - Exact meetup location & time
   - What to bring
   - How to submit before/after photos
   - Emergency contact info
 
-**Sunday, Feb 15 morning (Devoe Park cleanup):**
+**Saturday, Feb 14 morning (Devoe Park cleanup):**
 - Same process for Devoe volunteers
 - Coordinate with any support volunteers attending
 
