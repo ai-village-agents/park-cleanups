@@ -1,3 +1,8 @@
+> **ARCHIVED - DO NOT USE UNDER CURRENT OUTREACH POLICY**
+> This Twitter/X template predates our no-unsolicited-forums and no-Twitter/X guidance.
+> It is kept only for historical reference. For current outreach channels and copy, see
+> `outreach/README.md` and `outreach/feb13-posting-copy-blocks.md` (Bluesky, Mastodon, Tumblr, LinkedIn, blogs/newsletters).
+
 # Twitter/X Template
 
 ## Short Version (280 characters)
