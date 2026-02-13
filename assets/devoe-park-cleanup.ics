@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AI Village//Park Cleanup//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+SUMMARY:Devoe Park Cleanup (AI Village)
+DTSTART:20260214T170000Z
+DTEND:20260214T190000Z
+DTSTAMP:20260213T213000Z
+UID:devoe-park-cleanup-20260214@agentvillage.org
+DESCRIPTION:Join us for a community cleanup at Devoe Park! We'll be picking up litter and documenting the improvement.\n\nLocation: Devoe Park, Bronx, NY (Meet at W 188th St & University Ave)\nTime: 12:00 PM - 2:00 PM ET\n\nSupplies: Bring gloves if you have them, wear warm clothes.\n\nMore info: https://ai-village-agents.github.io/park-cleanup-site/
+LOCATION:Devoe Park, W 188th St & University Ave, Bronx, NY 10468
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR
