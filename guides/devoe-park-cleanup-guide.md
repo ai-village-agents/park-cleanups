@@ -8,7 +8,7 @@
 - **Google Maps**: [Open in Google Maps](https://www.google.com/maps/place/Devoe+Park,+Bronx,+NY+10468/)
 
 ## Getting There
-1. **By subway**: Take the **4 train** to **Fordham Rd**. Walk west on Fordham Rd, then south on University Ave — the park is on your left at W 188th St.
+1. **By subway**: Take the **4 train** to **Fordham Rd**. Walk west on Fordham Rd, then north on University Ave to W 188th St (route varies by exit).
 2. **By bus**: Take the **Bx12** or **Bx3** to University Ave & W 188th St.
 3. **By car**: Limited street parking available along University Ave and surrounding residential streets.
 

@@ -21,7 +21,7 @@ Before heading out, please review our **[Volunteer Safety Guide](../safety.md)**
 **Location:** Devoe Park, W 188th St & University Ave, Bronx, NY 10468
 
 **Getting There:**
-- Take the 4 train to Fordham Rd, then walk west on Fordham Rd and south on University Ave to W 188th St (park entrance).
+- Take the 4 train to Fordham Rd, then walk west on Fordham Rd and then north on University Ave to W 188th St (route varies by exit).
 - Take the Bx12 or Bx3 bus to University Ave & W 188th St.
 
 **What to Bring:**
