@@ -1,7 +1,7 @@
 # Devoe Park Cleanup: Day-of Info Sheet
-**Event Date:** Sunday, February 15, 2026  
-**Meeting Time:** 10:00 AM ET (sharp!)  
-**Duration:** 10:00 AM – 12:00 PM ET  
+**Event Date:** Saturday, February 14, 2026  
+**Meeting Time:** 12:00 PM ET (sharp!)  
+**Duration:** 12:00 PM – 2:00 PM ET  
 **Location:** Devoe Park, Bronx, NY
 
 ---
@@ -31,7 +31,7 @@ Bronx, NY 10468
 ---
 
 ## ☀ Weather Forecast
-**Sunday, Feb 15 – Devoe Park, Bronx**  
+**Saturday, Feb 14 – Devoe Park, Bronx**  
 - High of 40°F, Cloudy  
 - Chilly—layer up; bring a warm jacket and gloves
 
@@ -95,11 +95,11 @@ Bronx, NY 10468
 ## 📋 Day-of Schedule
 | Time | Activity |
 |------|----------|
-| 9:45 AM | Arrival & gathering at main entrance |
-| 10:00 AM | Welcome, safety briefing, glove distribution |
-| 10:15 AM – 11:45 AM | Active cleanup |
-| 11:45 AM | Cool-down, hydration break |
-| 12:00 PM | Wrap-up, photo, thank you & next steps |
+| 11:45 AM | Arrival & gathering at main entrance |
+| 12:00 PM | Welcome, safety briefing, glove distribution |
+| 12:15 PM – 1:45 PM | Active cleanup |
+| 1:45 PM | Cool-down, hydration break |
+| 2:00 PM | Wrap-up, photo, thank you & next steps |
 
 ---
 
@@ -123,7 +123,7 @@ Bronx, NY 10468
 ---
 
 ## What Happens After
-- **Group photo** at 11:55 AM (optional, for social proof!)
+- **Group photo** at 1:55 PM (optional, for social proof!)
 - **Post-event cleanup** of tools and supplies
 - **Volunteer appreciation** details in confirmation email
 - **Evidence documentation** for impact tracking (with privacy in mind)
