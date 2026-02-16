@@ -27,6 +27,13 @@ REPO = "ai-village-agents/park-cleanups"
 ISSUE_NUMBER = 1
 CLEANUP_DATE = "2026-02-14"
 
+# Logins to ignore for evidence keyword scanning (bots/agents)
+IGNORE_LOGINS = {
+    "github-actions[bot]",
+    "github-actions",
+}
+
+
 # Image patterns
 IMAGE_EXTENSIONS = re.compile(r'\.(png|jpg|jpeg|gif|webp|heic|heif)(\?|$)', re.IGNORECASE)
 MARKDOWN_IMAGE = re.compile(r'!\[([^\]]*)\]\(([^)]+)\)')
@@ -89,6 +96,31 @@ def extract_attendance(text):
     return matches
 
 
+
+def list_evidence_images():
+    """List image files in evidence/devoe-park-bronx/2026-02-14/{before,during,after}."""
+    base_path = f"/repos/{REPO}/contents/evidence/devoe-park-bronx/{CLEANUP_DATE}"
+    images = []
+    try:
+        base = gh_api(base_path)
+        if not isinstance(base, list):
+            return images
+        for d in ("before", "during", "after"):
+            listing = gh_api(f"{base_path}/{d}")
+            if isinstance(listing, list):
+                for f in listing:
+                    name = f.get("name", "") or ""
+                    # IMAGE_EXTENSIONS matches both URLs and file names
+                    if IMAGE_EXTENSIONS.search(name):
+                        images.append({
+                            "folder": d,
+                            "name": name,
+                            "url": f.get("html_url") or f.get("download_url")
+                        })
+    except Exception:
+        return images
+    return images
+
 def analyze_issue():
     """Fetch and analyze Issue #1 and its comments."""
     print("=" * 60)
@@ -138,7 +170,7 @@ def analyze_issue():
             })
 
         # Check for evidence keywords
-        if is_post_cleanup and EVIDENCE_KEYWORDS.search(c_body):
+        if is_post_cleanup and EVIDENCE_KEYWORDS.search(c_body) and c_user.lower() not in IGNORE_LOGINS:
             post_cleanup_comments.append({
                 "user": c_user,
                 "date": c_date,
@@ -208,6 +240,8 @@ def analyze_issue():
     print()
 
     # Also check evidence directory
+    evidence_images = list_evidence_images()
+
     print("📁 EVIDENCE DIRECTORY CHECK")
     print("-" * 40)
     try:
@@ -218,6 +252,12 @@ def analyze_issue():
             for f in evidence_files:
                 ftype = "📂" if f.get("type") == "dir" else "📄"
                 print(f"    {ftype} {f.get('name', 'unknown')}")
+            if evidence_images:
+                print(f"\n  ✅ Evidence images committed in repo: {len(evidence_images)}")
+                for img in evidence_images:
+                    print(f"    - {img['folder']}/{img['name']}")
+            else:
+                print("\n  ℹ️  No image files found inside evidence subfolders yet.")
         else:
             print(f"  Found directory: {evidence_files.get('name', 'unknown')}")
     except Exception:
@@ -230,9 +270,13 @@ def analyze_issue():
     print("=" * 60)
     post_evidence = [e for e in evidence_comments if e["post_cleanup"]]
     total_post_images = sum(e["image_count"] for e in post_evidence)
+    total_evidence_dir_images = len(evidence_images)
 
-    if total_post_images > 0:
-        print(f"  🟢 EVIDENCE FOUND: {total_post_images} post-cleanup image(s) from {len(post_evidence)} comment(s)")
+    if total_post_images > 0 or total_evidence_dir_images > 0:
+        if total_post_images > 0:
+            print(f"  🟢 EVIDENCE FOUND (Issue comments): {total_post_images} post-cleanup image(s) from {len(post_evidence)} comment(s)")
+        if total_evidence_dir_images > 0:
+            print(f"  🟢 EVIDENCE FOUND (repo evidence/): {total_evidence_dir_images} image(s) committed under evidence/devoe-park-bronx/{CLEANUP_DATE}/")
     else:
         print("  🟡 NO POST-CLEANUP IMAGES YET — check if volunteers posted elsewhere")
         print("     Action items:")
@@ -255,7 +299,8 @@ def analyze_issue():
         "total_images": total_post_images,
         "evidence_comments": len(post_evidence),
         "post_cleanup_comments": len(post_cleanup_comments),
-        "attendance_mentions": len(attendance_mentions)
+        "attendance_mentions": len(attendance_mentions),
+        "evidence_dir_images": len(evidence_images)
     }
 
 
