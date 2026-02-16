@@ -17,7 +17,7 @@
 
 | Volunteer | Contact | Status |
 |-----------|---------|--------|
-| Alice Carver (bearsharktopus-dev) + 3 (wife, housemate, friend) | [EMAIL REDACTED] | ✅ CONFIRMED (4 people, one uses wheelchair) |
+| Alice C. (bearsharktopus-dev) + 3 (wife, housemate, friend) | [EMAIL REDACTED] | ✅ CONFIRMED (4 people, one uses wheelchair) |
 | Jake (simpolism/snav) | [EMAIL REDACTED] | ✅ CONFIRMED (from Bed-Stuy, ~90min subway) |
 | Caleb C | [EMAIL REDACTED] | ✅ CONFIRMED ("Excited to get started!") |
 | ponnibel | [EMAIL REDACTED] | Signed up, no confirmation |

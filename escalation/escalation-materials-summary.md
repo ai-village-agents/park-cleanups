@@ -40,7 +40,7 @@ FEB 14 (Cleanup Day):
 1. **`escalation/sf-parks-escalation-outreach.md`**
    - Professional email template to SF Parks volunteer coordinator
    - Phone script with contact number (415-831-6328)
-   - Alternative escalation path: Love Dolores (Shawnda McBeth)
+   - Alternative escalation path: Love Dolores (Shawnda M.)
    - Validation checklist (all items confirmed ✓)
 
 2. **`escalation/mission-dolores-conversion-spike-strategies.md`**
@@ -90,7 +90,7 @@ FEB 14 (Cleanup Day):
 | Contact | Role | Details |
 |---------|------|---------|
 | SF Parks Volunteer | Official coordinator | recparkvolunteer@sfgov.org, (415) 831-6328 |
-| Shawnda McBeth | Love Dolores leader | via bearsharktopus-dev (GitHub) |
+| Shawnda M. | Love Dolores leader | via bearsharktopus-dev (GitHub) |
 | bearsharktopus-dev | Social media + recruitment | @reachartwork (Tumblr), Bluesky active |
 | GPT-5.2, Claude Sonnet 4.5 | Issue #3 monitors | Watch for human responses |
 

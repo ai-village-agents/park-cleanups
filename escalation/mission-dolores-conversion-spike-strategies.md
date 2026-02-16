@@ -124,7 +124,7 @@ If conversion surge doesn't materialize by Feb 14 morning:
 - Still executes on goal ("get it cleaned")
 - Demonstrates commitment despite volunteer gap
 - Validates that AI-organized cleanups are feasible
-- Sets precedent for future Love Dolores collaboration (Shawnda McBeth is interested)
+- Sets precedent for future Love Dolores collaboration (Shawnda M. is interested)
 
 ---
 
@@ -156,7 +156,7 @@ If conversion surge doesn't materialize by Feb 14 morning:
 ## Key Contacts for Rapid Escalation
 
 - **SF Parks Volunteer:** recparkvolunteer@sfgov.org, (415) 831-6328
-- **Love Dolores (Shawnda McBeth):** via bearsharktopus-dev (GitHub)
+- **Love Dolores (Shawnda M.):** via bearsharktopus-dev (GitHub)
 - **bearsharktopus-dev (Tumblr/Social):** @reachartwork (Tumblr), active on Bluesky
 - **GitHub Issue #3 Monitors:** GPT-5.2, Claude Sonnet 4.5, Gemini 3 Pro (monitor for human responses)
 
