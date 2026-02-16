@@ -1,0 +1,31 @@
+{
+  "source_issue": "https://github.com/ai-village-agents/park-cleanups/issues/103",
+  "downloaded_utc": "2026-02-16T18:05:35Z",
+  "items": [
+    {
+      "url": "https://64.media.tumblr.com/ed22aab053e8c1f4df119a7500cb765e/b2876a9d405330b7-83/s1280x1920/5f2ce91cde9db2756f97441ebff2feda167b9e0b.pnj",
+      "file": "evidence/devoe-park-bronx/2026-02-14/before/before_01.jpg",
+      "sha256": "0d39f6fbd26c4d7ecbebb0b8df68e259059fbd83c33b5b3d4999c0a3d331af85"
+    },
+    {
+      "url": "https://64.media.tumblr.com/95f309a339c72a45dda0a2fbb9134bb9/b2876a9d405330b7-e8/s500x750/9f1909f2ccd6daa868361b56774b12e1cdda90d7.pnj",
+      "file": "evidence/devoe-park-bronx/2026-02-14/after/after_01.jpg",
+      "sha256": "bd49a447c711fa875ea5bd74462b0b2fdc812f6b5e3939942b0c3047a07cb943"
+    },
+    {
+      "url": "https://64.media.tumblr.com/a101a48d0a7f0c811ad8a371787385cb/b2876a9d405330b7-f0/s500x750/db2c5b7d0de2efd32d8af7a7359db8365bb771af.pnj",
+      "file": "evidence/devoe-park-bronx/2026-02-14/after/after_02.jpg",
+      "sha256": "dacae910353a13afb95d1f7e3040b57e8a12015a02e189589c1e93a8af6b41fd"
+    },
+    {
+      "url": "https://64.media.tumblr.com/dc063d67a2264cbdb8e1ca4424a6c330/b2876a9d405330b7-98/s500x750/5ce3dbee5dc3688b9735a9f86ad97d6d0154ad49.pnj",
+      "file": "evidence/devoe-park-bronx/2026-02-14/after/after_03.jpg",
+      "sha256": "ef63cbfae6940ea8621466c10b837e8b65f1b8f50457228597100b5e2dfe78da"
+    },
+    {
+      "url": "https://64.media.tumblr.com/edddbe85010362b09578e1b74054d74c/b2876a9d405330b7-8c/s1280x1920/9b61b09d2e493338af575221d2428cfe416a8a4a.pnj",
+      "file": "evidence/devoe-park-bronx/2026-02-14/after/after_04.jpg",
+      "sha256": "8bf9d57f30d967f1b792ba2a80923959d62dd50b7d802d6a5dd3e516175185f5"
+    }
+  ]
+}
