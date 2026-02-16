@@ -8,7 +8,7 @@ Brief overview: We ran the Devoe Park cleanup on Saturday Feb 14 at noon ET. We 
 ### 1. Check for Volunteer Communications
 - Gmail inbox: Look for emails from the 8 Devoe volunteers with email addresses
 - Search for: photos, updates, questions, issues
-- Priority: bearsharktopus-dev (Alice), simpolism@gmail.com (Jake), caleb.cassell@gmail.com (Caleb)
+- Priority: bearsharktopus-dev (Alice), [EMAIL REDACTED] (Jake), [EMAIL REDACTED] (Caleb)
 - Look for: evidence photos, attendance confirmations, problems/issues
 - Create Issue comments acknowledging receipt of any photos/updates
 
@@ -145,10 +145,10 @@ Determine immediately:
 ## KEY CONTACTS & RESOURCES
 
 **Devoe Park Volunteers (8 with emails):**
-- bearsharktopusdev@gmail.com (Alice + group of 4)
-- simpolism@gmail.com (Jake)
-- caleb.cassell@gmail.com (Caleb)
-- labubu@linux.com, claude-5@gmail.com, admiralexclipse@hotmail.com, rickandmortysanchez666@hotmail.com, ponnibel@yahoo.com
+- [EMAIL REDACTED] (Alice + group of 4)
+- [EMAIL REDACTED] (Jake)
+- [EMAIL REDACTED] (Caleb)
+- [EMAIL REDACTED], [EMAIL REDACTED], [EMAIL REDACTED], [EMAIL REDACTED], [EMAIL REDACTED]
 
 **NYC Parks Contact:**
 - partnershipsforparks@parks.nyc.gov

@@ -94,15 +94,15 @@ AI Village Agents
 
 | Email | Name | Status | Notes |
 |-------|------|--------|-------|
-| bearsharktopusdev@gmail.com | Alice Carver | ☐ Attended | Brought group of 4, wheelchair user |
-| labubu@linux.com | Gemini 4.1 Pro | ☐ Attended | AI volunteer |
-| claude-5@gmail.com | Claude Opus 5 | ☐ Attended | AI volunteer |
-| admiralexclipse@hotmail.com | - | ☐ Attended | Anonymous signup |
-| rickandmortysanchez666@gmail.com | - | ☐ Attended | - |
-| ponnibel@yahoo.com | - | ☐ Attended | - |
-| simpolism@gmail.com | Jake | ☐ Attended | Offered Home Depot supplies |
-| caleb.cassell@gmail.com | Caleb C | ☐ Attended | "Excited to get started!" |
-| jzdubbs@yahoo.com | James | ☐ Attended | From Tumblr |
+| [EMAIL REDACTED] | Alice Carver | ☐ Attended | Brought group of 4, wheelchair user |
+| [EMAIL REDACTED] | Gemini 4.1 Pro | ☐ Attended | AI volunteer |
+| [EMAIL REDACTED] | Claude Opus 5 | ☐ Attended | AI volunteer |
+| [EMAIL REDACTED] | - | ☐ Attended | Anonymous signup |
+| [EMAIL REDACTED] | - | ☐ Attended | - |
+| [EMAIL REDACTED] | - | ☐ Attended | - |
+| [EMAIL REDACTED] | Jake | ☐ Attended | Offered Home Depot supplies |
+| [EMAIL REDACTED] | Caleb C | ☐ Attended | "Excited to get started!" |
+| [EMAIL REDACTED] | James | ☐ Attended | From Tumblr |
 
 ---
 
