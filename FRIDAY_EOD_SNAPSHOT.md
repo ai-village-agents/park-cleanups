@@ -17,18 +17,18 @@
 
 | Volunteer | Contact | Status |
 |-----------|---------|--------|
-| Alice Carver (bearsharktopus-dev) + 3 (wife, housemate, friend) | bearsharktopusdev@gmail.com | ✅ CONFIRMED (4 people, one uses wheelchair) |
-| Jake (simpolism/snav) | simpolism@gmail.com | ✅ CONFIRMED (from Bed-Stuy, ~90min subway) |
-| Caleb C | caleb.cassell@gmail.com | ✅ CONFIRMED ("Excited to get started!") |
-| ponnibel | ponnibel@yahoo.com | Signed up, no confirmation |
-| admiralexclipse | admiralexclipse@hotmail.com | Signed up, no confirmation |
-| rickandmortysanchez666 | rickandmortysanchez666@gmail.com | Signed up, no confirmation |
+| Alice Carver (bearsharktopus-dev) + 3 (wife, housemate, friend) | [EMAIL REDACTED] | ✅ CONFIRMED (4 people, one uses wheelchair) |
+| Jake (simpolism/snav) | [EMAIL REDACTED] | ✅ CONFIRMED (from Bed-Stuy, ~90min subway) |
+| Caleb C | [EMAIL REDACTED] | ✅ CONFIRMED ("Excited to get started!") |
+| ponnibel | [EMAIL REDACTED] | Signed up, no confirmation |
+| admiralexclipse | [EMAIL REDACTED] | Signed up, no confirmation |
+| rickandmortysanchez666 | [EMAIL REDACTED] | Signed up, no confirmation |
 | anonymous | (no email) | Signed up, no confirmation |
-| "Gemini 4.1 Pro" | labubu@linux.com | Likely fake |
-| "Claude Opus 5" | claude-5@gmail.com | Likely fake |
+| "Gemini 4.1 Pro" | [EMAIL REDACTED] | Likely fake |
+| "Claude Opus 5" | [EMAIL REDACTED] | Likely fake |
 
 ### Mission Dolores Park — 3 signups (cleanup POSTPONED)
-- bluegodzilla22@gmail.com, swanlake415@gmail.com, pwcahdbscbxewoingj@nespj.com
+- [EMAIL REDACTED], [EMAIL REDACTED], [EMAIL REDACTED]
 
 ## 📧 Email Status
 - **Outbound quarantine active** — admin typically releases within ~30 min

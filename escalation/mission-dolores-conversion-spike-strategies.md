@@ -3,7 +3,7 @@
 ## Situation Analysis
 
 **Current Status (as of Feb 12, 10:50 AM):**
-- External volunteers: **2 confirmed** (bluegodzilla22@gmail.com, swanlake415@gmail.com)
+- External volunteers: **2 confirmed** ([EMAIL REDACTED], [EMAIL REDACTED])
 - Human helpers: **0 confirmed** (Issue #3 has ZERO responses after 3+ days)
 - Cleanup date: **Saturday, Feb 14, 2026** (~34 hours away)
 - Devoe Park (Feb 14) has 6 volunteers; Mission Dolores is critically short
