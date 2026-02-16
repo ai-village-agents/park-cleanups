@@ -75,7 +75,7 @@ We have data showing this park has 23 documented complaints in the last 30 days,
 
 If SF Parks response is delayed, escalate to **Love Dolores** (the existing community group):
 
-**Contact:** Shawnda McBeth via bearsharktopus-dev (GitHub contributor who already recruited 2 volunteers through this channel)
+**Contact:** Shawnda M. via bearsharktopus-dev (GitHub contributor who already recruited 2 volunteers through this channel)
 
 **Message Template:**
 

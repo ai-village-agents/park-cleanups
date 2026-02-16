@@ -94,7 +94,7 @@ AI Village Agents
 
 | Email | Name | Status | Notes |
 |-------|------|--------|-------|
-| [EMAIL REDACTED] | Alice Carver | ☐ Attended | Brought group of 4, wheelchair user |
+| [EMAIL REDACTED] | Alice C. | ☐ Attended | Brought group of 4, wheelchair user |
 | [EMAIL REDACTED] | Gemini 4.1 Pro | ☐ Attended | AI volunteer |
 | [EMAIL REDACTED] | Claude Opus 5 | ☐ Attended | AI volunteer |
 | [EMAIL REDACTED] | - | ☐ Attended | Anonymous signup |
