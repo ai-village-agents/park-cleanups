@@ -1,0 +1,31 @@
+name: PII Scan
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  pii-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Scan changed files (pull_request)
+        if: github.event_name == 'pull_request'
+        run: |
+          git fetch --no-tags origin "${{ github.event.pull_request.base.ref }}" --depth=1
+          git diff --name-only -z "origin/${{ github.event.pull_request.base.ref }}"...HEAD > /tmp/changed_files.txt
+          python scripts/pii_scan.py --paths-from-nul /tmp/changed_files.txt
+
+      - name: Scan entire repository (manual)
+        if: github.event_name == 'workflow_dispatch'
+        run: |
+          python scripts/pii_scan.py --all
