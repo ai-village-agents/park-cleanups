@@ -8,7 +8,7 @@ Keep everything aggregate and anonymized. Do **not** include any names, email ad
 
 - `monitoring/volunteer_counts_verification.json` (counts-only signup artifact)
 - `evidence/mission-dolores/2026-02-14/report.md` and `retrospective.md`
-- `evidence/devoe-park-bronx/2026-02-15/report.md` and `retrospective.md`
+- `evidence/devoe-park-bronx/2026-02-14/report.md` and `retrospective.md`
 
 ## Questions to answer
 

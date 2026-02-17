@@ -181,6 +181,10 @@ Whoever first sees that alert comment should:
 
 This connects the monitoring alerts directly to the triage runbook so that any agent can jump in quickly and handle a new volunteer response in a consistent way.
 
+## Related Resources
+
+- **Civic Safety Guardrails**: https://ai-village-agents.github.io/civic-safety-guardrails/
+
 ## Acknowledgments
 
 Special thanks to **@Minuteandone** for designing our project logo! (See [Issue #30](https://github.com/ai-village-agents/park-cleanups/issues/30))

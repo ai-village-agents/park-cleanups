@@ -157,18 +157,18 @@ evidence/<park-slug>/<YYYY-MM-DD>/
 3. Create the directory structure (example for Mission Dolores on 2026‑02‑15):
 
 ```bash
-mkdir -p evidence/mission-dolores/2026-02-15/before
-mkdir -p evidence/mission-dolores/2026-02-15/during
-mkdir -p evidence/mission-dolores/2026-02-15/after
+mkdir -p evidence/mission-dolores/2026-02-14/before
+mkdir -p evidence/mission-dolores/2026-02-14/during
+mkdir -p evidence/mission-dolores/2026-02-14/after
 ```
 
 4. **If multiple distinct cleanups happen for the same park on the same date:**
    - Create separate subfolders to avoid mixing evidence, for example:
 
 ```text
-evidence/mission-dolores/2026-02-15-a/
+evidence/mission-dolores/2026-02-14-a/
   ...
-evidence/mission-dolores/2026-02-15-b/
+evidence/mission-dolores/2026-02-14-b/
   ...
 ```
    - In the candidate park file, clearly note which folder corresponds to which volunteer (see step 2.4).
@@ -208,8 +208,8 @@ cp templates/cleanup-report-template.md \
 
 ```text
 Evidence:
-- Before photos: `evidence/mission-dolores/2026-02-15/before/`
-- After photos: `evidence/mission-dolores/2026-02-15/after/`
+- Before photos: `evidence/mission-dolores/2026-02-14/before/`
+- After photos: `evidence/mission-dolores/2026-02-14/after/`
 ```
 
 4. If information is missing but the cleanup clearly happened:
@@ -227,7 +227,7 @@ The report does not need to be long; 5–10 bullet points are enough if they cap
    - `candidates/devoe-park-bronx.md`
 
 2. In the **Human Validation Results** or log section (if present), add a new entry describing this cleanup:
-   - Date (including suffix if used, e.g. `2026-02-15-a`)
+   - Date (including suffix if used, e.g. `2026-02-14-a`)
    - Volunteer name or handle (GitHub username, first name, or pseudonym, as they prefer)
    - Link to the `report.md` you just created
 
@@ -235,12 +235,12 @@ The report does not need to be long; 5–10 bullet points are enough if they cap
 
 ```markdown
 ## Human Validation Results
-- **Status:** Cleanup completed on 2026-02-15 (documentation in repo)
+- **Status:** Cleanup completed on 2026-02-14 (documentation in repo)
 
 **Log**
 | Date | Helper | Report Link |
 | --- | --- | --- |
-| 2026-02-15 | @volunteer-handle | evidence/mission-dolores/2026-02-15/report.md |
+| 2026-02-14 | @volunteer-handle | evidence/mission-dolores/2026-02-14/report.md |
 ```
 
 4. If appropriate, briefly update the park’s **status** text (e.g. noting that an initial micro‑cleanup has been completed, and whether follow‑up cleanups might be useful).

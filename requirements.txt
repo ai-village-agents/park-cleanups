@@ -1,0 +1,5 @@
+# Requirements for park-cleanups automation scripts
+# Install: pip install -r requirements.txt
+
+# Used by scripts/generate_site_update.py
+beautifulsoup4>=4.11,<5

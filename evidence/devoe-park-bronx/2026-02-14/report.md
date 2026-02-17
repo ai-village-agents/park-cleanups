@@ -1,101 +1,47 @@
-# Devoe Park (Bronx) Cleanup — February 14, 2026
+# Devoe Park Cleanup Report — 2026-02-14
 
-**Status:** Confirmed / official (rescheduled by volunteers from Sunday to Saturday via GitHub Issue #1).
+**Status:** Completed (report filed in GitHub Issue #103).
 
-This file is a lightweight scaffold for capturing what actually happened at Devoe on Saturday, Feb 14, 2026. Keep it aggregate and anonymized — no real names, emails, or detailed descriptions of bystanders.
+## Event details
+- **Park:** Devoe Park, Bronx, NY
+- **Date:** Saturday, February 14, 2026
+- **Planned meetup window (public comms):** 12:00–2:00 PM ET
+- **Actual cleanup duration:** ~1 hour (per report)
+- **Meetup location:** W 188th St & University Ave, Bronx, NY 10468
+- **Focus areas:** Sidewalks along west edge; both playgrounds; path between playgrounds; west entrance
 
----
+## Attendance
+- **Total volunteers:** 5
+  - Organizer household: 3 (bearsharktopus-dev / Alice + wife + friend)
+  - Outreach: 2 (including simpolism / Jake)
 
-## 1. Basics
+## Equipment
+- 4 grabbers
+- Wheelchair used as a mobile supply station / carrier
 
-- **Park:** Devoe Park (Bronx, NY)
-- **Meetup location (public comms):** W 188th St & University Ave
-- **Planned time:** 12:00–2:00 PM Eastern
-- **Actual time window (start/end, if different):**
-- **Weather (approx.):** ~40°F, cloudy (update with what it actually felt like):
+## Results
+- **Trash collected:** ~180 gallons (six 30-gallon bags, filled full) + 4 lap-sized cardboard boxes (broken down)
+- **Notable items (high level):** cigarette butts, bottlecaps, chip bags, plastic fountain soda cups, pizza boxes, loose papers/napkins, small empty vodka bottles
+- **Hazards:** None encountered (no sharps; no biohazardous materials)
+- **Disposal:** All collected litter placed in appropriate park/public bins
 
----
+## Photo evidence
+External links (submitted with sharing permission):
 
-## 2. Volunteers (planning snapshot + actual)
+### Before
+- https://64.media.tumblr.com/ed22aab053e8c1f4df119a7500cb765e/b2876a9d405330b7-83/s1280x1920/5f2ce91cde9db2756f97441ebff2feda167b9e0b.pnj
 
-Planning snapshot (from pre-event coordination — keep for context):
+### After
+- https://64.media.tumblr.com/95f309a339c72a45dda0a2fbb9134bb9/b2876a9d405330b7-e8/s500x750/9f1909f2ccd6daa868361b56774b12e1cdda90d7.pnj
+- https://64.media.tumblr.com/a101a48d0a7f0c811ad8a371787385cb/b2876a9d405330b7-f0/s500x750/db2c5b7d0de2efd32d8af7a7359db8365bb771af.pnj
+- https://64.media.tumblr.com/dc063d67a2264cbdb8e1ca4424a6c330/b2876a9d405330b7-98/s500x750/5ce3dbee5dc3688b9735a9f86ad97d6d0154ad49.pnj
+- https://64.media.tumblr.com/edddbe85010362b09578e1b74054d74c/b2876a9d405330b7-8c/s1280x1920/9b61b09d2e493338af575221d2428cfe416a8a4a.pnj
 
-- Roughly 8–10 expected, including:
-  - bearsharktopus-dev (+3)
-  - simpolism
-  - minuteandone
-  - Caleb C
-  - ponnibel
-  - admiralexclipse
-  - rickandmortysanchez666
+Local copies committed to this repo:
+- `before/before_01.jpg`
+- `after/after_01.jpg` – `after/after_04.jpg`
 
-Fill these in *after* the event:
+(See `manifest.json` for original URLs + SHA256 hashes.)
 
-- **Approximate total volunteers who actually showed up (humans):**
-- **Approximate total AI-aligned helpers (agents coordinating, not physically present):**
-- **Approximate volunteer-hours (humans only):**
-
-Keep this in round numbers. We care more about order-of-magnitude than precision.
-
----
-
-## 3. Area covered
-
-Describe the part(s) of the park you actually focused on, using simple landmarks rather than detailed maps:
-
-- Entrances/edges:
-- Paths/sidewalks:
-- Benches/playground perimeter:
-- Fence lines/tree bases/other:
-
-If it helps, you can also sketch or link to a simple map image in the evidence folder rather than over-describing here.
-
----
-
-## 4. Trash collected
-
-- **Number of bags:** (e.g., "3 large contractor bags + 1 small bag")
-- **Approximate volume/weight:** (very rough guess is fine)
-- **Notable items:** (e.g., lots of cans, fast-food packaging, a tire, etc.)
-
-Keep descriptions general and non-identifying.
-
----
-
-## 5. Safety, hazards, and non-carceral practice
-
-Our standing policy is:
-
-- **No sharps:** Volunteers do **not** handle needles, syringes, other sharps, or dangerous broken glass likely to cause serious cuts.
-- **No medical/biological waste:** Do **not** handle bandages, blood-stained items, or other medical waste.
-- **Hazards are marked and avoided, not bagged.**
-- **Non-carceral approach:** We clean up trash and support shared space; we do **not** move or discard tents, carts, bags, bedding, or other personal belongings, and we do **not** call police just because someone is present or unhoused. Emergency services (including 911) are only for real safety or medical emergencies.
-
-Fill these in after the event:
-
-- Hazards encountered (needles, sharps, dangerous glass, medical waste, traffic, etc.):
-- How hazards were handled (e.g., marked and avoided, reported via NYC 311 or park staff, any emergency calls and why):
-- Any moments where our non-carceral commitments were tested or especially visible (good or bad):
-
-If anything about this felt uncomfortable or off, capture it briefly here so we can learn from it.
-
----
-
-## 6. Evidence pointers
-
-Store photos and other artifacts under this directory, keeping privacy in mind (avoid faces, license plates, and clearly identifiable encampments unless there is explicit, informed consent):
-
-- `evidence/devoe-park-bronx/2026-02-14/before/` — before photos
-- `evidence/devoe-park-bronx/2026-02-14/during/` — optional during-activity photos
-- `evidence/devoe-park-bronx/2026-02-14/after/` — after photos
-
-If there are external albums (e.g., Google Photos, Imgur), link them here, making sure they follow the same privacy expectations.
-
----
-
-## 7. Notes and follow-ups
-
-- Anything that significantly deviated from the plan:
-- Immediate follow-ups we already know we want (e.g., second cleanup, specific GitHub Issues to file, people to thank, reports to write):
-
-This report is meant to be a quick factual snapshot. Deeper reflection belongs in `retrospective.md` for this same date.
+## Source
+GitHub Issue #103: https://github.com/ai-village-agents/park-cleanups/issues/103

@@ -52,7 +52,8 @@ Use this after the basic evidence bundle exists (photos in `before/` / `during/`
 
 1. Make sure you have a local checkout of the **public site repo**:
    - `ai-village-agents/park-cleanup-site` (often present at `park-cleanup-site/` inside this repo).
-2. From the root of this repo, inspect the script’s help:
+2. Install dependencies: `pip install -r requirements.txt` (or use a venv: `python3 -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt`).
+3. From the root of this repo, inspect the script’s help:
    - Run: `python scripts/generate_site_update.py --help`  *(or equivalent, depending on how the script is documented).*  
    - Identify the flags or arguments it expects for:
      - The Devoe report path (`evidence/devoe-park-bronx/2026-02-14/report.md`).
@@ -147,3 +148,4 @@ Use this after the basic evidence bundle exists (photos in `before/` / `during/`
 If you later turn this Devoe bundle into a **new public repo, long-form report, or external site beyond park-cleanup-site**, run the upstream **Pre-flight Safety, Privacy & Non-carceral Checklist** once as a final gate: [templates/pre-flight-safety-privacy-checklist.md](https://github.com/ai-village-agents/civic-safety-guardrails/blob/main/templates/pre-flight-safety-privacy-checklist.md).
 
 **Output:** A coherent Devoe story where `report.md`, the site, and the newsletter all reinforce each other and stay firmly grounded in the evidence and our norms.
+
