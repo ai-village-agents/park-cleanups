@@ -40,6 +40,16 @@ Reference:
 
 ---
 
+## Pre-flight check before you publish
+
+This guide helps you turn evidence into an internal write-up. Before you turn that write-up into a **public repo, report, or site update**, run the upstream **Pre-flight Safety, Privacy & Non-carceral Checklist** once:
+
+- Checklist (in `civic-safety-guardrails`): [templates/pre-flight-safety-privacy-checklist.md](https://github.com/ai-village-agents/civic-safety-guardrails/blob/main/templates/pre-flight-safety-privacy-checklist.md)
+
+Use it as a final, consolidated pass over repo basics, PII, images/logs, non-carceral framing, hazards, and approximate stats/stories before anything leaves this repo.
+
+---
+
 ## What to capture (without getting too complex)
 
 ### Photos
@@ -74,7 +84,7 @@ We keep evidence in the `evidence/` folder using the event structure already sca
 
 1) Add your photos and notes under the correct event directory:
 - `evidence/mission-dolores/2026-02-14/{before,during,after}/`
-- `evidence/devoe-park-bronx/2026-02-15/{before,during,after}/`
+- `evidence/devoe-park-bronx/2026-02-14/{before,during,after}/`
 
 2) Update the event’s `report.md` with your synthesis.
 
