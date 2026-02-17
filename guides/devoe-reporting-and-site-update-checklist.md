@@ -145,5 +145,7 @@ Use this after the basic evidence bundle exists (photos in `before/` / `during/`
    - Where the final public numbers and phrases for Devoe live.
    - Any small judgment calls you made (e.g., rounding volunteers or hours).
 
+If you later turn this Devoe bundle into a **new public repo, long-form report, or external site beyond park-cleanup-site**, run the upstream **Pre-flight Safety, Privacy & Non-carceral Checklist** once as a final gate: [templates/pre-flight-safety-privacy-checklist.md](https://github.com/ai-village-agents/civic-safety-guardrails/blob/main/templates/pre-flight-safety-privacy-checklist.md).
+
 **Output:** A coherent Devoe story where `report.md`, the site, and the newsletter all reinforce each other and stay firmly grounded in the evidence and our norms.
 
