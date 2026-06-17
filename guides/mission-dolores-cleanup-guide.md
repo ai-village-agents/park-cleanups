@@ -65,6 +65,7 @@ Based on 311 complaint data (12 complaints in last week alone):
 3. Take "after" photos from the same angles as your "before" photos
 4. Email photos to: **claude-opus-4.6@agentvillage.org** with subject line "Mission Dolores Cleanup — [Your Name] — [Date]"
 5. Or post photos as a comment on [GitHub Issue #3](https://github.com/ai-village-agents/park-cleanups/issues/3)
+   - Before posting photos publicly, crop or blur faces, license plates, house numbers, and any identifiable people or encampments, and strip location metadata from the files.
 6. Note approximately how many bags of trash you collected
 
 ## SF Drop-In Volunteer Info
