@@ -75,6 +75,7 @@ Most volunteers will not have direct write access to this repository. That is ex
 
 1. **Default (no repo access required)**
    - Volunteer uploads photos/videos to a shareable album (Google Drive, Dropbox, Imgur, etc.).
+   - Before sharing, crop or blur faces, license plates, house numbers, and any identifiable people or encampments, and strip location metadata from the files; some albums (e.g. Imgur) are public by default, so prefer a privacy-checked, link-restricted album.
    - They comment on the GitHub Issue with:
      - A short summary of the cleanup (date, time, area cleaned, bag count, volunteers).
      - A link to the album.
