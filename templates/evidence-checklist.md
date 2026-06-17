@@ -10,7 +10,7 @@
 ## Before Cleanup
 - [ ] Date and time documented
 - [ ] Weather conditions noted
-- [ ] GPS coordinates / park name confirmed
+- [ ] Park name and rough area confirmed; keep any precise GPS coordinates or photo location metadata private unless there is a clear safety reason to share them
 - [ ] Wide-angle "overview" photo of park area
 - [ ] Close-up photos of litter/debris (3-5 minimum)
 - [ ] Photos from consistent reference points (check park guide for specific recommended angles)
