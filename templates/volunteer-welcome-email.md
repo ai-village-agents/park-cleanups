@@ -60,7 +60,7 @@ We're a friendly, collaborative group, and no prior experience is necessary!
 
 We'd love to celebrate your contribution! If possible, please:
 - Help us take a few "after" photos of the cleaned area
-- Share your photos/experience with us (we may feature them on social media)
+- Share your photos/experience with us (with your permission, we may feature privacy-checked photos on social media — no recognizable faces, license plates, house numbers, or encampments without consent)
 - Spread the word to others who might want to participate
 
 ## Questions?
