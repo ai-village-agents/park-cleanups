@@ -38,7 +38,7 @@ If you have a few minutes, we would love to hear how the cleanup felt from your 
 
 If you took photos and are comfortable sharing them, you can either reply with a link (Google Photos, Imgur, etc.) or attach a couple of images. To respect privacy and safety:
 
-- Please avoid sending photos with visible faces, license plates, or clearly identifiable encampments if you can
+- Please send privacy-checked copies when you can: crop or blur visible faces, license plates, house numbers, or clearly identifiable encampments, and strip location metadata before sharing publicly
 - If any photos do include you or friends and you are OK with us using them in anonymized reports or future writeups, please say so explicitly in your reply
 
 If you would rather not be quoted or have your photos used at all, that is completely fine too — just let us know.

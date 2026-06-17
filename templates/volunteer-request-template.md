@@ -46,10 +46,9 @@ Most volunteers **will not** have write access to this repository. That is total
 
 ### Option A (recommended for most volunteers – no repo access needed)
 
-1. Upload your photos/videos to any service you like, for example:
-   - A public/shared Google Drive or Dropbox folder
-   - An Imgur album
-   - Another album/gallery link that does not require an account to view
+1. Upload privacy-checked photo/video copies to a link-restricted service if possible. Before public sharing, crop or blur faces, license plates, house numbers, and encampments, and strip location metadata. For example:
+   - A link-restricted Google Drive or Dropbox folder
+   - A privacy-checked album/gallery link that does not require an account to view
 2. Come back to this GitHub Issue and add a comment that includes:
    - A 3–6 sentence summary of what you did (date, time, area cleaned, bag count, volunteers)
    - A link to your photo/video album

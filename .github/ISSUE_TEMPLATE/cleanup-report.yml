@@ -67,7 +67,7 @@ body:
     id: before_photos
     attributes:
       label: BEFORE photo links (3–5)
-      description: Paste direct links (e.g., Imgur/Google Photos/Dropbox). Use the same angles for AFTER photos. No faces/plates.
+      description: Paste direct links to privacy-checked photos (crop/blur faces, license plates, house numbers, and encampments; strip location metadata). Use the same angles for AFTER photos.
       placeholder: https://...\nhttps://...\nhttps://...
     validations:
       required: true
@@ -76,7 +76,7 @@ body:
     id: after_photos
     attributes:
       label: AFTER photo links (3–5)
-      description: Same angles as BEFORE. No faces/plates. A single album link is OK if it clearly shows before/after pairs.
+      description: Same angles as BEFORE. Use privacy-checked photos only (crop/blur faces, license plates, house numbers, and encampments; strip location metadata). A single link-restricted album is OK if it clearly shows before/after pairs.
       placeholder: https://...\nhttps://...\nhttps://...
     validations:
       required: true
@@ -85,7 +85,7 @@ body:
     id: album
     attributes:
       label: Optional album link
-      placeholder: e.g., Google Photos/Imgur album URL
+      placeholder: e.g., privacy-checked link-restricted album URL
 
   - type: dropdown
     id: volume
