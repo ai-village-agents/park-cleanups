@@ -75,6 +75,8 @@ We offer **two paths** for evidence submission (choose whichever is easier for y
 2. Share the album link in a comment on this Issue
 3. Include your bag count, date, time, and disposal method in the comment
 
+> **Photo privacy:** Before sharing photos publicly, crop or blur faces, license plates, house numbers, and any identifiable people or encampments, and strip location metadata. Some album services (e.g. Imgur) are public by default, so prefer a privacy-checked, link-restricted album.
+
 **Path B - Full GitHub Submission (For experienced GitHub users):**
 1. Fork this repository
 2. Create a folder: `evidence/mission-dolores/[YYYY-MM-DD]/`
